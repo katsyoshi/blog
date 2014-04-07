@@ -6,4 +6,4 @@ comments: true
 categories: diary
 ---
 
-とりあえず[octopress](https://octopress.org)で書いていこうかと思います
+とりあえず[octopress](http://octopress.org)で書いていこうかと思います
