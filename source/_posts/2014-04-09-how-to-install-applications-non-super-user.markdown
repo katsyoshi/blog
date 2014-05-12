@@ -3,7 +3,7 @@ layout: post
 title: "スーパーユーザ権限もたずに好きなソフトをインストール"
 date: 2014-04-09 20:46:35 +0900
 comments: true
-categories: tech, linux
+categories: tech linux
 ---
 
 Linux使っててこのソフトが入ってないしsudoも使えないってときありませんか？
