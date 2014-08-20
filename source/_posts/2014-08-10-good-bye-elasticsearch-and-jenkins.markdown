@@ -11,7 +11,7 @@ Jenkinsについては利用していなかったので停止してます。つ�
 
 ## 削除とUpgrade
 削除する前に[Mackerel](https://mackerel.io)を導入したので、fluentd + Elasticsearch + Kibanaな構成にする必要がなくなりました。
-Elasticsearchの削除とJenkinsのは以下のコマンドで行ないます。
+Elasticsearchの削除とJenkinsの停止は以下のコマンドで行ないます。
 
 ```
 $ sudo apt-get purge elasticsearch
@@ -25,7 +25,6 @@ $ sudo do-release-upgrade -d
 ```
 
 これで14.04になってます。
-
 
 ## 環境
 - Machine: さくらVPS
