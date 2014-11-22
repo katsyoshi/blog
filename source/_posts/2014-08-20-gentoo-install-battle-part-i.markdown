@@ -16,7 +16,7 @@ categories: tech linux gentoo mikutter
 ### イメージ作成
 まずLiveCDイメージをダウンロードしUSBフラッシュメモリにコピーします。
 
-```
+```sh
 $ wget ftp://ftp.iij.ad.jp/pub/linux/gentoo/releases/amd64/autobuilds/current-iso/install-amd64-minimal-20140814.iso
 $ dd of=/path/to/disk if=install-amd64-minimal-20140814.iso bs=4m
 ```

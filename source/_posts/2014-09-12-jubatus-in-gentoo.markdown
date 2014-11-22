@@ -13,7 +13,7 @@ categories: linux portage jubatus gentoo tech
 
 これは、以下のコマンドでインストールができます。
 
-```
+```sh
 # curl https://raw.githubusercontent.com/katsyoshi/overlay/master/profiles/layman.xml > /etc/layman/overlays/katsyoshi.xml
 # layman -f -a katsyoshi
 # eix-sync

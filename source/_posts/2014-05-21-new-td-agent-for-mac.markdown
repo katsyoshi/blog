@@ -17,7 +17,7 @@ td-agent2が[リリース](https://groups.google.com/forum/?fromgroups#!topic/fl
 設定ファイルはいままでの設定で使えるようです。
 あとは[ML](https://groups.google.com/forum/?fromgroups#!topic/fluentd/ZjxODonIJJo)にあるとおりにコマンドを実行すればOKです。
 
-```
+```sh
 $ sudo launchctl load /Library/LaunchDaemon/td-agent.plist
 ```
 

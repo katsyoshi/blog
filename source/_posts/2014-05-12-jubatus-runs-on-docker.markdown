@@ -18,7 +18,7 @@ categories: jubatus docker
 
 [リポジトリ](https://github.com/katsyoshi/docker-jubatus)を作成しておきましたのでcloneして実行します。
 
-```
+```sh
 $ git clone https://github.com/katsyoshi/docker-jubatus
 $ cd docker-jubatus
 $ docker build .

@@ -27,14 +27,14 @@ GentooInstallBattleはmikutterをインストールしてtweetすることなの
 ここではrbenvを利用してmikutterのインストールします。
 まずはrbenvとruby-buildをインストールします。
 
-```
+```sh
 $ git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 $ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
 
 つぎにrbenvの設定を行います。以下の設定を`~/.bashrc`あたりに追記してください
 
-```
+```sh
 export PATH=~/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
 ```
@@ -42,7 +42,7 @@ eval "$(rbenv init -)"
 Rubyのインストールは`rbenv install 2.1.2`でインストールします。
 最後にmikutterをダウンロードし、環境を構築します。
 
-```
+```sh
 $ git clone https://github.com/mikutter/mikutter.git ~/mikutter
 $ cd ~/mikutter
 $ bundle install

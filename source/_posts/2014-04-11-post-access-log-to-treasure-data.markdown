@@ -19,7 +19,7 @@ categories: linux tech log fluentd
 
 ### ユーザ、グループの作成
 以下のコマンドでユーザ、グループの作成を行います。
-```
+```sh
 $ sudo adduser fluentd -s /bin/false
 ```
 指示に従って入力するとユーザ、グループが作成されています。
@@ -29,7 +29,7 @@ $ sudo adduser fluentd -s /bin/false
 
 以下のコマンドを入力しRubyのインストールを行ないます。
 
-```
+```sh
 $ sudo aptitude build-dep ruby1.9.3
 $ sudo aptitude install git
 $ sudo git clone git://github.com/sstephenson/rbenv.git /usr/local/rbenv
@@ -45,7 +45,7 @@ Defaults !secure_path
 Defaults env_keep += "PATH RBENV_ROOT"
 ```
 入力したらRuby 2.1.1をインストールします。
-```
+```sh
 $ sudo rbenv install 2.1.1
 $ sudo rbenv rehash
 ```
@@ -54,7 +54,7 @@ $ sudo rbenv rehash
 ### fluentdとプラグインのインストール
 gemでfluentdとtdプラグインのfluent-plugin-tdをインストールします。
 
-```
+```sh
 $ sudo gem install fluentd fluent-plugin-td
 ```
 
@@ -77,7 +77,7 @@ $ sudo gem install fluentd fluent-plugin-td
 
 としたら、以下のコマンドを入力し、fluentdデーモンを起動します。
 
-```
+```sh
 $ sudo update-rc.d fluentd defaults
 $ sudo mkdir -p /var/log/fluentd
 $ sudo chown fluentd:fluentd /var/log/fluentd

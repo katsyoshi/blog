@@ -24,7 +24,7 @@ Linux使っててこのソフトが入ってないしsudoも使えないって�
 ### emacs
 以下のコマンドでインストールできます。
 
-```
+```sh
  $ wget http://ftp.gnu.org/pub/gnu/emacs/emacs-24.3.tar.xz
  $ tar xvf emacs-24.3.tar.xz
  $ cd emacs-24.3
@@ -38,7 +38,7 @@ Linux使っててこのソフトが入ってないしsudoも使えないって�
 ### tmux
 以下のコマンドで必要ライブラリのncursesをインストールします。
 
-```
+```sh
  $ wget http://ftp.gnu.org/pub/gnu/ncurses/ncurses-5.9.tar.gz
  $ tar xvf ncurses-5.9.tar.gz
  $ cd ncurses-5.9
@@ -49,7 +49,7 @@ Linux使っててこのソフトが入ってないしsudoも使えないって�
 
 次にlibeventをインストールします。
 
-```
+```sh
  $ wget https://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz
  $ tar xvf libevent-2.0.21-stable.tar.gz
  $ cd libevent-2.0.21-stable
@@ -60,7 +60,7 @@ Linux使っててこのソフトが入ってないしsudoも使えないって�
 
 最後にtmuxをインストールします。
 
-```
+```sh
  $ wget http://downloads.sourceforge.net/project/tmux/tmux/tmux-1.9/tmux-1.9a.tar.gz
  $ tar xvf tmux-1.9a.tar.gz
  $ cd tmux-1.9a
@@ -71,7 +71,7 @@ Linux使っててこのソフトが入ってないしsudoも使えないって�
 ```
 
 すべてインストール終ったら設定をします
-```
+```sh
  $ echo 'export PATH=${HOME}/.local/bin:${PATH}' >> ${HOME}/.bashrc
  $ echo 'export LD_LIBRARY_PATH=${HOME}/.local/lib:${LD_LIBRARY_PATH}' >> ${HOME}/.bashrc
 ```
