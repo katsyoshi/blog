@@ -1,1 +1,920 @@
-My Octopress Page is coming soon &hellip;
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>katsyoshiのめもみたいなもの</title>
+  <meta name="author" content="katsyoshi">
+
+  
+  <meta name="description" content="急に xdg-open でブラウザが開かなくなったのでメモ 1
+2
+$ xdg-mime default google-chrome.desktop x-scheme-handler/http
+$ xdg-mime default google-chrome.desktop x-scheme- &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://katsyoshi.github.io">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="katsyoshiのめもみたいなもの" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-49549546-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">katsyoshiのめもみたいなもの</a></h1>
+  
+    <h2>hello, world</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:katsyoshi.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="http://katsyoshi.org" target="_blank">Web Site</a></li>
+  <li><a href="http://suzuri.jp/katsyoshi" target="_blank">Suzuri</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/02/16/setting-xdg-open/">XDGの設定</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-16T18:03:16+09:00" pubdate data-updated="true">Feb 16<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>急に <code>xdg-open</code> でブラウザが開かなくなったのでメモ</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>xdg-mime default google-chrome.desktop x-scheme-handler/http
+</span><span class='line'><span class="nv">$ </span>xdg-mime default google-chrome.desktop x-scheme-handler/https
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>で設定できます。</p>
+
+<h3>参考</h3>
+
+<p>&lsquo;xdg-open&rsquo;, archlinux wiki, <a href="https://wiki.archlinux.org/index.php/xdg-open,">https://wiki.archlinux.org/index.php/xdg-open,</a> 2015/02/16</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/02/12/remove-ibus/">とりあえずibusやめてみた</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-02-12T07:10:29+09:00" pubdate data-updated="true">Feb 12<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="https://www.google.co.jp/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#newwindow=1&amp;q=ibus1.5">ibus-1.5</a>からあまり評判がよろしくない(特に不満はない)ので、あたらしく<a href="https://code.google.com/p/fcitx/">fcitx</a>を導入してみた。</p>
+
+<h2>前提条件</h2>
+
+<p>ここでは<a href="http://www.gentoo.org">Gentoo/Linux</a>での導入方法について述べています。
+日本語変換エンジンとしてMozcについて述べています。</p>
+
+<h2>導入</h2>
+
+<p>とりあえずfcitxをインストール、設定します。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>emerge -av fcitx
+</span><span class='line'>
+</span><span class='line'><span class="nv">$ $EDITOR</span> .xinitrc
+</span><span class='line'>
+</span><span class='line'><span class="nb">export </span><span class="nv">XMODIFIERS</span><span class="o">=</span>@im<span class="o">=</span><span class="s2">&quot;fcitx&quot;</span>
+</span><span class='line'><span class="nb">export </span><span class="nv">GTK_IM_MODULE</span><span class="o">=</span><span class="s2">&quot;fcitx&quot;</span>
+</span><span class='line'><span class="nb">export </span><span class="nv">QT_IM_MODULE</span><span class="o">=</span><span class="s2">&quot;fcitx&quot;</span>
+</span><span class='line'>fcitx
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>これでインストールはこれでおわりです。</p>
+
+<h2>fcitxでmozc</h2>
+
+<p>これは、<a href="http://gpo.zugaina.org/app-i18n/mozc">overlay</a>が提供されいているのでそれで導入します。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ $EDITOR</span> /etc/portage/make.conf
+</span><span class='line'><span class="nv">USE</span><span class="o">=</span><span class="s2">&quot;fcitx ${USE}&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nv">$ </span>sudo emerge -av mozc
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>で、インストールすれば使えるようになります。</p>
+
+<h2>おわり</h2>
+
+<p><a href="http://anond.hatelabo.jp/20150210030728">こういうの</a>があったので、真面目にかこうかと思ったんですがどめんどうなので導入メモになりました。</p>
+
+<p>あと引越ししたので贈っていただいてもいいんですよ？
+<a href="http://www.amazon.co.jp/registry/wishlist/V0YZPO1OYFH5/">http://www.amazon.co.jp/registry/wishlist/V0YZPO1OYFH5/</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/31/emacs-fonts/">Rictyやめるってよ</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-31T07:10:29+09:00" pubdate data-updated="true">Jan 31<span>st</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>普段、emacs上でフォントを <code>Ricty</code> にして使ってたけど、微妙にずれるのを解消できなかったはなし</p>
+
+<h2>症状と設定</h2>
+
+<p>Rictyのときの症状と設定をのせておきます。</p>
+
+<p style="text-align:center;"> <img src="/images/screenshot/Ricty.png" alt="Ricty" /></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='scheme'><span class='line'><span class="p">(</span><span class="nf">set-face-attribute</span> <span class="ss">&#39;default</span> <span class="nv">nil</span> <span class="nv">:family</span> <span class="s">&quot;Ricty&quot;</span> <span class="nv">:height</span> <span class="mi">135</span><span class="p">)</span>
+</span><span class='line'><span class="p">(</span><span class="nf">set-fontset-font</span> <span class="p">(</span><span class="nf">frame-parameter</span> <span class="nv">nil</span> <span class="ss">&#39;font</span><span class="p">)</span> <span class="ss">&#39;japanese-jisx0208</span> <span class="o">&#39;</span><span class="p">(</span><span class="s">&quot;Ricty&quot;</span> <span class="o">.</span> <span class="s">&quot;iso10646-1&quot;</span><span class="p">))</span>
+</span><span class='line'><span class="p">(</span><span class="nf">setq</span> <span class="nv">face-font-rescale-alist</span> <span class="o">&#39;</span><span class="p">((</span><span class="s">&quot;Ricty&quot;</span> <span class="o">.</span> <span class="mf">1.2</span><span class="p">)))</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>で解消できそうにないので DejaVu を用いて表示するように変更しました。</p>
+
+<p style="text-align:center;"> <img src="/images/screenshot/DejaVu.png" alt="DejaVu" /></p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='scheme'><span class='line'><span class="p">(</span><span class="nf">set-face-attribute</span> <span class="ss">&#39;default</span> <span class="nv">nil</span> <span class="nv">:family</span> <span class="s">&quot;DejaVu&quot;</span> <span class="nv">:height</span> <span class="mi">135</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>こんな感じになりました。</p>
+
+<h2>おわり</h2>
+
+<p>よくわからないので諦めました。ので参考に</p>
+
+<p>最後に引っ越ししました。</p>
+
+<p><a href="http://www.amazon.co.jp/registry/wishlist/V0YZPO1OYFH5/">http://www.amazon.co.jp/registry/wishlist/V0YZPO1OYFH5/</a></p>
+
+<h2>追記</h2>
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/katsyoshi">@katsyoshi</a> (setq face-font-rescale-alist &#39;((&quot;Ricty&quot; . 1.0))) で常用していてずれないのですが、これだとどうなりますか?</p>&mdash; つまみ (@polamjag) <a href="https://twitter.com/polamjag/status/561875516118949889">February 1, 2015</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>とアドバイスがありましたので、やってみました!!!!!!</p>
+
+<p style="text-align:center;"> <img src="/images/screenshot/Ricty1.0.png" alt="Ricty-1.0" /></p>
+
+<p>ほんとにちょっとずれて気になる…</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/27/start-rust/">Start Rust by Example</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-27T07:10:29+09:00" pubdate data-updated="true">Jan 27<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>年ぁけたので、新しいプログラミング言語を覚えようと思い<a href="http://www.rust-lang.org">Rust Lang</a>を始めました。</p>
+
+<p>チュートリアルとして<a href="http://rustbyexample.com">Rust bye Example</a>を<a href="https://github.com/katsyoshi/rustbyexamle">やっていって</a>ます。</p>
+
+<h2>気が付いた点</h2>
+
+<p>Rustという言語は変更が多いらしいのでここでは、Chap.1-14(2015/01/25時点)までで気がついた点で書きます。 まず、今回環境を下に示します。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>rustc --version
+</span><span class='line'>rustc 1.0.0-nightly <span class="o">(</span>29bd9a06e 2015-01-20 23:03:09 +0000<span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>i &ndash;> is</h3>
+
+<p>まず、<a href="https://github.com/katsyoshi/rustbyexample/blob/master/2.FormattedPrint/FormattedPrint.rs#L9">Chap. 2のコード</a>で<code>integer</code>のsuffixが<code>is</code>に変更されています。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>FormattedPrint.rs:9:69: 9:71 warning: the <span class="sb">`</span>i<span class="sb">`</span> suffix on integers is deprecated; use <span class="sb">`</span>is<span class="sb">`</span> or one of the fixed-sized suffixes
+</span><span class='line'>FormattedPrint.rs:9     println!<span class="o">(</span><span class="s2">&quot;{} of {:b} people know binary, the other half don&#39;t&quot;</span>, 1i, 2i<span class="o">)</span>;
+</span><span class='line'>                                                                                        ^~
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>range(a, b) –> (a..b)</h3>
+
+<p>つぎに、<a href="https://github.com/katsyoshi/rustbyexample/blob/master/10.ForAndRange/ForAndRange.rs#L2">Chap. 10のコード</a>で<code>range(a, b)</code>がunstableになっているので<code>(a..b)</code>に変更しました。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>ForAndRange.rs:2:14: 2:19 warning: use of unstable item: will be replaced by range notation, <span class="c">#[warn(unstable)] on by default</span>
+</span><span class='line'>ForAndRange.rs:2     <span class="k">for </span>n in range<span class="o">(</span>1u32, 101<span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>                              ^~~~~
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>おわり</h2>
+
+<p>いま確認してたらそもそもRust by Example自体が変更されてた…</p>
+
+<p>ちゃんちゃん</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/01/12/typescript-in-rails/">Ruby on RailsでTypeScriptを使ってみる</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-01-12T11:41:25+09:00" pubdate data-updated="true">Jan 12<span>th</span>, 2015</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>ふとRuby on RailsでTypeScriptを使いたくなったのでうごくようにしてみた。</p>
+
+<h2>インストール</h2>
+
+<p>これは簡単で <code>Gemfile</code> に <code>typescript-rails</code> を追加すればいけます。ですが、<a href="http://stackoverflow.com/questions/28117786/why-am-i-not-able-to-compile-a-file-that-references-jquery-d-ts">jQueryがTypeScript v1.4以上しかサポートしていないようなので</a>それに対応したものも追加します。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">gem</span> <span class="s1">&#39;typescript-src&#39;</span><span class="p">,</span> <span class="ss">github</span><span class="p">:</span> <span class="s1">&#39;katsyoshi/typescript-src-ruby&#39;</span>
+</span><span class='line'><span class="n">gem</span> <span class="s1">&#39;typescript-rails&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>インストールはこれだけでOKです。</p>
+
+<h3>jQueryをつかう</h3>
+
+<p>TypeScriptでjQueryを使う場合、TypeScriptの型定義ファイルをインストールする必要があります。
+で、それを自力で作るのは大変なので、 <code>tsd</code> を利用してインストールします。</p>
+
+<h4>tsd をインストール</h4>
+
+<p><code>tsd</code> は <code>npm</code> でインストールできるので、それでインストールします。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>npm install tsd -g
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>でインストールできたので、この <code>tsd</code> を利用してjQueryの型定義ファイルをインストールします。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>tsd init
+</span><span class='line'><span class="nv">$ $EDITOR</span> tsd.json
+</span><span class='line'>  path: <span class="s2">&quot;app/assets/javascripts/typings&quot;</span>,
+</span><span class='line'>  bundle: <span class="s2">&quot;app/assets/javascripts/typings/tsd.d.ts&quot;</span>
+</span><span class='line'><span class="nv">$ </span>tsd query jquery -osa install
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>でjQueryを利用する準備は整いました。</p>
+
+<h2>TypeScriptを書いてみよう</h2>
+
+<p>コンソールに <code>hello, world!</code> を出すだけの例を示します。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">$</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;hello, world!&quot;</span><span class="p">);</span>
+</span><span class='line'><span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>でいけますよ。
+が <code>$('#hello').text('hoge');</code> いかねぇ。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/12/01/mikutter-advent-calendar-1-day/">Mikutter Advent Calendar 1日目</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-12-01T23:59:59+09:00" pubdate data-updated="true">Dec 1<span>st</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://www.adventar.org/calendar/401">一日目</a>らしいですね。</p>
+
+<h2>今のmikutter環境</h2>
+
+<p>はGentoo/Linuxで動いています。</p>
+
+<p>よく考えてみたら今の環境になってLinuxでmikutterを使うのははじめてです。 Linuxになって一番感じたのインストールすごく楽になったことです。</p>
+
+<h2>今までのmikutter環境</h2>
+
+<p>今までMacで基本的に利用してたので苦労してた。 Macではとくにインストール、gemのupdateが大変でした。 Macでの環境では、HomebrewのGTK2のせいか、RubyGtk2がまともに動かないことが頻繁におこりました。 あと、最後まで解決できなかったのが特定の文字列がくるとクラッシュするというバグがありました。</p>
+
+<h2>mikutterとの出会い</h2>
+
+<p>出会いとしてはtwitterでTLを眺めてたら、@toshi_a って人がtwitterクライアントをつくってるらしいということで 取り敢えずFreeBSDでインストールしたのがはじめてだったとおもいます。 このときはFreeBSDでインストールして、X転送したものをMacで表示したとおもいます。</p>
+
+<p>それ以降はMacでインストールして、<a href="http://github.com/katsyoshi/fav">mikutterのプラグイン</a>を書いて公開したりしてました。</p>
+
+<h2>おわり</h2>
+
+<p>おわりおわり。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/11/21/remove-empty-example-files/">Railsで空のテストファイルを削除</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-11-21T16:07:38+09:00" pubdate data-updated="true">Nov 21<span>st</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Ruby on RailsのプロジェクトでGit管理されているTestで空のテストファイルを
+削除するには以下のコマンドを利用することで削除できます。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>git grep -e it --or -e specify -L -- spec/<span class="o">{</span>model,controller<span class="o">}</span>s | xgrep git rm -f --
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>参考</h3>
+
+<ul>
+<li><a href="https://www.kernel.org/pub/software/scm/git/docs/git-grep.html">man git grep</a></li>
+<li><a href="http://qiita.com/tbaba/items/a67c8d79c6c4d0dc9b73">Git grepを便利に使う-eオプションについて</a></li>
+<li><a href="http://qiita.com/rosylilly/items/9648ad2c8aa53465372b">複数人での Git 開発に便利な 3 つのコマンド</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/11/04/mikutter-advent-calendar/">Mikutter Advent Calendar</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-11-04T23:13:40+09:00" pubdate data-updated="true">Nov 4<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>寒くなりはじめましたね。今年も残すところあと二ヶ月ですね。
+先日、浅草浅草寺で、Ingressおじさんに声かけられてイライラしてます。</p>
+
+<p>そういうことで<a href="http://www.adventar.org/calendars/401">mikutterのAdventCalendar</a>を立てましたので参加してくだされ~</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/10/01/pitfall-in-docker/">Dockerではまってます</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-10-01T21:11:04+09:00" pubdate data-updated="true">Oct 1<span>st</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>タイトルのとおりです。
+Gentoo/LinuxでDockerが起動しないのでとりあえずメモ。</p>
+
+<h2>インストール</h2>
+
+<p>dockerの<a href="https://docs.docker.com/installation/gentoolinux/">Gentooインストールページ</a>を参考に<a href="https://github.com/tianon/docker-overlay">overlay</a>を導入します。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>sudo layman -a docker
+</span><span class='line'><span class="nv">$ </span>sudo eix-sync
+</span><span class='line'><span class="nv">$ </span>sudo emerge -av app-emulators/docker
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>ここでカーネルオプションの警告が出るのでひとつひとつ潰しておきます。</p>
+
+<h2>起動</h2>
+
+<p>インストールおわったら、起動させますが、以下のようなログが出てるので起動できません。</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'>2014/10/01 18:39:17 docker daemon: 1.1.2 d84a070; execdriver: native; graphdriver:
+</span><span class='line'><span class="o">[</span>6c541422<span class="o">]</span> +job serveapi<span class="o">(</span>unix:///var/run/docker.sock<span class="o">)</span>
+</span><span class='line'><span class="o">[</span>6c541422<span class="o">]</span> +job initserver<span class="o">()</span>
+</span><span class='line'><span class="o">[</span>6c541422.initserver<span class="o">()]</span> Creating server
+</span><span class='line'><span class="o">[</span>6c541422<span class="o">]</span> +job init_networkdriver<span class="o">()</span>
+</span><span class='line'><span class="o">[</span>6c541422.init_networkdriver<span class="o">()]</span> creating new bridge <span class="k">for </span>docker0
+</span><span class='line'>package not installed
+</span><span class='line'><span class="o">[</span>6c541422<span class="o">]</span> -job init_networkdriver<span class="o">()</span> <span class="o">=</span> ERR <span class="o">(</span>1<span class="o">)</span>
+</span><span class='line'>package not installed
+</span><span class='line'><span class="o">[</span>6c541422<span class="o">]</span> -job initserver<span class="o">()</span> <span class="o">=</span> ERR <span class="o">(</span>1<span class="o">)</span>
+</span><span class='line'>2014/10/01 18:39:17 package not installed
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>このときは <code>bridge-utils</code> をインストールすればいいのかなと思ってたら、インストールしても解決できないです。</p>
+
+<h2>おわり</h2>
+
+<p>どなたか助けてくだされ〜</p>
+
+<h2>追記</h2>
+
+<p>再構築したカーネルをインストールしてなかったというオチでした。</p>
+
+<p>ちゃんちゃん</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/09/22/rubykaigi2014/">RubyKaigi2014</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-09-22T19:10:00+09:00" pubdate data-updated="true">Sep 22<span>nd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="http://rubykaigi.org/2014">RubyKaigi2014</a>に行ってきました。
+聞いたもの一覧です。</p>
+
+<h2>1日目</h2>
+
+<ul>
+<li><a href="http://rubykaigi.org/2014/presentation/S-KoichiSasada">Building the Ruby interpreter &mdash; What is easy and what is difficult?</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-NarihiroNakamura">Symbol GC</a> <a href="http://www.slideshare.net/authorNari/symbol-gc">スライド</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-ReiOdaira">Eliminating Giant VM Lock in Ruby through Hardware Transactional Memory</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-SzuKaiHsu">Cores unleashed Part II: Introduction to GobiesVM (and Software Transactional Memory)</a> <a href="https://speakerdeck.com/brucehsu/core-unleashed-part-ii-introduction-to-gobiesvm-and-stm-at-rubykaigi-2014">スライド</a></li>
+<li>Committers vs. the world</li>
+</ul>
+
+
+<p>初日は笹田さんのキーノートを聞いた。あとはなりさんのSymbolをGCする話、HTM、STMの話を聞いていた。
+SymbolをGCする話はいままでGCされないことを知らなかったので便利かなと。
+懇親会では、笹田さんと鳥井さんがペアルックだったので写真撮ったのですが、携帯のカメラアプリで保存できなかったのが心のこりです。</p>
+
+<h2>2日目</h2>
+
+<ul>
+<li><a href="http://rubykaigi.org/2014/presentation/S-YukihiroMatzMatsumoto">Comming soon&hellip;</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-MasahiroIde">A Just in Time compiler for CRuby (CRuby言語処理系向けJITコンパイラ)</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-ThiagoScalone-DanielRodriguez">MRuby as Development Platform for Payments</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-TakehikoYOSHIDA">Open the door of embedded systems to IoT! mruby on LEGO Mindstorms EV3®</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-ShotaFukumori">Scalable deployments &ndash; How we deploy Rails app to 100+ hosts in a minute</a> <a href="https://speakerdeck.com/sorah/scalable-deployments-how-we-deploy-rails-app-to-150-plus-hosts-in-a-minute">スライド</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-MATSUMOTORyosuke">Resource Control Architecture scripting with mruby for a Web Server Separating Computer Resources Virtually at Each HTTP Request</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-MasahiroNakagawa">ServerEngine: a framework for multiprocess servers in Ruby</a> <a href="http://www.slideshare.net/treasure-data/rubykaigi-2014-serverengine">スライド</a></li>
+<li><a href="http://rubykaigi.org/2014/LT">Ligthting Talks</a></li>
+</ul>
+
+
+<p>RubyをJIT使って速くしようという話。福盛さんのデプロイを早くするのは面白かった。どこで利用できるのって話はおいておいて。
+松本(り)さんはこのtalkが切っ掛けで<a href="http://hb.matsumoto-r.jp/entry/2014/09/20/003531">就職決まった</a>ようです。LTも面白かったです。</p>
+
+<h2>3日目</h2>
+
+<ul>
+<li><a href="http://rubykaigi.org/2014/presentation/S-JonanScheffler">Everything is Broken: A Story of Hope</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-NaotoshiSeo">Fluentd Hacking Guide (Fluentd ソースコード完全解説)</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-PremSichanugrist">The Ruby Challenge</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-MasatoshiSEKI">Make your own synchronization mechanism.</a></li>
+<li><a href="http://rubykaigi.org/2014/presentation/S-KouheiSutou">Three Ruby usages &ndash; High-level interface, Glue and Embedding &ndash; Inside Droonga</a> <a href="http://speakerdeck.com/u/kou/p/three-ruby-usages">スライド</a></li>
+</ul>
+
+
+<p>3日目はゆっくり来てAaronとか聞こうかとおもってたけど、午前中はロビーでだらだらしすぎてなにもきいていないです。
+午後から、Jonanは2011の最後のRubyKaigiのときに会ってたので今こういうことやってるのだなーと。
+fluentdのプラグイン書いてるけど、なんとなく動いてるし、そのプラグインを利用してて特に問題なかったので、これがあってよかった。
+RubyChallengeはコミッタでも間違えててむずかしい。
+咳さんと須藤さんの話はすごくよかった。</p>
+
+<h2>おわり</h2>
+
+<p>RubyKaigi2014行ってきました。この3日間非常に楽しく過ごせました。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/2/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/02/16/setting-xdg-open/">XDGの設定</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/02/12/remove-ibus/">とりあえずibusやめてみた</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/31/emacs-fonts/">Rictyやめるってよ</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/27/start-rust/">Start Rust by Example</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/01/12/typescript-in-rails/">Ruby on RailsでTypeScriptを使ってみる</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+<section class="well">
+  <ul class="nav">
+    <li class="nav-header">Coderwall Badges</li>
+  </ul>
+  <div id="coderwall_badges"></div>
+  <a href="http://coderwall.com/katsyoshi">@katsyoshi</a> on coderwall
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $.getJSON("http://coderwall.com/katsyoshi.json?callback=?", function(data){
+        for(var i = 0; i < data.data.badges.length ; i++){
+          var badge = data.data.badges[i];
+          var badge_tag = $("<img />");
+          badge_tag.attr("src",badge.badge);
+          badge_tag.css("width","50%");
+          $("#coderwall_badges").append(badge_tag);
+        }
+      });
+    });
+  </script>
+</section>
+
+  
+  <SCRIPT charset="utf-8" type="text/javascript" src="http://ws-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Fkatsyoshinome-22%2F8005%2F0bce94b3-2af1-4a27-b8dd-d4ae8cdbb208"> </SCRIPT> <NOSCRIPT><A HREF="http://ws-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&MarketPlace=JP&ID=V20070822%2FJP%2Fkatsyoshinome-22%2F8005%2F0bce94b3-2af1-4a27-b8dd-d4ae8cdbb208&Operation=NoScript">Amazon.co.jp ウィジェット</A></NOSCRIPT>
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - katsyoshi -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

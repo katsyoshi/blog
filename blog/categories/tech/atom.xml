@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tech | katsyoshiのめもみたいなもの]]></title>
+  <link href="http://katsyoshi.github.io/blog/categories/tech/atom.xml" rel="self"/>
+  <link href="http://katsyoshi.github.io/"/>
+  <updated>2015-02-18T01:06:31+09:00</updated>
+  <id>http://katsyoshi.github.io/</id>
+  <author>
+    <name><![CDATA[katsyoshi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[XDGの設定]]></title>
+    <link href="http://katsyoshi.github.io/blog/2015/02/16/setting-xdg-open/"/>
+    <updated>2015-02-16T18:03:16+09:00</updated>
+    <id>http://katsyoshi.github.io/blog/2015/02/16/setting-xdg-open</id>
+    <content type="html"><![CDATA[<p>急に <code>xdg-open</code> でブラウザが開かなくなったのでメモ</p>
+
+<p><code>sh
+$ xdg-mime default google-chrome.desktop x-scheme-handler/http
+$ xdg-mime default google-chrome.desktop x-scheme-handler/https
+</code></p>
+
+<p>で設定できます。</p>
+
+<h3>参考</h3>
+
+<p>&lsquo;xdg-open&rsquo;, archlinux wiki, <a href="https://wiki.archlinux.org/index.php/xdg-open,">https://wiki.archlinux.org/index.php/xdg-open,</a> 2015/02/16</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[とりあえずibusやめてみた]]></title>
+    <link href="http://katsyoshi.github.io/blog/2015/02/12/remove-ibus/"/>
+    <updated>2015-02-12T07:10:29+09:00</updated>
+    <id>http://katsyoshi.github.io/blog/2015/02/12/remove-ibus</id>
+    <content type="html"><![CDATA[<p><a href="https://www.google.co.jp/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#newwindow=1&amp;q=ibus1.5">ibus-1.5</a>からあまり評判がよろしくない(特に不満はない)ので、あたらしく<a href="https://code.google.com/p/fcitx/">fcitx</a>を導入してみた。</p>
+
+<h2>前提条件</h2>
+
+<p>ここでは<a href="http://www.gentoo.org">Gentoo/Linux</a>での導入方法について述べています。
+日本語変換エンジンとしてMozcについて述べています。</p>
+
+<h2>導入</h2>
+
+<p>とりあえずfcitxをインストール、設定します。</p>
+
+<p>```sh
+$ emerge -av fcitx</p>
+
+<p>$ $EDITOR .xinitrc</p>
+
+<p>export XMODIFIERS=@im=&ldquo;fcitx&rdquo;
+export GTK_IM_MODULE=&ldquo;fcitx&rdquo;
+export QT_IM_MODULE=&ldquo;fcitx&rdquo;
+fcitx
+```</p>
+
+<p>これでインストールはこれでおわりです。</p>
+
+<h2>fcitxでmozc</h2>
+
+<p>これは、<a href="http://gpo.zugaina.org/app-i18n/mozc">overlay</a>が提供されいているのでそれで導入します。</p>
+
+<p>```sh
+$ $EDITOR /etc/portage/make.conf
+USE=&ldquo;fcitx ${USE}&rdquo;</p>
+
+<p>$ sudo emerge -av mozc
+```</p>
+
+<p>で、インストールすれば使えるようになります。</p>
+
+<h2>おわり</h2>
+
+<p><a href="http://anond.hatelabo.jp/20150210030728">こういうの</a>があったので、真面目にかこうかと思ったんですがどめんどうなので導入メモになりました。</p>
+
+<p>あと引越ししたので贈っていただいてもいいんですよ？
+<a href="http://www.amazon.co.jp/registry/wishlist/V0YZPO1OYFH5/">http://www.amazon.co.jp/registry/wishlist/V0YZPO1OYFH5/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rictyやめるってよ]]></title>
+    <link href="http://katsyoshi.github.io/blog/2015/01/31/emacs-fonts/"/>
+    <updated>2015-01-31T07:10:29+09:00</updated>
+    <id>http://katsyoshi.github.io/blog/2015/01/31/emacs-fonts</id>
+    <content type="html"><![CDATA[<p>普段、emacs上でフォントを <code>Ricty</code> にして使ってたけど、微妙にずれるのを解消できなかったはなし</p>
+
+<h2>症状と設定</h2>
+
+<p>Rictyのときの症状と設定をのせておきます。</p>
+
+<p style="text-align:center;"> <img src="/images/screenshot/Ricty.png" alt="Ricty" /></p>
+
+<p><code>scheme
+(set-face-attribute 'default nil :family "Ricty" :height 135)
+(set-fontset-font (frame-parameter nil 'font) 'japanese-jisx0208 '("Ricty" . "iso10646-1"))
+(setq face-font-rescale-alist '(("Ricty" . 1.2)))
+</code></p>
+
+<p>で解消できそうにないので DejaVu を用いて表示するように変更しました。</p>
+
+<p style="text-align:center;"> <img src="/images/screenshot/DejaVu.png" alt="DejaVu" /></p>
+
+<p><code>scheme
+(set-face-attribute 'default nil :family "DejaVu" :height 135)
+</code></p>
+
+<p>こんな感じになりました。</p>
+
+<h2>おわり</h2>
+
+<p>よくわからないので諦めました。ので参考に</p>
+
+<p>最後に引っ越ししました。</p>
+
+<p><a href="http://www.amazon.co.jp/registry/wishlist/V0YZPO1OYFH5/">http://www.amazon.co.jp/registry/wishlist/V0YZPO1OYFH5/</a></p>
+
+<h2>追記</h2>
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/katsyoshi">@katsyoshi</a> (setq face-font-rescale-alist &#39;((&quot;Ricty&quot; . 1.0))) で常用していてずれないのですが、これだとどうなりますか?</p>&mdash; つまみ (@polamjag) <a href="https://twitter.com/polamjag/status/561875516118949889">February 1, 2015</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>とアドバイスがありましたので、やってみました!!!!!!</p>
+
+<p style="text-align:center;"> <img src="/images/screenshot/Ricty1.0.png" alt="Ricty-1.0" /></p>
+
+<p>ほんとにちょっとずれて気になる…</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Start Rust by Example]]></title>
+    <link href="http://katsyoshi.github.io/blog/2015/01/27/start-rust/"/>
+    <updated>2015-01-27T07:10:29+09:00</updated>
+    <id>http://katsyoshi.github.io/blog/2015/01/27/start-rust</id>
+    <content type="html"><![CDATA[<p>年ぁけたので、新しいプログラミング言語を覚えようと思い<a href="http://www.rust-lang.org">Rust Lang</a>を始めました。</p>
+
+<p>チュートリアルとして<a href="http://rustbyexample.com">Rust bye Example</a>を<a href="https://github.com/katsyoshi/rustbyexamle">やっていって</a>ます。</p>
+
+<h2>気が付いた点</h2>
+
+<p>Rustという言語は変更が多いらしいのでここでは、Chap.1-14(2015/01/25時点)までで気がついた点で書きます。 まず、今回環境を下に示します。</p>
+
+<p><code>sh
+$ rustc --version
+rustc 1.0.0-nightly (29bd9a06e 2015-01-20 23:03:09 +0000)
+</code></p>
+
+<h3>i &ndash;> is</h3>
+
+<p>まず、<a href="https://github.com/katsyoshi/rustbyexample/blob/master/2.FormattedPrint/FormattedPrint.rs#L9">Chap. 2のコード</a>で<code>integer</code>のsuffixが<code>is</code>に変更されています。</p>
+
+<p><code>``sh
+FormattedPrint.rs:9:69: 9:71 warning: the</code>i<code>suffix on integers is deprecated; use</code>is` or one of the fixed-sized suffixes
+FormattedPrint.rs:9     println!(&ldquo;{} of {:b} people know binary, the other half don&rsquo;t&rdquo;, 1i, 2i);</p>
+
+<pre><code>                                                                                    ^~
+</code></pre>
+
+<p>```</p>
+
+<h3>range(a, b) –> (a..b)</h3>
+
+<p>つぎに、<a href="https://github.com/katsyoshi/rustbyexample/blob/master/10.ForAndRange/ForAndRange.rs#L2">Chap. 10のコード</a>で<code>range(a, b)</code>がunstableになっているので<code>(a..b)</code>に変更しました。</p>
+
+<p>```sh
+ForAndRange.rs:2:14: 2:19 warning: use of unstable item: will be replaced by range notation, #[warn(unstable)] on by default
+ForAndRange.rs:2     for n in range(1u32, 101) {</p>
+
+<pre><code>                          ^~~~~
+</code></pre>
+
+<p>```</p>
+
+<h2>おわり</h2>
+
+<p>いま確認してたらそもそもRust by Example自体が変更されてた…</p>
+
+<p>ちゃんちゃん</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby on RailsでTypeScriptを使ってみる]]></title>
+    <link href="http://katsyoshi.github.io/blog/2015/01/12/typescript-in-rails/"/>
+    <updated>2015-01-12T11:41:25+09:00</updated>
+    <id>http://katsyoshi.github.io/blog/2015/01/12/typescript-in-rails</id>
+    <content type="html"><![CDATA[<p>ふとRuby on RailsでTypeScriptを使いたくなったのでうごくようにしてみた。</p>
+
+<h2>インストール</h2>
+
+<p>これは簡単で <code>Gemfile</code> に <code>typescript-rails</code> を追加すればいけます。ですが、<a href="http://stackoverflow.com/questions/28117786/why-am-i-not-able-to-compile-a-file-that-references-jquery-d-ts">jQueryがTypeScript v1.4以上しかサポートしていないようなので</a>それに対応したものも追加します。</p>
+
+<p><code>ruby
+gem 'typescript-src', github: 'katsyoshi/typescript-src-ruby'
+gem 'typescript-rails'
+</code></p>
+
+<p>インストールはこれだけでOKです。</p>
+
+<h3>jQueryをつかう</h3>
+
+<p>TypeScriptでjQueryを使う場合、TypeScriptの型定義ファイルをインストールする必要があります。
+で、それを自力で作るのは大変なので、 <code>tsd</code> を利用してインストールします。</p>
+
+<h4>tsd をインストール</h4>
+
+<p><code>tsd</code> は <code>npm</code> でインストールできるので、それでインストールします。</p>
+
+<p><code>sh
+$ npm install tsd -g
+</code></p>
+
+<p>でインストールできたので、この <code>tsd</code> を利用してjQueryの型定義ファイルをインストールします。</p>
+
+<p><code>sh
+$ tsd init
+$ $EDITOR tsd.json
+  path: "app/assets/javascripts/typings",
+  bundle: "app/assets/javascripts/typings/tsd.d.ts"
+$ tsd query jquery -osa install
+</code></p>
+
+<p>でjQueryを利用する準備は整いました。</p>
+
+<h2>TypeScriptを書いてみよう</h2>
+
+<p>コンソールに <code>hello, world!</code> を出すだけの例を示します。</p>
+
+<p><code>javascript
+$(() =&gt; {
+  console.log("hello, world!");
+});
+</code></p>
+
+<p>でいけますよ。
+が <code>$('#hello').text('hoge');</code> いかねぇ。</p>
+]]></content>
+  </entry>
+  
+</feed>
