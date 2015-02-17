@@ -40,11 +40,14 @@ $ eval "$(rbenv init -)"
 ```
 
 ここまで入力したら`sudo visudo -f /etc/sudoers.d/00_base`と入力し、以下を[入力してください](http://office.tsukuba-bunko.org/ppoi/entry/systemwide-rbenv)。
-```
+
+```sh
 Defaults !secure_path
 Defaults env_keep += "PATH RBENV_ROOT"
 ```
+
 入力したらRuby 2.1.1をインストールします。
+
 ```sh
 $ sudo rbenv install 2.1.1
 $ sudo rbenv rehash
@@ -60,20 +63,137 @@ $ sudo gem install fluentd fluent-plugin-td
 
 つぎに設定ファイル`fluentd.conf`を作成します。
 
-{% include_code lang:xml fluentd.conf %}
-作成後起動確認を行なってください`fluentd -c fluentd.conf`。
-起動確認を行ったら`fluentd.conf`を`/etc/fluentd/fluentd.conf`に移動します。
+```xml fluentd.conf
+<source>
+  type forward
+</source>
+
+<source>
+  type tail
+  path /var/log/nginx/access.log
+  format nginx
+  time_format %d/%b/%Y:%H:%M:%S %z
+  tag td.nginx.main.access
+  pos_file /var/log/fluentd/main_access.pos
+</source>
+
+<match td.**.*>
+  type copy
+  <store>
+    type stdout
+  </store>
+  <store>
+    type tdlog
+    endpoint api.treasure-data.com
+    apikey ここにtdのAPIキーを入力してね
+    auto_create_table
+    buffer_type file
+    buffer_path /var/log/fluentd/buffer/td
+    use_ssl true
+  </store>
+</match>
+```
+
+作成後起動確認を行なってください `fluentd -c fluentd.conf` 。
+起動確認を行ったら `fluentd.conf` を `/etc/fluentd/fluentd.conf` に移動します。
 これで終了です。
 
 ### init.dスクリプトの作成
-まず`/etc/init.d/skelton`を`/etc/init.d/fluentd`にコピーします。
+まず `/etc/init.d/skelton` を `/etc/init.d/fluentd` にコピーします。
 コピーしたら以下の様にします。
 
-{% include_code fluentd_diff_skelton %}
+```diff fluentd_diff_skelton
+diff --git a/etc/init.d/skeleton b/fluentd
+old mode 100644
+new mode 100755
+index dac9480..c59505e
+--- a/etc/init.d/skeleton
++++ b/fluentd
+@@ -1,6 +1,6 @@
+ #! /bin/sh
+ ### BEGIN INIT INFO
+-# Provides:          skeleton
++# Provides:          fleuntd
+ # Required-Start:    $remote_fs $syslog
+ # Required-Stop:     $remote_fs $syslog
+ # Default-Start:     2 3 4 5
+@@ -19,19 +19,14 @@
 
-このままでは起動しないので`/etc/default/fluentd`を作成します。
+ # PATH should only include /usr/* if it runs after the mountnfs.sh script
+ PATH=/sbin:/usr/sbin:/bin:/usr/bin
+-DESC="Description of the service"
+-NAME=daemonexecutablename
+-DAEMON=/usr/sbin/$NAME
+-DAEMON_ARGS="--options args"
+-PIDFILE=/var/run/$NAME.pid
+-SCRIPTNAME=/etc/init.d/$NAME
+-
+-# Exit if the package is not installed
+-[ -x "$DAEMON" ] || exit 0
++NAME=fluentd
 
-{% include_code /etc/defaults/fluentd lang:sh fluentd.default %}
+ # Read configuration variable file if it is present
+ [ -r /etc/default/$NAME ] && . /etc/default/$NAME
+
++# Exit if the package is not installed
++[ -x "$DAEMON" ] || exit 0
++
+ # Load the VERBOSE setting and other rcS variables
+ . /lib/init/vars.sh
+
+@@ -49,10 +44,11 @@ do_start()
+  #   0 if daemon has been started
+  #   1 if daemon was already running
+  #   2 if daemon could not be started
+-    start-stop-daemon --start --quiet --pidfile $PIDFILE --exec $DAEMON --test > /dev/null \
++    start-stop-daemon --start --quiet --pidfile $PIDFILE --exec $DAEMON \
++    ${START_STOP_DAEMON_ARGS} --test > /dev/null \
+      || return 1
+-    start-stop-daemon --start --quiet --pidfile $PIDFILE --exec $DAEMON -- \
+-        $DAEMON_ARGS \
++    start-stop-daemon --start --quiet --pidfile $PIDFILE --exec $DAEMON \
++        ${START_STOP_DAEMON_ARGS} -- $DAEMON_ARGS \
+      || return 2
+  # Add code here, if necessary, that waits for the process to be ready
+  # to handle requests from services started subsequently which depend
+```
+
+このままでは起動しないので `/etc/default/fluentd` を作成します。
+
+```sh fluentd.default
+RBENV_ROOT=/usr/local/rbenv
+PATH=${RBENV_ROOT}/bin:${PATH}
+eval "$(rbenv init -)"
+USER=fluentd
+GROUP=fluentd
+DESC="fluentd"
+PIDFILE=/var/log/$NAME/run.pid
+CONFFILE=/etc/fluentd/fluentd.conf
+DAEMON=/usr/local/rbenv/shims/fluentd
+DAEMON_ARGS="--daemon $PIDFILE --log /var/log/fluentd/fluentd.log --config $CONFFILE"
+SCRIPTNAME=/etc/init.d/$NAME
+START_STOP_DAEMON_ARGS=""
+
+if [ -n "${USER}" ]; then
+   if ! getent passwd | grep -q "^${USER}:"; then
+      echo "$0: user for running td-agent doesn't exist: ${USER}" >&2
+      exit 1
+   fi
+   if [ ! -d $(dirname ${PIDFILE}) ]; then
+       mkdir -p $(dirname ${PIDFILE})
+   fi
+   chown -R ${USER} $(dirname ${PIDFILE})
+   START_STOP_DAEMON_ARGS="${START_STOP_DAEMON_ARGS} -c ${USER}"
+fi
+
+if [ -n "${GROUP}" ]; then
+   if ! getent group | grep -q "^${GROUP}:"; then
+       echo "$0: group for running td-agent doesn't exist: ${GROUP}" >&2
+       exit 1
+   fi
+   START_STOP_DAEMON_ARGS="${START_STOP_DAEMON_ARGS} --group ${GROUP}"
+fi
+```
 
 としたら、以下のコマンドを入力し、fluentdデーモンを起動します。
 
