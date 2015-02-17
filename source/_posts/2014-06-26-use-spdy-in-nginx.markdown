@@ -34,9 +34,6 @@ server {
 と設定したらNGINXを再起動します。
 これでSPDYで動いてます。わいわい。
 
-{% img /images/photo/spdy.png 100 SPDY %}
+![SPDY](/images/photo/spdy.png)
 
 オレオレ証明書なのでそのうちちゃんとした証明書を使いたいですね。
-
-
-

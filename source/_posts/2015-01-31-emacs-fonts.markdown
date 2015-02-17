@@ -11,7 +11,7 @@ categories: diary tech linux
 
 Rictyのときの症状と設定をのせておきます。
 
-{% img center images/screenshot/Ricty.png Ricty %}
+-> ![Ricty](/images/screenshot/Ricty.png) <-
 
 ```scheme
 (set-face-attribute 'default nil :family "Ricty" :height 135)
@@ -21,7 +21,7 @@ Rictyのときの症状と設定をのせておきます。
 
 で解消できそうにないので DejaVu を用いて表示するように変更しました。
 
-{% img center images/screenshot/DejaVu.png DejaVu %}
+-> ![DejaVu](/images/screenshot/DejaVu.png) <-
 
 ```scheme
 (set-face-attribute 'default nil :family "DejaVu" :height 135)
@@ -43,6 +43,6 @@ http://www.amazon.co.jp/registry/wishlist/V0YZPO1OYFH5/
 
 とアドバイスがありましたので、やってみました!!!!!!
 
-{% img center images/screenshot/Ricty1.0.png Ricty-1.0 %}
+-> ![Ricty-1.0](/images/screenshot/Ricty1.0.png) <-
 
 ほんとにちょっとずれて気になる…
