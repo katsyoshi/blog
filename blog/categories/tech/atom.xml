@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Tech | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/tech/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-18T01:06:31+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/tech/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -14,10 +14,45 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Blogの引越し]]></title>
+    <link href="http://blog.katsyoshi.org/blog/2015/02/22/mv-sakura-github-dot-io/"/>
+    <updated>2015-02-22T18:29:09+09:00</updated>
+    <id>http://blog.katsyoshi.org/blog/2015/02/22/mv-sakura-github-dot-io</id>
+    <content type="html"><![CDATA[<p>自分でblogを管理するのがちょっとだけ面倒になってきたので、
+このblogを<a href="katsyoshi.github.io">github.io</a>に移行した。</p>
+
+<h2>手順</h2>
+
+<p>github.com に <code>katsyoshi.github.io</code> というリポジトリを作成し、以下のコマンドを実行</p>
+
+<p><code>sh
+$ rake setup_github_pages
+set your github repogitory
+$ rake generate
+$ rake deploy
+</code></p>
+
+<p>そのあと、DNSでCNAMEに <code>katsyoshi.github.io</code> を設定し、リポジトリのトップに <code>blog.katsyoshi.org</code> と書いた <code>CNAME</code> ファイルを追加しおわりです。</p>
+
+<h2>おわり</h2>
+
+<p>おわり</p>
+
+<h3>参考サイト</h3>
+
+<ol>
+<li><a href="http://morizyun.github.io/blog/octopress-gitpage-minimum-install-guide/">http://morizyun.github.io/blog/octopress-gitpage-minimum-install-guide/</a></li>
+<li><a href="http://blog.textfile.org/20141014/github/">http://blog.textfile.org/20141014/github/</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[XDGの設定]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/02/16/setting-xdg-open/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/02/16/setting-xdg-open/"/>
     <updated>2015-02-16T18:03:16+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/02/16/setting-xdg-open</id>
+    <id>http://blog.katsyoshi.org/blog/2015/02/16/setting-xdg-open</id>
     <content type="html"><![CDATA[<p>急に <code>xdg-open</code> でブラウザが開かなくなったのでメモ</p>
 
 <p><code>sh
@@ -35,9 +70,9 @@ $ xdg-mime default google-chrome.desktop x-scheme-handler/https
   
   <entry>
     <title type="html"><![CDATA[とりあえずibusやめてみた]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/02/12/remove-ibus/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/02/12/remove-ibus/"/>
     <updated>2015-02-12T07:10:29+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/02/12/remove-ibus</id>
+    <id>http://blog.katsyoshi.org/blog/2015/02/12/remove-ibus</id>
     <content type="html"><![CDATA[<p><a href="https://www.google.co.jp/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#newwindow=1&amp;q=ibus1.5">ibus-1.5</a>からあまり評判がよろしくない(特に不満はない)ので、あたらしく<a href="https://code.google.com/p/fcitx/">fcitx</a>を導入してみた。</p>
 
 <h2>前提条件</h2>
@@ -86,9 +121,9 @@ USE=&ldquo;fcitx ${USE}&rdquo;</p>
   
   <entry>
     <title type="html"><![CDATA[Rictyやめるってよ]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/31/emacs-fonts/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/01/31/emacs-fonts/"/>
     <updated>2015-01-31T07:10:29+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/31/emacs-fonts</id>
+    <id>http://blog.katsyoshi.org/blog/2015/01/31/emacs-fonts</id>
     <content type="html"><![CDATA[<p>普段、emacs上でフォントを <code>Ricty</code> にして使ってたけど、微妙にずれるのを解消できなかったはなし</p>
 
 <h2>症状と設定</h2>
@@ -139,9 +174,9 @@ USE=&ldquo;fcitx ${USE}&rdquo;</p>
   
   <entry>
     <title type="html"><![CDATA[Start Rust by Example]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/27/start-rust/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/01/27/start-rust/"/>
     <updated>2015-01-27T07:10:29+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/27/start-rust</id>
+    <id>http://blog.katsyoshi.org/blog/2015/01/27/start-rust</id>
     <content type="html"><![CDATA[<p>年ぁけたので、新しいプログラミング言語を覚えようと思い<a href="http://www.rust-lang.org">Rust Lang</a>を始めました。</p>
 
 <p>チュートリアルとして<a href="http://rustbyexample.com">Rust bye Example</a>を<a href="https://github.com/katsyoshi/rustbyexamle">やっていって</a>ます。</p>
@@ -186,64 +221,6 @@ ForAndRange.rs:2     for n in range(1u32, 101) {</p>
 <p>いま確認してたらそもそもRust by Example自体が変更されてた…</p>
 
 <p>ちゃんちゃん</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ruby on RailsでTypeScriptを使ってみる]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/12/typescript-in-rails/"/>
-    <updated>2015-01-12T11:41:25+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/12/typescript-in-rails</id>
-    <content type="html"><![CDATA[<p>ふとRuby on RailsでTypeScriptを使いたくなったのでうごくようにしてみた。</p>
-
-<h2>インストール</h2>
-
-<p>これは簡単で <code>Gemfile</code> に <code>typescript-rails</code> を追加すればいけます。ですが、<a href="http://stackoverflow.com/questions/28117786/why-am-i-not-able-to-compile-a-file-that-references-jquery-d-ts">jQueryがTypeScript v1.4以上しかサポートしていないようなので</a>それに対応したものも追加します。</p>
-
-<p><code>ruby
-gem 'typescript-src', github: 'katsyoshi/typescript-src-ruby'
-gem 'typescript-rails'
-</code></p>
-
-<p>インストールはこれだけでOKです。</p>
-
-<h3>jQueryをつかう</h3>
-
-<p>TypeScriptでjQueryを使う場合、TypeScriptの型定義ファイルをインストールする必要があります。
-で、それを自力で作るのは大変なので、 <code>tsd</code> を利用してインストールします。</p>
-
-<h4>tsd をインストール</h4>
-
-<p><code>tsd</code> は <code>npm</code> でインストールできるので、それでインストールします。</p>
-
-<p><code>sh
-$ npm install tsd -g
-</code></p>
-
-<p>でインストールできたので、この <code>tsd</code> を利用してjQueryの型定義ファイルをインストールします。</p>
-
-<p><code>sh
-$ tsd init
-$ $EDITOR tsd.json
-  path: "app/assets/javascripts/typings",
-  bundle: "app/assets/javascripts/typings/tsd.d.ts"
-$ tsd query jquery -osa install
-</code></p>
-
-<p>でjQueryを利用する準備は整いました。</p>
-
-<h2>TypeScriptを書いてみよう</h2>
-
-<p>コンソールに <code>hello, world!</code> を出すだけの例を示します。</p>
-
-<p><code>javascript
-$(() =&gt; {
-  console.log("hello, world!");
-});
-</code></p>
-
-<p>でいけますよ。
-が <code>$('#hello').text('hoge');</code> いかねぇ。</p>
 ]]></content>
   </entry>
   

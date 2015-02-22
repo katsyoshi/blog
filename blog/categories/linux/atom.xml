@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Linux | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/linux/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-18T01:06:31+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[XDGの設定]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/02/16/setting-xdg-open/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/02/16/setting-xdg-open/"/>
     <updated>2015-02-16T18:03:16+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/02/16/setting-xdg-open</id>
+    <id>http://blog.katsyoshi.org/blog/2015/02/16/setting-xdg-open</id>
     <content type="html"><![CDATA[<p>急に <code>xdg-open</code> でブラウザが開かなくなったのでメモ</p>
 
 <p><code>sh
@@ -35,9 +35,9 @@ $ xdg-mime default google-chrome.desktop x-scheme-handler/https
   
   <entry>
     <title type="html"><![CDATA[とりあえずibusやめてみた]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/02/12/remove-ibus/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/02/12/remove-ibus/"/>
     <updated>2015-02-12T07:10:29+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/02/12/remove-ibus</id>
+    <id>http://blog.katsyoshi.org/blog/2015/02/12/remove-ibus</id>
     <content type="html"><![CDATA[<p><a href="https://www.google.co.jp/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#newwindow=1&amp;q=ibus1.5">ibus-1.5</a>からあまり評判がよろしくない(特に不満はない)ので、あたらしく<a href="https://code.google.com/p/fcitx/">fcitx</a>を導入してみた。</p>
 
 <h2>前提条件</h2>
@@ -86,9 +86,9 @@ USE=&ldquo;fcitx ${USE}&rdquo;</p>
   
   <entry>
     <title type="html"><![CDATA[Rictyやめるってよ]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/31/emacs-fonts/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/01/31/emacs-fonts/"/>
     <updated>2015-01-31T07:10:29+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/31/emacs-fonts</id>
+    <id>http://blog.katsyoshi.org/blog/2015/01/31/emacs-fonts</id>
     <content type="html"><![CDATA[<p>普段、emacs上でフォントを <code>Ricty</code> にして使ってたけど、微妙にずれるのを解消できなかったはなし</p>
 
 <h2>症状と設定</h2>
@@ -139,9 +139,9 @@ USE=&ldquo;fcitx ${USE}&rdquo;</p>
   
   <entry>
     <title type="html"><![CDATA[Start Rust by Example]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/27/start-rust/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/01/27/start-rust/"/>
     <updated>2015-01-27T07:10:29+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/27/start-rust</id>
+    <id>http://blog.katsyoshi.org/blog/2015/01/27/start-rust</id>
     <content type="html"><![CDATA[<p>年ぁけたので、新しいプログラミング言語を覚えようと思い<a href="http://www.rust-lang.org">Rust Lang</a>を始めました。</p>
 
 <p>チュートリアルとして<a href="http://rustbyexample.com">Rust bye Example</a>を<a href="https://github.com/katsyoshi/rustbyexamle">やっていって</a>ます。</p>
@@ -191,9 +191,9 @@ ForAndRange.rs:2     for n in range(1u32, 101) {</p>
   
   <entry>
     <title type="html"><![CDATA[Dockerではまってます]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/10/01/pitfall-in-docker/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/10/01/pitfall-in-docker/"/>
     <updated>2014-10-01T21:11:04+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/10/01/pitfall-in-docker</id>
+    <id>http://blog.katsyoshi.org/blog/2014/10/01/pitfall-in-docker</id>
     <content type="html"><![CDATA[<p>タイトルのとおりです。
 Gentoo/LinuxでDockerが起動しないのでとりあえずメモ。</p>
 

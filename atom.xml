@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-18T01:06:31+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -14,10 +14,49 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Blogの引越し]]></title>
+    <link href="http://blog.katsyoshi.org/blog/2015/02/22/mv-sakura-github-dot-io/"/>
+    <updated>2015-02-22T18:29:09+09:00</updated>
+    <id>http://blog.katsyoshi.org/blog/2015/02/22/mv-sakura-github-dot-io</id>
+    <content type="html"><![CDATA[<p>自分でblogを管理するのがちょっとだけ面倒になってきたので、
+このblogを<a href="katsyoshi.github.io">github.io</a>に移行した。</p>
+
+<h2>手順</h2>
+
+<p>github.com に <code>katsyoshi.github.io</code> というリポジトリを作成し、以下のコマンドを実行</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="nv">$ </span>rake setup_github_pages
+</span><span class='line'><span class="nb">set </span>your github repogitory
+</span><span class='line'><span class="nv">$ </span>rake generate
+</span><span class='line'><span class="nv">$ </span>rake deploy
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>そのあと、DNSでCNAMEに <code>katsyoshi.github.io</code> を設定し、リポジトリのトップに <code>blog.katsyoshi.org</code> と書いた <code>CNAME</code> ファイルを追加しおわりです。</p>
+
+<h2>おわり</h2>
+
+<p>おわり</p>
+
+<h3>参考サイト</h3>
+
+<ol>
+<li><a href="http://morizyun.github.io/blog/octopress-gitpage-minimum-install-guide/">http://morizyun.github.io/blog/octopress-gitpage-minimum-install-guide/</a></li>
+<li><a href="http://blog.textfile.org/20141014/github/">http://blog.textfile.org/20141014/github/</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[XDGの設定]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/02/16/setting-xdg-open/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/02/16/setting-xdg-open/"/>
     <updated>2015-02-16T18:03:16+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/02/16/setting-xdg-open</id>
+    <id>http://blog.katsyoshi.org/blog/2015/02/16/setting-xdg-open</id>
     <content type="html"><![CDATA[<p>急に <code>xdg-open</code> でブラウザが開かなくなったのでメモ</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -37,9 +76,9 @@
   
   <entry>
     <title type="html"><![CDATA[とりあえずibusやめてみた]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/02/12/remove-ibus/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/02/12/remove-ibus/"/>
     <updated>2015-02-12T07:10:29+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/02/12/remove-ibus</id>
+    <id>http://blog.katsyoshi.org/blog/2015/02/12/remove-ibus</id>
     <content type="html"><![CDATA[<p><a href="https://www.google.co.jp/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#newwindow=1&amp;q=ibus1.5">ibus-1.5</a>からあまり評判がよろしくない(特に不満はない)ので、あたらしく<a href="https://code.google.com/p/fcitx/">fcitx</a>を導入してみた。</p>
 
 <h2>前提条件</h2>
@@ -100,16 +139,16 @@
   
   <entry>
     <title type="html"><![CDATA[Rictyやめるってよ]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/31/emacs-fonts/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/01/31/emacs-fonts/"/>
     <updated>2015-01-31T07:10:29+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/31/emacs-fonts</id>
+    <id>http://blog.katsyoshi.org/blog/2015/01/31/emacs-fonts</id>
     <content type="html"><![CDATA[<p>普段、emacs上でフォントを <code>Ricty</code> にして使ってたけど、微妙にずれるのを解消できなかったはなし</p>
 
 <h2>症状と設定</h2>
 
 <p>Rictyのときの症状と設定をのせておきます。</p>
 
-<p style="text-align:center;"> <img src="http://katsyoshi.github.io/images/screenshot/Ricty.png" alt="Ricty" /></p>
+<p style="text-align:center;"> <img src="http://blog.katsyoshi.org/images/screenshot/Ricty.png" alt="Ricty" /></p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -122,7 +161,7 @@
 
 <p>で解消できそうにないので DejaVu を用いて表示するように変更しました。</p>
 
-<p style="text-align:center;"> <img src="http://katsyoshi.github.io/images/screenshot/DejaVu.png" alt="DejaVu" /></p>
+<p style="text-align:center;"> <img src="http://blog.katsyoshi.org/images/screenshot/DejaVu.png" alt="DejaVu" /></p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='scheme'><span class='line'><span class="p">(</span><span class="nf">set-face-attribute</span> <span class="ss">&#39;default</span> <span class="nv">nil</span> <span class="nv">:family</span> <span class="s">&quot;DejaVu&quot;</span> <span class="nv">:height</span> <span class="mi">135</span><span class="p">)</span>
@@ -149,7 +188,7 @@
 
 <p>とアドバイスがありましたので、やってみました!!!!!!</p>
 
-<p style="text-align:center;"> <img src="http://katsyoshi.github.io/images/screenshot/Ricty1.0.png" alt="Ricty-1.0" /></p>
+<p style="text-align:center;"> <img src="http://blog.katsyoshi.org/images/screenshot/Ricty1.0.png" alt="Ricty-1.0" /></p>
 
 <p>ほんとにちょっとずれて気になる…</p>
 ]]></content>
@@ -157,9 +196,9 @@
   
   <entry>
     <title type="html"><![CDATA[Start Rust by Example]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/27/start-rust/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/01/27/start-rust/"/>
     <updated>2015-01-27T07:10:29+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/27/start-rust</id>
+    <id>http://blog.katsyoshi.org/blog/2015/01/27/start-rust</id>
     <content type="html"><![CDATA[<p>年ぁけたので、新しいプログラミング言語を覚えようと思い<a href="http://www.rust-lang.org">Rust Lang</a>を始めました。</p>
 
 <p>チュートリアルとして<a href="http://rustbyexample.com">Rust bye Example</a>を<a href="https://github.com/katsyoshi/rustbyexamle">やっていって</a>ます。</p>
@@ -211,9 +250,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ruby on RailsでTypeScriptを使ってみる]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/12/typescript-in-rails/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/01/12/typescript-in-rails/"/>
     <updated>2015-01-12T11:41:25+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/12/typescript-in-rails</id>
+    <id>http://blog.katsyoshi.org/blog/2015/01/12/typescript-in-rails</id>
     <content type="html"><![CDATA[<p>ふとRuby on RailsでTypeScriptを使いたくなったのでうごくようにしてみた。</p>
 
 <h2>インストール</h2>
@@ -280,9 +319,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mikutter Advent Calendar 1日目]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/12/01/mikutter-advent-calendar-1-day/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/12/01/mikutter-advent-calendar-1-day/"/>
     <updated>2014-12-01T23:59:59+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/12/01/mikutter-advent-calendar-1-day</id>
+    <id>http://blog.katsyoshi.org/blog/2014/12/01/mikutter-advent-calendar-1-day</id>
     <content type="html"><![CDATA[<p><a href="http://www.adventar.org/calendar/401">一日目</a>らしいですね。</p>
 
 <h2>今のmikutter環境</h2>
@@ -309,9 +348,9 @@
   
   <entry>
     <title type="html"><![CDATA[Railsで空のテストファイルを削除]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/11/21/remove-empty-example-files/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/11/21/remove-empty-example-files/"/>
     <updated>2014-11-21T16:07:38+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/11/21/remove-empty-example-files</id>
+    <id>http://blog.katsyoshi.org/blog/2014/11/21/remove-empty-example-files</id>
     <content type="html"><![CDATA[<p>Ruby on RailsのプロジェクトでGit管理されているTestで空のテストファイルを
 削除するには以下のコマンドを利用することで削除できます。</p>
 
@@ -333,9 +372,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mikutter Advent Calendar]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/11/04/mikutter-advent-calendar/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/11/04/mikutter-advent-calendar/"/>
     <updated>2014-11-04T23:13:40+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/11/04/mikutter-advent-calendar</id>
+    <id>http://blog.katsyoshi.org/blog/2014/11/04/mikutter-advent-calendar</id>
     <content type="html"><![CDATA[<p>寒くなりはじめましたね。今年も残すところあと二ヶ月ですね。
 先日、浅草浅草寺で、Ingressおじさんに声かけられてイライラしてます。</p>
 
@@ -345,9 +384,9 @@
   
   <entry>
     <title type="html"><![CDATA[Dockerではまってます]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/10/01/pitfall-in-docker/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/10/01/pitfall-in-docker/"/>
     <updated>2014-10-01T21:11:04+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/10/01/pitfall-in-docker</id>
+    <id>http://blog.katsyoshi.org/blog/2014/10/01/pitfall-in-docker</id>
     <content type="html"><![CDATA[<p>タイトルのとおりです。
 Gentoo/LinuxでDockerが起動しないのでとりあえずメモ。</p>
 
@@ -411,9 +450,9 @@ Gentoo/LinuxでDockerが起動しないのでとりあえずメモ。</p>
   
   <entry>
     <title type="html"><![CDATA[RubyKaigi2014]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/09/22/rubykaigi2014/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/09/22/rubykaigi2014/"/>
     <updated>2014-09-22T19:10:00+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/09/22/rubykaigi2014</id>
+    <id>http://blog.katsyoshi.org/blog/2014/09/22/rubykaigi2014</id>
     <content type="html"><![CDATA[<p><a href="http://rubykaigi.org/2014">RubyKaigi2014</a>に行ってきました。
 聞いたもの一覧です。</p>
 
@@ -474,14 +513,14 @@ RubyChallengeはコミッタでも間違えててむずかしい。
   
   <entry>
     <title type="html"><![CDATA[なごや、ながのに行ってきた]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/09/15/went-to-nagoya-and-nagano/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/09/15/went-to-nagoya-and-nagano/"/>
     <updated>2014-09-15T16:33:45+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/09/15/went-to-nagoya-and-nagano</id>
+    <id>http://blog.katsyoshi.org/blog/2014/09/15/went-to-nagoya-and-nagano</id>
     <content type="html"><![CDATA[<p>友人が車で田舎に帰るということなので勢いで名古屋に連れてきてもらった。</p>
 
 <p>土曜日の夜７時東京出発で夜９時半ころに三島に着き、三島の友人とカレー食べた。</p>
 
-<p style="text-align:center;"> <img src="http://katsyoshi.github.io/images/photo/mishima-curry.png%20=%20512x" alt="カレー" /></p>
+<p style="text-align:center;"> <img src="http://blog.katsyoshi.org/images/photo/mishima-curry.png%20=%20512x" alt="カレー" /></p>
 
 <p>泊まるとこ決めてないので名古屋まで連れてきてもらって、
 ぷらぷらして泊まるところを探してた。
@@ -517,7 +556,7 @@ RubyChallengeはコミッタでも間違えててむずかしい。
 <p>温泉へはとくになにもなく無事に辿りつけました。
 温泉では、入湯以外に昼食もとれるということで、昼食も一緒にとることにしました。
 温泉自体は、眺めが非常によく、天気も大変よく、開放的な気分になりました。
-&ndash;> <img src="http://katsyoshi.github.io/images/photo/gake-no-yu-akanejuku-nagame.png%20=%20512x" alt="崖の湯" /> &lt;&ndash;</p>
+&ndash;> <img src="http://blog.katsyoshi.org/images/photo/gake-no-yu-akanejuku-nagame.png%20=%20512x" alt="崖の湯" /> &lt;&ndash;</p>
 
 <p>温泉の温度がちょっと低かったのが残念かなという程度で、よかったです。
 温泉あがってから昼食で、天ざるそばを食べたのですが、そばは美味しかったです。</p>
@@ -526,7 +565,7 @@ RubyChallengeはコミッタでも間違えててむずかしい。
 松本城は、石垣の改修中とさらに、三連休の中日ということもあり、入るのに1時間、
 見学1時間という案内がでてたので、外から眺めるだけにしました。
 観光はこれぐらいにして帰ることにしましたが、渋滞が多く結構時間がかかりました。
-&ndash;> <img src="http://katsyoshi.github.io/images/photo/matsumoto-jo-casle-info.png%20=%20512x" alt="松本城" /> &lt;&ndash;</p>
+&ndash;> <img src="http://blog.katsyoshi.org/images/photo/matsumoto-jo-casle-info.png%20=%20512x" alt="松本城" /> &lt;&ndash;</p>
 
 <p>最後に八王子によって夕飯を食べ、ておくれたと思わせつつも無事帰りつくことができました~。
 塩尻17時前出発して、21時前に八王子に到着しました。</p>
@@ -538,10 +577,10 @@ RubyChallengeはコミッタでも間違えててむずかしい。
   
   <entry>
     <title type="html"><![CDATA[Gentoo LinuxむけのJubatusパッケージ書いたよ]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/09/12/jubatus-in-gentoo/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/09/12/jubatus-in-gentoo/"/>
     <updated>2014-09-12T12:29:20+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/09/12/jubatus-in-gentoo</id>
-    <content type="html"><![CDATA[<p><a href="http://katsyoshi.github.io/blog/2014/08/20/gentoo-install-battle-part-i/">PC</a>を<a href="http://katsyoshi.github.io/blog/2014/08/21/gentoo-install-battle-part-ii/">買い替えた</a>ので<a href="http://katsyoshi.github.io/blog/2014/08/31/gentoo-install-battle-part-iii/">環境構築</a>してます。
+    <id>http://blog.katsyoshi.org/blog/2014/09/12/jubatus-in-gentoo</id>
+    <content type="html"><![CDATA[<p><a href="http://blog.katsyoshi.org/blog/2014/08/20/gentoo-install-battle-part-i/">PC</a>を<a href="http://blog.katsyoshi.org/blog/2014/08/21/gentoo-install-battle-part-ii/">買い替えた</a>ので<a href="http://blog.katsyoshi.org/blog/2014/08/31/gentoo-install-battle-part-iii/">環境構築</a>してます。
 <a href="https://github.com/kazuki/overlay/tree/master/sci-calculators/jubatus">Jubatusのoverlay</a>があったのですが、古かったので新しく<a href="https://github.com/katsyoshi/overlay">Jubatusのoverlay</a>作成しました。</p>
 
 <h2>インストール</h2>
@@ -582,10 +621,10 @@ RubyChallengeはコミッタでも間違えててむずかしい。
   
   <entry>
     <title type="html"><![CDATA[Gentoo Install Battle Part III]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/08/31/gentoo-install-battle-part-iii/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/08/31/gentoo-install-battle-part-iii/"/>
     <updated>2014-08-31T10:47:14+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/08/31/gentoo-install-battle-part-iii</id>
-    <content type="html"><![CDATA[<p>これ<a href="http://katsyoshi.github.io/blog/2014/08/20/gentoo-install-battle-part-i/">まで</a>の<a href="http://katsyoshi.github.io/blog/2014/08/21/gentoo-install-battle-part-ii/">流れ</a>で準備が整ったので、Installを始めます。</p>
+    <id>http://blog.katsyoshi.org/blog/2014/08/31/gentoo-install-battle-part-iii</id>
+    <content type="html"><![CDATA[<p>これ<a href="http://blog.katsyoshi.org/blog/2014/08/20/gentoo-install-battle-part-i/">まで</a>の<a href="http://blog.katsyoshi.org/blog/2014/08/21/gentoo-install-battle-part-ii/">流れ</a>で準備が整ったので、Installを始めます。</p>
 
 <h2>インストール</h2>
 
@@ -639,20 +678,20 @@ RubyChallengeはコミッタでも間違えててむずかしい。
 <p>でインストール終了!!
 これで快適なmikutterライフがておくれますね。</p>
 
-<p><img src="http://katsyoshi.github.io/images/photo/mikutter.png" alt="mikutter" /></p>
+<p><img src="http://blog.katsyoshi.org/images/photo/mikutter.png" alt="mikutter" /></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Gentoo Install Battle Part II]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/08/21/gentoo-install-battle-part-ii/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/08/21/gentoo-install-battle-part-ii/"/>
     <updated>2014-08-21T20:01:51+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/08/21/gentoo-install-battle-part-ii</id>
+    <id>http://blog.katsyoshi.org/blog/2014/08/21/gentoo-install-battle-part-ii</id>
     <content type="html"><![CDATA[<p>X240の準備は終ったので、<a href="http://wiki.gentoo.org/wiki/Quick_install_guide">インストール</a>します。基本的にはこの流れです。</p>
 
 <h2>USBブート</h2>
 
-<p><a href="http://katsyoshi.github.io/blog/2014/08/20/gentoo-install-battle-part-i/">作成したUSBメモリ</a>をX240に差して起動します。
+<p><a href="http://blog.katsyoshi.org/blog/2014/08/20/gentoo-install-battle-part-i/">作成したUSBメモリ</a>をX240に差して起動します。
 起動したら、まずパーティションの設定を行います。</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -686,9 +725,9 @@ RubyChallengeはコミッタでも間違えててむずかしい。
   
   <entry>
     <title type="html"><![CDATA[Gentoo Install Battle Part I]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/08/20/gentoo-install-battle-part-i/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/08/20/gentoo-install-battle-part-i/"/>
     <updated>2014-08-20T23:48:45+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/08/20/gentoo-install-battle-part-i</id>
+    <id>http://blog.katsyoshi.org/blog/2014/08/20/gentoo-install-battle-part-i</id>
     <content type="html"><![CDATA[<p>ここにThinkPad X240があります。これの中身を Gentoo/Linux にします。</p>
 
 <h2>準備</h2>
@@ -737,9 +776,9 @@ RubyChallengeはコミッタでも間違えててむずかしい。
   
   <entry>
     <title type="html"><![CDATA[Good-bye Elasticsearch and Jenkins]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/08/10/good-bye-elasticsearch-and-jenkins/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/08/10/good-bye-elasticsearch-and-jenkins/"/>
     <updated>2014-08-10T23:22:55+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/08/10/good-bye-elasticsearch-and-jenkins</id>
+    <id>http://blog.katsyoshi.org/blog/2014/08/10/good-bye-elasticsearch-and-jenkins</id>
     <content type="html"><![CDATA[<p>この環境では慢性的にメモリが足りなかったのでメモリを大量に使ってる<a href="http://www.elasticsearch.org/">Elasticsearch</a>を削除しました。
 Jenkinsについては利用していなかったので停止してます。ついでに12.04から14.04にupgradeしました。</p>
 
@@ -791,9 +830,9 @@ Elasticsearchの削除とJenkinsの停止は以下のコマンドで行ないま
   
   <entry>
     <title type="html"><![CDATA[秘境でハッカソンがあったので行ってきた]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/07/22/akiyamago-hackathon-2014/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/07/22/akiyamago-hackathon-2014/"/>
     <updated>2014-07-22T20:09:11+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/07/22/akiyamago-hackathon-2014</id>
+    <id>http://blog.katsyoshi.org/blog/2014/07/22/akiyamago-hackathon-2014</id>
     <content type="html"><![CDATA[<p>7月19日〜7月21日まで秋山郷の<a href="https://www.google.co.jp/maps/place/%E3%81%8B%E3%81%9F%E3%81%8F%E3%82%8A%E3%81%AE%E5%AE%BF/@36.9184265,138.6375958,18z/data=!4m2!3m1!1s0x0:0xec3b9141469e30fc">かたくりの宿</a>という場所でHackathonがあったので行ってきました。</p>
 
 <h2>1日目</h2>
@@ -811,25 +850,25 @@ Elasticsearchの削除とJenkinsの停止は以下のコマンドで行ないま
 
 <p>2日目は宿の人に起こされて起きました。朝食はこんなかんじでした。</p>
 
-<p><img src="http://katsyoshi.github.io/images/photo/akiyamago-2breakfast.png%20=%20256x" alt="二日目朝食" /></p>
+<p><img src="http://blog.katsyoshi.org/images/photo/akiyamago-2breakfast.png%20=%20256x" alt="二日目朝食" /></p>
 
 <p>朝食後、<a href="https://www.google.co.jp/maps/place/%E8%A6%8B%E5%80%89%E6%A9%8B/@36.91872,138.637115,17z/data=!3m1!4b1!4m2!3m1!1s0x5ff601b97e1ba7bb:0x1577cfb29a624fa7">近くの橋</a>まで散歩しました。軽い散歩だと思ってたら、山道で辛かった。</p>
 
-<p><img src="http://katsyoshi.github.io/images/photo/akiyamago-mikura-hashi.png%20=%20256x" alt="見倉橋" /></p>
+<p><img src="http://blog.katsyoshi.org/images/photo/akiyamago-mikura-hashi.png%20=%20256x" alt="見倉橋" /></p>
 
 <p>そのまま帰るのはもったいないと思って反対側を登りました。登りきったら、近くにcool wind holeがあるらしいのでそこまで行ってみました。</p>
 
-<p><img src="http://katsyoshi.github.io/images/photo/akiyamago-cool-wind-hole.png%20=%20256x" alt="風穴" /></p>
+<p><img src="http://blog.katsyoshi.org/images/photo/akiyamago-cool-wind-hole.png%20=%20256x" alt="風穴" /></p>
 
 <p>帰りは山道がつらいしつかれたので、周って帰りました。</p>
 
 <p>昼飯は<a href="https://www.google.co.jp/maps/place/%E6%A5%BD%E9%A4%8A%E9%A4%A8/@36.9179309,138.6369755,13z/data=!4m5!1m2!2m1!1z5bCP6LWk5rKi!3m1!1s0x601dff32c6304d99:0xaacce4d76fa870ff">小赤沢</a>まで温泉と熊らーめんを食べました。</p>
 
-<p><img src="http://katsyoshi.github.io/images/photo/akiyamago-kuma-ramen.png%20=%20256x" alt="熊らーめん" /></p>
+<p><img src="http://blog.katsyoshi.org/images/photo/akiyamago-kuma-ramen.png%20=%20256x" alt="熊らーめん" /></p>
 
 <p>宿に戻ってからはしばらくはハックタイムでした。夕食後、星を見に外出たらすごく星が綺麗でした。</p>
 
-<p><img src="http://katsyoshi.github.io/images/photo/akiyamago-milkyway.png%20=%20%20256x" alt="星きれい" /></p>
+<p><img src="http://blog.katsyoshi.org/images/photo/akiyamago-milkyway.png%20=%20%20256x" alt="星きれい" /></p>
 
 <p>星見に行ったあとにハックタイムがあり、<a href="https://github.com/katsyoshi/mikutter-docker">mikutterでDockerのコントロール</a>をしようとしてました。</p>
 
@@ -847,9 +886,9 @@ Elasticsearchの削除とJenkinsの停止は以下のコマンドで行ないま
   
   <entry>
     <title type="html"><![CDATA[SPDYをさくっと動かしてみた]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/06/26/use-spdy-in-nginx/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/06/26/use-spdy-in-nginx/"/>
     <updated>2014-06-26T13:59:19+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/06/26/use-spdy-in-nginx</id>
+    <id>http://blog.katsyoshi.org/blog/2014/06/26/use-spdy-in-nginx</id>
     <content type="html"><![CDATA[<p>NGINXでSPDY3.1が<a href="http://nginx.org/en/docs/http/ngx_http_spdy_module.html">サポートされている</a>ようなので動かしてみた。</p>
 
 <h2>準備</h2>
@@ -889,7 +928,7 @@ Elasticsearchの削除とJenkinsの停止は以下のコマンドで行ないま
 <p>と設定したらNGINXを再起動します。
 これでSPDYで動いてます。わいわい。</p>
 
-<p><img src="http://katsyoshi.github.io/images/photo/spdy.png" alt="SPDY" /></p>
+<p><img src="http://blog.katsyoshi.org/images/photo/spdy.png" alt="SPDY" /></p>
 
 <p>オレオレ証明書なのでそのうちちゃんとした証明書を使いたいですね。</p>
 ]]></content>
@@ -897,9 +936,9 @@ Elasticsearchの削除とJenkinsの停止は以下のコマンドで行ないま
   
   <entry>
     <title type="html"><![CDATA[野良Gitサーバにuploadできなかった話]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/06/22/fail-git-uploading/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/06/22/fail-git-uploading/"/>
     <updated>2014-06-22T22:38:20+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/06/22/fail-git-uploading</id>
+    <id>http://blog.katsyoshi.org/blog/2014/06/22/fail-git-uploading</id>
     <content type="html"><![CDATA[<p>今日もろくでもない理由で嵌った。</p>
 
 <h2>嵌った理由</h2>
@@ -933,45 +972,6 @@ Elasticsearchの削除とJenkinsの停止は以下のコマンドで行ないま
 
 <p>リモートリポジトリに追加できました。
 ちゃんちゃん</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Docker on OS Xで嵌ったおはなし]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/06/10/pitfall-in-boot2docker/"/>
-    <updated>2014-06-10T19:52:53+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/06/10/pitfall-in-boot2docker</id>
-    <content type="html"><![CDATA[<p>MacOS XでDockerを動かしてたら嵌ったのでメモ</p>
-
-<h2>Docker on OS X</h2>
-
-<p>OS XでもDockerが<a href="http://docs.docker.com/installation/mac/">動かせるよう</a>になりました。
-インストールは<a href="http://dev.classmethod.jp/tool/docker/getting-started-docker-on-osx/">ここ</a>とかを参考にしてください。</p>
-
-<h2>で嵌ったところ</h2>
-
-<p>Docker上で動いているアプリケーションとどうしても通信ができない。どうやらDockerとアプリケーションは起動はしてるようなんだが、
-どうしても通信できないということがわかりました。</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ docker run -p 9199:9199 hogehoge
-</span><span class='line'>$ netstat -a | grep 9199</span></code></pre></td></tr></table></div></figure>
-
-
-<p>でも見えない。なんでかなあと思ってたら<a href="https://github.com/dotcloud/docker/issues/4007">こんな</a>ことや<a href="http://k-shogo.github.io/article/2014/02/13/boot2docker-portforward/">こんな</a>ことがわかりました。</p>
-
-<h2>解決策</h2>
-
-<p>VirtualBoxからboot2docker-vmのポートフォワードを設定すればいいです。</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ netstat -a | grep 9199
-</span><span class='line'>tcp4       0      0  localhost.9199         *.*                    LISTEN</span></code></pre></td></tr></table></div></figure>
-
-
-<p>ちゃんちゃん。</p>
 ]]></content>
   </entry>
   

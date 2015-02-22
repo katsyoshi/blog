@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Gentoo | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/gentoo/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-18T01:06:31+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/gentoo/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[とりあえずibusやめてみた]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/02/12/remove-ibus/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/02/12/remove-ibus/"/>
     <updated>2015-02-12T07:10:29+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/02/12/remove-ibus</id>
+    <id>http://blog.katsyoshi.org/blog/2015/02/12/remove-ibus</id>
     <content type="html"><![CDATA[<p><a href="https://www.google.co.jp/webhp?sourceid=chrome-instant&amp;ion=1&amp;espv=2&amp;ie=UTF-8#newwindow=1&amp;q=ibus1.5">ibus-1.5</a>からあまり評判がよろしくない(特に不満はない)ので、あたらしく<a href="https://code.google.com/p/fcitx/">fcitx</a>を導入してみた。</p>
 
 <h2>前提条件</h2>
@@ -66,9 +66,9 @@ USE=&ldquo;fcitx ${USE}&rdquo;</p>
   
   <entry>
     <title type="html"><![CDATA[Dockerではまってます]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/10/01/pitfall-in-docker/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/10/01/pitfall-in-docker/"/>
     <updated>2014-10-01T21:11:04+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/10/01/pitfall-in-docker</id>
+    <id>http://blog.katsyoshi.org/blog/2014/10/01/pitfall-in-docker</id>
     <content type="html"><![CDATA[<p>タイトルのとおりです。
 Gentoo/LinuxでDockerが起動しないのでとりあえずメモ。</p>
 
@@ -118,9 +118,9 @@ package not installed
   
   <entry>
     <title type="html"><![CDATA[Gentoo LinuxむけのJubatusパッケージ書いたよ]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/09/12/jubatus-in-gentoo/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/09/12/jubatus-in-gentoo/"/>
     <updated>2014-09-12T12:29:20+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/09/12/jubatus-in-gentoo</id>
+    <id>http://blog.katsyoshi.org/blog/2014/09/12/jubatus-in-gentoo</id>
     <content type="html"><![CDATA[<p><a href="/blog/2014/08/20/gentoo-install-battle-part-i/">PC</a>を<a href="/blog/2014/08/21/gentoo-install-battle-part-ii/">買い替えた</a>ので<a href="/blog/2014/08/31/gentoo-install-battle-part-iii/">環境構築</a>してます。
 <a href="https://github.com/kazuki/overlay/tree/master/sci-calculators/jubatus">Jubatusのoverlay</a>があったのですが、古かったので新しく<a href="https://github.com/katsyoshi/overlay">Jubatusのoverlay</a>作成しました。</p>
 
@@ -163,9 +163,9 @@ package not installed
   
   <entry>
     <title type="html"><![CDATA[Gentoo Install Battle Part III]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/08/31/gentoo-install-battle-part-iii/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/08/31/gentoo-install-battle-part-iii/"/>
     <updated>2014-08-31T10:47:14+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/08/31/gentoo-install-battle-part-iii</id>
+    <id>http://blog.katsyoshi.org/blog/2014/08/31/gentoo-install-battle-part-iii</id>
     <content type="html"><![CDATA[<p>これ<a href="/blog/2014/08/20/gentoo-install-battle-part-i/">まで</a>の<a href="/blog/2014/08/21/gentoo-install-battle-part-ii/">流れ</a>で準備が整ったので、Installを始めます。</p>
 
 <h2>インストール</h2>
@@ -218,9 +218,9 @@ $ bundle exec ruby mikutter.rb
   
   <entry>
     <title type="html"><![CDATA[Gentoo Install Battle Part II]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/08/21/gentoo-install-battle-part-ii/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/08/21/gentoo-install-battle-part-ii/"/>
     <updated>2014-08-21T20:01:51+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/08/21/gentoo-install-battle-part-ii</id>
+    <id>http://blog.katsyoshi.org/blog/2014/08/21/gentoo-install-battle-part-ii</id>
     <content type="html"><![CDATA[<p>X240の準備は終ったので、<a href="http://wiki.gentoo.org/wiki/Quick_install_guide">インストール</a>します。基本的にはこの流れです。</p>
 
 <h2>USBブート</h2>

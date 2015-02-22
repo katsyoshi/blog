@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Fluent-plugin | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/fluent-plugin/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-18T01:06:31+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/fluent-plugin/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Jubatus Handsonにいってきたのでfluent-plugin-jubatusについてちょっとだけ]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/04/21/jubatus-handson-and-fluent-plugin-jubatus/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/04/21/jubatus-handson-and-fluent-plugin-jubatus/"/>
     <updated>2014-04-21T23:45:43+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/04/21/jubatus-handson-and-fluent-plugin-jubatus</id>
+    <id>http://blog.katsyoshi.org/blog/2014/04/21/jubatus-handson-and-fluent-plugin-jubatus</id>
     <content type="html"><![CDATA[<h2><a href="http://connpass.com/event/5641/">Jubatus Handson</a>行ってきました</h2>
 
 <p>行ってきました。</p>

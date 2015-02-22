@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Tips | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/tips/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-18T01:06:31+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/tips/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Railsで空のテストファイルを削除]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/11/21/remove-empty-example-files/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/11/21/remove-empty-example-files/"/>
     <updated>2014-11-21T16:07:38+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/11/21/remove-empty-example-files</id>
+    <id>http://blog.katsyoshi.org/blog/2014/11/21/remove-empty-example-files</id>
     <content type="html"><![CDATA[<p>Ruby on RailsのプロジェクトでGit管理されているTestで空のテストファイルを
 削除するには以下のコマンドを利用することで削除できます。</p>
 

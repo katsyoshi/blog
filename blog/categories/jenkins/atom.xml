@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Jenkins | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/jenkins/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-18T01:06:31+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/jenkins/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Good-bye Elasticsearch and Jenkins]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/08/10/good-bye-elasticsearch-and-jenkins/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/08/10/good-bye-elasticsearch-and-jenkins/"/>
     <updated>2014-08-10T23:22:55+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/08/10/good-bye-elasticsearch-and-jenkins</id>
+    <id>http://blog.katsyoshi.org/blog/2014/08/10/good-bye-elasticsearch-and-jenkins</id>
     <content type="html"><![CDATA[<p>この環境では慢性的にメモリが足りなかったのでメモリを大量に使ってる<a href="http://www.elasticsearch.org/">Elasticsearch</a>を削除しました。
 Jenkinsについては利用していなかったので停止してます。ついでに12.04から14.04にupgradeしました。</p>
 
