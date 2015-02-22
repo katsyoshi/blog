@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Rails | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/rails/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-22T18:48:46+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/rails/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ruby on RailsでTypeScriptを使ってみる]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/12/typescript-in-rails/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/01/12/typescript-in-rails/"/>
     <updated>2015-01-12T11:41:25+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/12/typescript-in-rails</id>
+    <id>http://blog.katsyoshi.org/blog/2015/01/12/typescript-in-rails</id>
     <content type="html"><![CDATA[<p>ふとRuby on RailsでTypeScriptを使いたくなったのでうごくようにしてみた。</p>
 
 <h2>インストール</h2>
@@ -73,9 +73,9 @@ $(() =&gt; {
   
   <entry>
     <title type="html"><![CDATA[Railsで空のテストファイルを削除]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/11/21/remove-empty-example-files/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/11/21/remove-empty-example-files/"/>
     <updated>2014-11-21T16:07:38+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/11/21/remove-empty-example-files</id>
+    <id>http://blog.katsyoshi.org/blog/2014/11/21/remove-empty-example-files</id>
     <content type="html"><![CDATA[<p>Ruby on RailsのプロジェクトでGit管理されているTestで空のテストファイルを
 削除するには以下のコマンドを利用することで削除できます。</p>
 

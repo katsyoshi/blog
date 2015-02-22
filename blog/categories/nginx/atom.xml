@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Nginx | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/nginx/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-22T18:48:46+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/nginx/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[SPDYをさくっと動かしてみた]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/06/26/use-spdy-in-nginx/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/06/26/use-spdy-in-nginx/"/>
     <updated>2014-06-26T13:59:19+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/06/26/use-spdy-in-nginx</id>
+    <id>http://blog.katsyoshi.org/blog/2014/06/26/use-spdy-in-nginx</id>
     <content type="html"><![CDATA[<p>NGINXでSPDY3.1が<a href="http://nginx.org/en/docs/http/ngx_http_spdy_module.html">サポートされている</a>ようなので動かしてみた。</p>
 
 <h2>準備</h2>

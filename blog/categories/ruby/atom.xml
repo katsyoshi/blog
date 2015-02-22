@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Ruby | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/ruby/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-22T18:48:46+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ruby on RailsでTypeScriptを使ってみる]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/12/typescript-in-rails/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/01/12/typescript-in-rails/"/>
     <updated>2015-01-12T11:41:25+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/12/typescript-in-rails</id>
+    <id>http://blog.katsyoshi.org/blog/2015/01/12/typescript-in-rails</id>
     <content type="html"><![CDATA[<p>ふとRuby on RailsでTypeScriptを使いたくなったのでうごくようにしてみた。</p>
 
 <h2>インストール</h2>
@@ -73,9 +73,9 @@ $(() =&gt; {
   
   <entry>
     <title type="html"><![CDATA[RubyKaigi2014]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/09/22/rubykaigi2014/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/09/22/rubykaigi2014/"/>
     <updated>2014-09-22T19:10:00+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/09/22/rubykaigi2014</id>
+    <id>http://blog.katsyoshi.org/blog/2014/09/22/rubykaigi2014</id>
     <content type="html"><![CDATA[<p><a href="http://rubykaigi.org/2014">RubyKaigi2014</a>に行ってきました。
 聞いたもの一覧です。</p>
 

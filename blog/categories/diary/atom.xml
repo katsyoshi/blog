@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Diary | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/diary/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-22T18:48:46+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/diary/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Blogの引越し]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/02/22/mv-sakura-github-dot-io/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/02/22/mv-sakura-github-dot-io/"/>
     <updated>2015-02-22T18:29:09+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/02/22/mv-sakura-github-dot-io</id>
+    <id>http://blog.katsyoshi.org/blog/2015/02/22/mv-sakura-github-dot-io</id>
     <content type="html"><![CDATA[<p>自分でblogを管理するのがちょっとだけ面倒になってきたので、
 このblogを<a href="katsyoshi.github.io">github.io</a>に移行した。</p>
 
@@ -50,9 +50,9 @@ $ rake deploy
   
   <entry>
     <title type="html"><![CDATA[Rictyやめるってよ]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/31/emacs-fonts/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/01/31/emacs-fonts/"/>
     <updated>2015-01-31T07:10:29+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/31/emacs-fonts</id>
+    <id>http://blog.katsyoshi.org/blog/2015/01/31/emacs-fonts</id>
     <content type="html"><![CDATA[<p>普段、emacs上でフォントを <code>Ricty</code> にして使ってたけど、微妙にずれるのを解消できなかったはなし</p>
 
 <h2>症状と設定</h2>
@@ -103,9 +103,9 @@ $ rake deploy
   
   <entry>
     <title type="html"><![CDATA[Start Rust by Example]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/27/start-rust/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/01/27/start-rust/"/>
     <updated>2015-01-27T07:10:29+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/27/start-rust</id>
+    <id>http://blog.katsyoshi.org/blog/2015/01/27/start-rust</id>
     <content type="html"><![CDATA[<p>年ぁけたので、新しいプログラミング言語を覚えようと思い<a href="http://www.rust-lang.org">Rust Lang</a>を始めました。</p>
 
 <p>チュートリアルとして<a href="http://rustbyexample.com">Rust bye Example</a>を<a href="https://github.com/katsyoshi/rustbyexamle">やっていって</a>ます。</p>
@@ -155,9 +155,9 @@ ForAndRange.rs:2     for n in range(1u32, 101) {</p>
   
   <entry>
     <title type="html"><![CDATA[なごや、ながのに行ってきた]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/09/15/went-to-nagoya-and-nagano/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/09/15/went-to-nagoya-and-nagano/"/>
     <updated>2014-09-15T16:33:45+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/09/15/went-to-nagoya-and-nagano</id>
+    <id>http://blog.katsyoshi.org/blog/2014/09/15/went-to-nagoya-and-nagano</id>
     <content type="html"><![CDATA[<p>友人が車で田舎に帰るということなので勢いで名古屋に連れてきてもらった。</p>
 
 <p>土曜日の夜７時東京出発で夜９時半ころに三島に着き、三島の友人とカレー食べた。</p>
@@ -219,9 +219,9 @@ ForAndRange.rs:2     for n in range(1u32, 101) {</p>
   
   <entry>
     <title type="html"><![CDATA[秘境でハッカソンがあったので行ってきた]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/07/22/akiyamago-hackathon-2014/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/07/22/akiyamago-hackathon-2014/"/>
     <updated>2014-07-22T20:09:11+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/07/22/akiyamago-hackathon-2014</id>
+    <id>http://blog.katsyoshi.org/blog/2014/07/22/akiyamago-hackathon-2014</id>
     <content type="html"><![CDATA[<p>7月19日〜7月21日まで秋山郷の<a href="https://www.google.co.jp/maps/place/%E3%81%8B%E3%81%9F%E3%81%8F%E3%82%8A%E3%81%AE%E5%AE%BF/@36.9184265,138.6375958,18z/data=!4m2!3m1!1s0x0:0xec3b9141469e30fc">かたくりの宿</a>という場所でHackathonがあったので行ってきました。</p>
 
 <h2>1日目</h2>

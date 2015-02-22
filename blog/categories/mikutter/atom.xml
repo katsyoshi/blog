@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Mikutter | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/mikutter/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-22T18:48:46+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/mikutter/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mikutter Advent Calendar 1日目]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/12/01/mikutter-advent-calendar-1-day/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/12/01/mikutter-advent-calendar-1-day/"/>
     <updated>2014-12-01T23:59:59+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/12/01/mikutter-advent-calendar-1-day</id>
+    <id>http://blog.katsyoshi.org/blog/2014/12/01/mikutter-advent-calendar-1-day</id>
     <content type="html"><![CDATA[<p><a href="http://www.adventar.org/calendar/401">一日目</a>らしいですね。</p>
 
 <h2>今のmikutter環境</h2>
@@ -44,9 +44,9 @@
   
   <entry>
     <title type="html"><![CDATA[Mikutter Advent Calendar]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/11/04/mikutter-advent-calendar/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/11/04/mikutter-advent-calendar/"/>
     <updated>2014-11-04T23:13:40+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/11/04/mikutter-advent-calendar</id>
+    <id>http://blog.katsyoshi.org/blog/2014/11/04/mikutter-advent-calendar</id>
     <content type="html"><![CDATA[<p>寒くなりはじめましたね。今年も残すところあと二ヶ月ですね。
 先日、浅草浅草寺で、Ingressおじさんに声かけられてイライラしてます。</p>
 
@@ -56,9 +56,9 @@
   
   <entry>
     <title type="html"><![CDATA[Gentoo Install Battle Part III]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/08/31/gentoo-install-battle-part-iii/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/08/31/gentoo-install-battle-part-iii/"/>
     <updated>2014-08-31T10:47:14+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/08/31/gentoo-install-battle-part-iii</id>
+    <id>http://blog.katsyoshi.org/blog/2014/08/31/gentoo-install-battle-part-iii</id>
     <content type="html"><![CDATA[<p>これ<a href="/blog/2014/08/20/gentoo-install-battle-part-i/">まで</a>の<a href="/blog/2014/08/21/gentoo-install-battle-part-ii/">流れ</a>で準備が整ったので、Installを始めます。</p>
 
 <h2>インストール</h2>
@@ -111,9 +111,9 @@ $ bundle exec ruby mikutter.rb
   
   <entry>
     <title type="html"><![CDATA[Gentoo Install Battle Part II]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/08/21/gentoo-install-battle-part-ii/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/08/21/gentoo-install-battle-part-ii/"/>
     <updated>2014-08-21T20:01:51+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/08/21/gentoo-install-battle-part-ii</id>
+    <id>http://blog.katsyoshi.org/blog/2014/08/21/gentoo-install-battle-part-ii</id>
     <content type="html"><![CDATA[<p>X240の準備は終ったので、<a href="http://wiki.gentoo.org/wiki/Quick_install_guide">インストール</a>します。基本的にはこの流れです。</p>
 
 <h2>USBブート</h2>
@@ -150,9 +150,9 @@ $ wpa_supplicant -Dnl80211 -ieth0 -c/path/to/supplicant.config
   
   <entry>
     <title type="html"><![CDATA[Gentoo Install Battle Part I]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/08/20/gentoo-install-battle-part-i/"/>
+    <link href="http://blog.katsyoshi.org/blog/2014/08/20/gentoo-install-battle-part-i/"/>
     <updated>2014-08-20T23:48:45+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/08/20/gentoo-install-battle-part-i</id>
+    <id>http://blog.katsyoshi.org/blog/2014/08/20/gentoo-install-battle-part-i</id>
     <content type="html"><![CDATA[<p>ここにThinkPad X240があります。これの中身を Gentoo/Linux にします。</p>
 
 <h2>準備</h2>

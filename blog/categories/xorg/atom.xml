@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Xorg | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/xorg/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-22T18:48:46+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/xorg/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[XDGの設定]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/02/16/setting-xdg-open/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/02/16/setting-xdg-open/"/>
     <updated>2015-02-16T18:03:16+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/02/16/setting-xdg-open</id>
+    <id>http://blog.katsyoshi.org/blog/2015/02/16/setting-xdg-open</id>
     <content type="html"><![CDATA[<p>急に <code>xdg-open</code> でブラウザが開かなくなったのでメモ</p>
 
 <p><code>sh

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Typescript | katsyoshiのめもみたいなもの]]></title>
-  <link href="http://katsyoshi.github.io/blog/categories/typescript/atom.xml" rel="self"/>
-  <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-22T18:48:46+09:00</updated>
-  <id>http://katsyoshi.github.io/</id>
+  <link href="http://blog.katsyoshi.org/blog/categories/typescript/atom.xml" rel="self"/>
+  <link href="http://blog.katsyoshi.org/"/>
+  <updated>2015-02-22T21:58:39+09:00</updated>
+  <id>http://blog.katsyoshi.org/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ruby on RailsでTypeScriptを使ってみる]]></title>
-    <link href="http://katsyoshi.github.io/blog/2015/01/12/typescript-in-rails/"/>
+    <link href="http://blog.katsyoshi.org/blog/2015/01/12/typescript-in-rails/"/>
     <updated>2015-01-12T11:41:25+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2015/01/12/typescript-in-rails</id>
+    <id>http://blog.katsyoshi.org/blog/2015/01/12/typescript-in-rails</id>
     <content type="html"><![CDATA[<p>ふとRuby on RailsでTypeScriptを使いたくなったのでうごくようにしてみた。</p>
 
 <h2>インストール</h2>
