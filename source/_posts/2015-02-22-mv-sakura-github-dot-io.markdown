@@ -20,14 +20,29 @@ $ rake generate
 $ rake deploy
 ```
 
-そのあと、DNSでCNAMEに `katsyoshi.github.io` を設定し、リポジトリのトップに `blog.katsyoshi.org` と書いた `CNAME` ファイルを追加しおわりです。
+そのあと、DNSでCNAMEに `katsyoshi.github.io` を設定し、リポジトリ<del>のトップ</del>に `blog.katsyoshi.org` と書いた `source/CNAME` ファイルを追加しおわりです。
 
 ## おわり
 
 おわり
 
+## 追記
+実は記事を追加したあと `rake deploy` ができないという問題がありましたが、そのときは、
+
+```sh
+$ rake generate
+$ cd _deploy
+$ git pull origin/master
+$ cd ../
+$ rake deploy
+```
+
+で更新されます。
+
+
 ### 参考サイト
 
 1. http://morizyun.github.io/blog/octopress-gitpage-minimum-install-guide/
 1. http://blog.textfile.org/20141014/github/
-
+1. http://stackoverflow.com/questions/17609453/rake-gen-deploy-rejected-in-octopress
+1. http://learnaholic.me/2012/10/10/deploying-octopress-to-github-pages-and-setting-custom-subdomain-cname/
