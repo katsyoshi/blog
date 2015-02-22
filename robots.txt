@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://katsyoshi.github.io/sitemap.xml 
