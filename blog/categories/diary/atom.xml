@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Diary | katsyoshiのめもみたいなもの]]></title>
   <link href="http://katsyoshi.github.io/blog/categories/diary/atom.xml" rel="self"/>
   <link href="http://katsyoshi.github.io/"/>
-  <updated>2015-02-18T01:06:31+09:00</updated>
+  <updated>2015-02-22T18:43:11+09:00</updated>
   <id>http://katsyoshi.github.io/</id>
   <author>
     <name><![CDATA[katsyoshi]]></name>
@@ -12,6 +12,41 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Blogの引越し]]></title>
+    <link href="http://katsyoshi.github.io/blog/2015/02/22/mv-sakura-github-dot-io/"/>
+    <updated>2015-02-22T18:29:09+09:00</updated>
+    <id>http://katsyoshi.github.io/blog/2015/02/22/mv-sakura-github-dot-io</id>
+    <content type="html"><![CDATA[<p>自分でblogを管理するのがちょっとだけ面倒になってきたので、
+このblogを<a href="katsyoshi.github.io">github.io</a>に移行した。</p>
+
+<h2>手順</h2>
+
+<p>github.com に <code>katsyoshi.github.io</code> というリポジトリを作成し、以下のコマンドを実行</p>
+
+<p><code>sh
+$ rake setup_github_pages
+set your github repogitory
+$ rake generate
+$ rake deploy
+</code></p>
+
+<p>そのあと、DNSでCNAMEに <code>katsyoshi.github.io</code> を設定し、リポジトリのトップに <code>blog.katsyoshi.org</code> と書いた <code>CNAME</code> ファイルを追加しおわりです。</p>
+
+<h2>おわり</h2>
+
+<p>おわり</p>
+
+<h3>参考サイト</h3>
+
+<ol>
+<li><a href="http://morizyun.github.io/blog/octopress-gitpage-minimum-install-guide/">http://morizyun.github.io/blog/octopress-gitpage-minimum-install-guide/</a></li>
+<li><a href="http://blog.textfile.org/20141014/github/">http://blog.textfile.org/20141014/github/</a></li>
+</ol>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rictyやめるってよ]]></title>
@@ -235,42 +270,6 @@ ForAndRange.rs:2     for n in range(1u32, 101) {</p>
 <h2>今回の成果</h2>
 
 <p><a href="https://www.google.co.jp/search?q=%E6%88%90%E6%9E%9C%E4%BD%95%E3%82%82%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%81%A7%E3%81%97%E3%81%9F%E3%83%BC&amp;newwindow=1&amp;espv=2&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=gmjOU9KXOcne8AXRl4KYCg&amp;ved=0CAYQ_AUoAQ&amp;biw=1166&amp;bih=986#facrc=_&amp;imgdii=_&amp;imgrc=tETgdA-yYjU4tM%253A%3BqWbTS9xBjlMpPM%3Bhttp%253A%252F%252Ftubagra.com%252Ftbg-wp%252Fwp-content%252Fuploads%252F2013%252F06%252F0213.jpg%3Bhttp%253A%252F%252Ftubagra.com%252F16457%252F%3B600%3B490">成果</a>です</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[野良Gitサーバにuploadできなかった話]]></title>
-    <link href="http://katsyoshi.github.io/blog/2014/06/22/fail-git-uploading/"/>
-    <updated>2014-06-22T22:38:20+09:00</updated>
-    <id>http://katsyoshi.github.io/blog/2014/06/22/fail-git-uploading</id>
-    <content type="html"><![CDATA[<p>今日もろくでもない理由で嵌った。</p>
-
-<h2>嵌った理由</h2>
-
-<p>野良Gitサーバを立てているのでそこに新しいリポジトリを作成した。</p>
-
-<p>で、リモートを追加し、ブランチを追加しようとすると</p>
-
-<p><code>
-$ git remote add master ssh://myhost/my_project.git
-$ git push origin master -f
-error: src refspec master does not match any.
-error: failed to push some refs to 'ssh://myhost/my_project.git'
-</code></p>
-
-<p>というようなエラーが出てきてアップロードできなかった。
-そのため理由を探ってたら<a href="http://d.hatena.ne.jp/nishiohirokazu/20110304/1299229916">同じ理由</a>があった。</p>
-
-<p>そこで <code>git log</code> としたら何もでてこなかったので</p>
-
-<p><code>
-$ git add .
-$ git commit -m 'first commit'
-$ git push -u origin master
-</code></p>
-
-<p>リモートリポジトリに追加できました。
-ちゃんちゃん</p>
 ]]></content>
   </entry>
   
