@@ -20,5 +20,4 @@ $ bundle exec rake deploy
 
 ついでにfaviconもかえよう。
 
-
 [^theme]: Octopressのテーマを変更してみよう!, facestarbaby, http://qiita.com/fakestarbaby/items/ab532088453105e1bea4, 2017/02/12 閲覧
