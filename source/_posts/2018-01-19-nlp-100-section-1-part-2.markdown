@@ -13,7 +13,7 @@ categories: rust tech diary
 cargo new nlp100
 ```
 
-### 02. 「パトカー」+「タクシー」=「パタトクカシーー」
+### [02. 「パトカー」+「タクシー」=「パタトクカシーー」](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec02)
 これはムズカシイので素直に [`zip`](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.zip) を利用する
 
 ```rust
@@ -35,7 +35,7 @@ fn main() {
 }
 ```
 
-### 03. 円周率
+### [03. 円周率](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec03)
 この問題は思い切り勘違いしてたので、「これのどこが円周率なの？」って思ってました。こいつは [`Regex`](https://doc.rust-lang.org/regex/regex/index.html) を用いて単語毎に分解、単語毎に文字数数えて解決してます。
 
 ```rust
@@ -49,7 +49,7 @@ fn main() {
 }
 ```
 
-### 04. 元素記号
+### [04. 元素記号](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec04)
 これは、英語版「水兵リーベー僕の船」ですので条件に合うときだけ1文字に変更します。
 
 ```rust
@@ -72,7 +72,6 @@ fn main() {
     }
 }
 ```
-
 
 ## おわり
 

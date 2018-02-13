@@ -35,7 +35,7 @@ fn words(sentence: &str) -> Vec<&str> {
 }
 ```
 
-### 00. 文字列の逆順
+### [00. 文字列の逆順](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec00)
 これは簡単で(でもなかった)、1文字ずつ分解して[反対化](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.rev)したあと `String` にします。
 
 ```rust
@@ -44,7 +44,7 @@ fn reverse_string(string: &str) {
 }
 ```
 
-### 01. 「パタトクカシーー」
+### [01. 「パタトクカシーー」](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec01)
 これも簡単で、1文字ずつ分解して抜き出します。(絶対違う)
 
 ```rust

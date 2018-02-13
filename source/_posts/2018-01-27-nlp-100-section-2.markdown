@@ -3,12 +3,12 @@ layout: post
 title: "NLP100ノック第2章"
 date: 2018-01-27 19:46:23 +0900
 comments: true
-categories: tech rust diary
+categories: tech rust diary nlp100
 ---
 
 第2章を一通り終えたので書きます。
 
-### 10. 行数のカウント
+### [10. 行数のカウント](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec10)
 
 タイトルのままです。 `Rust` では [`std::str::Lines`](https://doc.rust-lang.org/std/str/struct.Lines.html) で [`count()`](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.count) がありますので利用しておわりです。
 
@@ -31,7 +31,7 @@ fn main() {
 }
 ```
 
-### 11. タブをスペースに置換
+### [11. タブをスペースに置換](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec11)
 
 コチラも、[`std::string::String.replace()`](https://doc.rust-lang.org/std/string/struct.String.html#method.replace) 利用するだけです。
 
@@ -55,7 +55,7 @@ fn main() {
 }
 ```
 
-### 12. 1列目をcol1.txtに,2列目をcol2.txtに保存
+### [12. 1列目をcol1.txtに,2列目をcol2.txtに保存](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec12)
 
 こちらは単純にファイルに書き込むのと、分割ができれば問題ないです。
 
@@ -86,7 +86,7 @@ fn main() {
 }
 ```
 
-### 13. col1.txtとcol2.txtをマージ
+### [13. col1.txtとcol2.txtをマージ](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec13)
 
 こちらは以前利用した、`zip` があれば問題ないです。
 
@@ -118,7 +118,7 @@ fn main() {
 }
 ```
 
-### 14. 先頭からN行を出力
+### [14. 先頭からN行を出力](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec14)
 
 `head` コマンドですので [`std::iter::Iterator.take()`](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.take) を利用するだけです。
 
@@ -140,7 +140,7 @@ fn main() {
 }
 ```
 
-### 15. 末尾のN行を出力
+### [15. 末尾のN行を出力](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec15)
 
 `tail` コマンドです。こちらは [`std::iter::Iterator.skip()`](https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.skip) を利用してやるだけです。
 
@@ -165,7 +165,7 @@ fn main() {
 }
 ```
 
-### 16. ファイルをN分割する
+### [16. ファイルをN分割する](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec16)
 
 こちらの実装は素朴な実装とし、行数で分割しております。
 
@@ -200,7 +200,7 @@ fn main() {
 }
 ```
 
-### 17. 1列目の文字列の異なり
+### [17. 1列目の文字列の異なり](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec17)
 
 ファイル読込 + `HashSet` で実装
 
@@ -231,7 +231,7 @@ fn main() {
 }
 ```
 
-### 18. 各行を3コラム目の数値の降順にソート
+### [18. 各行を3コラム目の数値の降順にソート](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec18)
 
 こちら、実数の比較を行う必要があり、すこし [めんどう](https://gist.github.com/katsyoshi/c76c2f782b3edaeff1d328a84dd582a0) でした。
 
@@ -252,7 +252,7 @@ fn main() {
 }
 ```
 
-### 19. 各行の1コラム目の文字列の出現頻度を求め,出現頻度の高い順に並べる
+### [19. 各行の1コラム目の文字列の出現頻度を求め,出現頻度の高い順に並べる](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec19)
 
 18の問題を更にカウントできるように変更した。
 

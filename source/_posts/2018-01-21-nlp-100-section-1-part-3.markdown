@@ -8,7 +8,7 @@ categories: rust tech diary
 
 前回、[言語処理100本ノック](http://www.cl.ecei.tohoku.ac.jp/nlp100) の04までやったので05からやります。
 
-### 05. ngram
+### [05. ngram](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec05)
 こいつはbi-gramを単語、文字二つを実装するひつようがあります
 
 ```rust
@@ -40,7 +40,7 @@ fn main() {
 }
 ```
 
-### 06. 集合
+### [06. 集合](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec06)
 
 これは単純に [`HashSet`](https://doc.rust-lang.org/beta/std/collections/struct.HashSet.html) を利用して、解決します。`HashSet` の差集合は [`difference`](https://doc.rust-lang.org/beta/std/collections/struct.HashSet.html#method.difference) を利用し、和集合は [`union`](https://doc.rust-lang.org/beta/std/collections/struct.HashSet.html#method.union) を、積集合は [`intersection`](https://doc.rust-lang.org/beta/std/collections/struct.HashSet.html#method.intersection) をそれぞれ利用します。また、特定の要素が含有していることを判定するには [`contains`](https://doc.rust-lang.org/beta/std/collections/struct.HashSet.html#method.contains) を利用して判定します。
 
@@ -95,7 +95,7 @@ fn main() {
 }
 ```
 
-### 07. テンプレートによる文生成
+### [07. テンプレートによる文生成](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec07)
 
 これは [`format!`]() を使えば終りです。(問題意図ほんとこれなんか？)
 
@@ -110,7 +110,7 @@ fn main() {
 }
 ```
 
-### 08. 暗号文
+### [08. 暗号文](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec08)
 ASCII以外の判定と、小文字のASCIIが判れば簡単です。
 
 ```rust
@@ -140,7 +140,7 @@ fn main() {
 }
 ```
 
-### 09. Typoglycemia
+### [09. Typoglycemia](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec09)
 
 こちらは、 `Vec` に `shuffle` 的なものがないので、[`rand`](https://doc.rust-lang.org/rand) を呼び出して [`shuffle`](https://doc.rust-lang.org/rand/rand/trait.Rng.html#method.shuffle) を使います。
 
