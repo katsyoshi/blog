@@ -15,7 +15,7 @@ categories: mikutter tech advent_calendar
 
 ## つかいかた
 
-```sh
+```
 git clone https://github.com/katsyoshi/mikutter-emoji.git ~/.mikutter/plugin/emoji
 EDIT ~/.mikutter/plugin/emoji/emoji.yml
 ```

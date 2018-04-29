@@ -9,6 +9,6 @@ categories: tech linux
 新しく[X250](/blog/2015/04/15/looks-good-new-machine/)を買ったので、X240の中身を削除します。
 以下のコマンドでできるようです。
 
-```sh
+```
 $ sudo shred -n 3 -v /dev/sda
 ```

@@ -12,7 +12,7 @@ Gentoo/LinuxでDockerが起動しないのでとりあえずメモ。
 ## インストール
 dockerの[Gentooインストールページ](https://docs.docker.com/installation/gentoolinux/)を参考に[overlay](https://github.com/tianon/docker-overlay)を導入します。
 
-```sh
+```
 $ sudo layman -a docker
 $ sudo eix-sync
 $ sudo emerge -av app-emulators/docker

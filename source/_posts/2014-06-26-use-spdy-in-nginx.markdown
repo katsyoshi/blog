@@ -11,7 +11,7 @@ NGINXでSPDY3.1が[サポートされている](http://nginx.org/en/docs/http/ng
 ## 準備
 SPDYは[SSL必須](http://ja.wikipedia.org/wiki/SPDY#.E6.A6.82.E8.A6.81)のようなのでとりあえずOpenSSLで[野良証明書を作成](http://dogmap.jp/2011/05/10/nginx-ssl/)します。
 
-```sh
+```
 $ cd /path/to/cert/dir
 $ openssl genrsa -des3 -out server.key 2048
 $ openssl req -new -key server.key -out server.csr

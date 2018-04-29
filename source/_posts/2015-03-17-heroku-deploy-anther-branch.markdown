@@ -6,7 +6,7 @@ comments: true
 categories: tech git heroku
 ---
 
-```sh
+```
 $ git push heroku your-branch:master
 ```
 

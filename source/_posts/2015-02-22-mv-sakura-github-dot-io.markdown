@@ -13,7 +13,7 @@ categories: tech diary github
 
 github.com に `katsyoshi.github.io` というリポジトリを作成し、以下のコマンドを実行
 
-```sh
+```
 $ rake setup_github_pages
 set your github repogitory
 $ rake generate
@@ -29,7 +29,7 @@ $ rake deploy
 ## 追記
 実は記事を追加したあと `rake deploy` ができないという問題がありましたが、そのときは、
 
-```sh
+```
 $ rake generate
 $ cd _deploy
 $ git pull origin/master

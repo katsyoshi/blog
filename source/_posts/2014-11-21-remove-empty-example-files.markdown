@@ -9,7 +9,7 @@ categories: git tech rails rspec tips memo
 Ruby on RailsのプロジェクトでGit管理されているTestで空のテストファイルを
 削除するには以下のコマンドを利用することで削除できます。
 
-```sh
+```
 $ git grep -e it --or -e specify -L -- spec/{model,controller}s | xgrep git rm -f --
 ```
 

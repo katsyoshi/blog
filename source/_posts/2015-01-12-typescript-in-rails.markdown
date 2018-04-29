@@ -29,13 +29,13 @@ TypeScriptでjQueryを使う場合、TypeScriptの型定義ファイルをイン
 
 `tsd` は `npm` でインストールできるので、それでインストールします。
 
-```sh
+```
 $ npm install tsd -g
 ```
 
 でインストールできたので、この `tsd` を利用してjQueryの型定義ファイルをインストールします。
 
-```sh
+```
 $ tsd init
 $ $EDITOR tsd.json
   path: "app/assets/javascripts/typings",

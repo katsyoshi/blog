@@ -17,7 +17,7 @@ categories: tech gentoo linux ime
 
 とりあえずfcitxをインストール、設定します。
 
-```sh
+```
 $ emerge -av fcitx
 
 $ $EDITOR .xinitrc
@@ -34,7 +34,7 @@ fcitx
 
 これは、[overlay](http://gpo.zugaina.org/app-i18n/mozc)が提供されいているのでそれで導入します。
 
-```sh
+```
 $ $EDITOR /etc/portage/make.conf
 USE="fcitx ${USE}"
 

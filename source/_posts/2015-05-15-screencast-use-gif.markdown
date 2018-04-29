@@ -19,7 +19,7 @@ LinuxでScreenCast用の環境を整えてみた。
 その後は、 `ffmpeg` を使って好きな動画形式に変換します。
 ここでは、gif画像に変更しています。
 
-```sh
+```
 $ ffmpeg -i ~/screencast.ovg img/screencast.gif
 ```
 

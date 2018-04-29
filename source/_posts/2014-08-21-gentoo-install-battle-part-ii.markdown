@@ -13,7 +13,7 @@ X240の準備は終ったので、[インストール](http://wiki.gentoo.org/wi
 [作成したUSBメモリ](/blog/2014/08/20/gentoo-install-battle-part-i/)をX240に差して起動します。
 起動したら、まずパーティションの設定を行います。
 
-```sh
+```
 $ gpart /dev/sda
 ```
 
@@ -27,7 +27,7 @@ $ gpart /dev/sda
 
 次に以下のコマンドを実行します。
 
-```sh
+```
 $ wpa_supplicant -Dnl80211 -ieth0 -c/path/to/supplicant.config
 ```
 

@@ -9,7 +9,7 @@ categories: diary
 表題のとおり、Blog(octopress) のテーマをdefaultの classics から [slash](https://github.com/tommy351/Octopress-Theme-Slash) に変更した。
 変更の方法は以下のようになります[^theme]。
 
-```sh
+```
 $ cd ~/octopress
 $ git clone git://github.com/tommy351/Octopress-Theme-Slash.git .themes/slash
 $ bundle exec rake install\['slash'\]
