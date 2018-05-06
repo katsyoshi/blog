@@ -28,7 +28,7 @@ categories: dialy beer
 流石に平日の午後3時だったので店員さん以外は誰もおらず、一人だけでした。
 とりあえず [Danchi IPA](https://untappd.com/b/gahaha-beer-danchi-ipa/2502617) とレバーを頼んでみた。
 
--> ![](/images/photo/danchi-ipa.jpg) <-
+-> ![](/images/photo/gahaha-danchi-ipa.jpg) <-
 
 Danchi IPA は苦味がすくなく美味しいビールでした。
 
