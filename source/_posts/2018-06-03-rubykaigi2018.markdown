@@ -11,6 +11,7 @@ RubyKaigi2018 に行ってきた
 ## 1日目
 
 1日目は、 ずっと会場Aにいました。
+
 1. Matz: [Keynote](http://rubykaigi.org/2018/presentations/yukihiro_matz.html#may31)
 1. Aaron Patterson: [Analyzing and Reducing Ruby Memory Usage](http://rubykaigi.org/2018/presentations/tenderlove.html#may31)
 1. Kenta Murata, and Yusaku Hatanaka: [Deep Learning Programming on Ruby](http://rubykaigi.org/2018/presentations/mrkn.html#may31)
@@ -52,7 +53,12 @@ LTはどれもよくて `rib` も面白いし、 csvの高速化の話が特に�
 
 
 TuffleRubyとはやくてとてもよさそう。
-MJITはいつもどおりで安心した。
-LuaJITの
+国分さん、Vladimirの話はいつもどおりで安心した。
 
+TRICK、どうしてこんなプログラムが思いつくのかさっぱりわからんがとにかく凄い以上の感想がうかんでこない。
+
+## おわり
+RubyKaigi 2018に行ってきてたいへんたのしいイベントでした。
+
+(型のはなしはやはり興味がないというかまだまだ理解が浅いのでTaPL読むべきだな)
 
