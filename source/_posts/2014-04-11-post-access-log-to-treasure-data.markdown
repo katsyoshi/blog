@@ -210,5 +210,3 @@ $ sudo service fluentd start
 
 いくつかアクセスしてみてなげられてるのを確認できたらねます。
 最後に[さけまつり](http://katsyoshi.doorkeeper.jp/events/10420)やるかもしれないのできてみてくだしあ。
-
-

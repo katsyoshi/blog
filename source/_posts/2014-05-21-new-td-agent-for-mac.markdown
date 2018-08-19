@@ -20,4 +20,3 @@ td-agent2が[リリース](https://groups.google.com/forum/?fromgroups#!topic/fl
 ```
 $ sudo launchctl load /Library/LaunchDaemon/td-agent.plist
 ```
-
