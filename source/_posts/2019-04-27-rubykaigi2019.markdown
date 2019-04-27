@@ -1,0 +1,80 @@
+---
+layout: post
+title: "RubyKaigi 2019"
+date: 2019-04-27 19:53:31 +0900
+comments: true
+categories: rubykaigi ruby tech diary
+---
+
+[RubyKaigi2019](https://rubykagi.org/2019) があったので行ってきました。
+[既に様々な人](http://b.hatena.ne.jp/search/text?q=rubykaigi2019) が書いていますのでここでは気になった、よかったというセッションについて書きます。
+聴講選択基準としてよく [asakusa.rb](https://asakusarb.esa.io) に来ているひとは外すことにしました。
+
+## 0日目
+
+前日入りしましたのでプレパーティ前に [秒速さん](https://twitter.com/284km) と福岡のイカを食べに
+[第三共進丸](https://tabelog.com/fukuoka/A4001/A400104/40015417/) へ行ってイカとゴマサバを食べました。
+
+今回の RubyKaigi では [複数プレパーティ](https://rubykaigi.org/2019/parties) があり、 [プレパーティ](https://pepabo.connpass.com/event/124168/) は [GMO Pepabo](https://pepabo.com/) の [一風堂スタンド](https://www.ippudo.com/store/nishidori_stand/) に行きました。
+ここで LT が3件あり、福岡市役所、ペパボ、[Yuguiさん](https://twitter.com/yugui) が話してくれました。
+特に福岡市役所の方が直々に来て如何に自治体が本気を出して企業誘致をするか、しているかを話してくれていました。
+Yugui さんの LT は地図の話するということでしたので、地図をどう見せるかの話をしてくれました。
+
+## 1日目
+初日に見たリストは以下になります。
+
+1. matz キーノート
+1. Ruby3 Progress
+1. How to take over a Ruby gem
+1. Determing Ruby Process Counts: Theory and Practice
+1. Compiling Ruby to idimomatic code in static language
+1. Fiber Are the Right Solution
+1. Compacting GC for MRI v2
+
+このなかで期待したのが **Compling Ruby to idimomatic code in static language** でした。
+こちらは基本 Ruby のコードを [Nim](https://nim-lang.org/) へ変換するためにやったことをはなししていました。
+**Fiber** のやつは非同期すると速くなるかもねって感じでおわらせています。
+[Aaron](https://github.com/tenderlove) は Aaron だなーとおもいながら聴いていました。
+
+後で聞いて失敗したなってやつが、 Matz と Ruby3 progress の間にトイレをガマンしてたので走ってトイレに行ってたら、
+福岡県知事が出てきて **RubyKaigi** めっちゃ楽しみにしてたっていう話をされていたというのを
+聴き逃がしたのがかなりの後悔点です。
+
+## 2日目
+
+1. All bugfix are incompatibilities
+1. Pratical mruby/c firmware development with CRuby
+1. RubyData Workshop
+1. A light weight JIT compiler project for CRuby
+1. What is Domain Specific Language?
+1. LT
+
+この日一番の衝撃的なできごととしては RubyData Workshop で
+最近 [**Cumo**](https://github.com/sonots/cumo) でも動くようにちょっとずつ対応している、
+[**Rumale**](https://github.com/yoshoku/rumale) の読みが `ルメール` ではなく `ラムエール` だったことです(この場で発表された)。
+
+## 3日目
+
+1. Fuzzing native Ruby code with Kisaten
+1. Running Ruby on Apple II
+1. Performance Optimization Techniques of MessagePack-Ruby
+1. Timezone API
+1. The send-pop optimization
+1. Optimization Techniques Used by the Benchmark Winners
+
+この日は **Fuzzing** という文字列を見かけたのでこちらを聴講。
+`Gem` をリリースしているみたいで使ってみようかとおもった。
+
+## おわり
+
+今回は全セッション聴講しました。このなかで一番すきな発表としては
+Ruby on Apple II のやつがぶっとんでてよかったですね。
+最後のキーノートは疲れながらも聴いていたが、
+ネルネルネルーとおもった瞬間に「お前はなにを言っているんだ？」っていう
+スライドが表れて大変よかった。
+
+来年の RubyKaigi 2020 はMatz本なのでまた参加しますねこれは。
+
+今年の RubyKaigi 飯の写真は以下になります。
+
+[RubyKaigi 2019](https://www.amazon.co.jp/photos/share/JMFkdlomW29NdLar2a5tFydS6PjEMlkp5mLDO6dcVjn)
