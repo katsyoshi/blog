@@ -66,4 +66,4 @@ DEPENDENCIES
   stringex (~> 1.4.0)
 
 BUNDLED WITH
-   1.13.6
+   2.2.4
