@@ -29,7 +29,7 @@ url: "https://blog.katsyoshi.org" # the base hostname & protocol for your site, 
 twitter_username: katsyoshi
 github_username:  katsyoshi
 
-permalink: /:year/:month/:day
+permalink: /:year/:month/:day/:title/
 
 # Build settings
 theme: minima
