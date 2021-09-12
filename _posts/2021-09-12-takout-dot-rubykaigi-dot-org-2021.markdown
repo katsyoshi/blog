@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2021.takout.rubykaigi.org"
+title: "2021.takeout.rubykaigi.org"
 date: 2021-09-12 00:00:00 +0900
 comments: true
 categories: diary rubykaigi
