@@ -88,6 +88,3 @@ DEPENDENCIES
   rake
   rouge
   webrick
-
-BUNDLED WITH
-   2.2.22
