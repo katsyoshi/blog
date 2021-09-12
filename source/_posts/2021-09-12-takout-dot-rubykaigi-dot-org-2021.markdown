@@ -70,4 +70,3 @@ PRK に関しては、 *[Promiro](https://www.switch-science.com/catalog/3914/)*
 ## matome
 
 久しぶりの RubyKaigi 参加で大変たのしく、興奮した3日間でした!!!
-
