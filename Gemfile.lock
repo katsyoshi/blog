@@ -66,5 +66,3 @@ DEPENDENCIES
   sinatra (~> 1.4.2)
   stringex (~> 1.4.0)
 
-BUNDLED WITH
-   2.2.4
