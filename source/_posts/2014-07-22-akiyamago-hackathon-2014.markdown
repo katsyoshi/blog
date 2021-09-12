@@ -21,25 +21,25 @@ categories: diary
 ## 2日目
 2日目は宿の人に起こされて起きました。朝食はこんなかんじでした。
 
-![二日目朝食](/images/photo/akiyamago-2breakfast.png = 256x)
+![二日目朝食](/images/photo/akiyamago-2breakfast.jpg)
 
 朝食後、[近くの橋](https://www.google.co.jp/maps/place/%E8%A6%8B%E5%80%89%E6%A9%8B/@36.91872,138.637115,17z/data=!3m1!4b1!4m2!3m1!1s0x5ff601b97e1ba7bb:0x1577cfb29a624fa7)まで散歩しました。軽い散歩だと思ってたら、山道で辛かった。
 
-![見倉橋](/images/photo/akiyamago-mikura-hashi.png = 256x)
+![見倉橋](/images/photo/akiyamago-mikura-hashi.jpg)
 
 そのまま帰るのはもったいないと思って反対側を登りました。登りきったら、近くにcool wind holeがあるらしいのでそこまで行ってみました。
 
-![風穴](/images/photo/akiyamago-cool-wind-hole.png = 256x)
+![風穴](/images/photo/akiyamago-cool-wind-hole.jpg)
 
 帰りは山道がつらいしつかれたので、周って帰りました。
 
 昼飯は[小赤沢](https://www.google.co.jp/maps/place/%E6%A5%BD%E9%A4%8A%E9%A4%A8/@36.9179309,138.6369755,13z/data=!4m5!1m2!2m1!1z5bCP6LWk5rKi!3m1!1s0x601dff32c6304d99:0xaacce4d76fa870ff)まで温泉と熊らーめんを食べました。
 
-![熊らーめん](/images/photo/akiyamago-kuma-ramen.png = 256x)
+![熊らーめん](/images/photo/akiyamago-kuma-ramen.jpg)
 
 宿に戻ってからはしばらくはハックタイムでした。夕食後、星を見に外出たらすごく星が綺麗でした。
 
-![星きれい](/images/photo/akiyamago-milkyway.png =  256x)
+![星きれい](/images/photo/akiyamago-milkyway.jpg)
 
 星見に行ったあとにハックタイムがあり、[mikutterでDockerのコントロール](https://github.com/katsyoshi/mikutter-docker)をしようとしてました。
 
