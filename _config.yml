@@ -42,7 +42,11 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
-
+pagination:
+  enabled: true
+  par_page: 5
+  sort_reverse: true
+  permalink: '/page/:num/'
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -57,10 +61,11 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - .bundle
+  - .bundle/
   - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
   - .pygments-cache/
+  - Rakefile
