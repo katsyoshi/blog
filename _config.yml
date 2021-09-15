@@ -67,3 +67,4 @@ exclude:
   - vendor/ruby/
   - .pygments-cache/
   - Rakefile
+google_analytics: UA-49549546-1
