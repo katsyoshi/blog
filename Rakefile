@@ -206,6 +206,13 @@ end
 
 desc "Default deploy task"
 task :deploy do
+  unless ENV["JEKYLL_ENV"] == "production"
+    puts "REALLY DEPLOY? check your JEKYLL_ENV"
+    puts "exec: "
+    puts "JEKYLL_ENV=production bundle rake deploy"
+    exit(0)
+  end
+
   # Check if preview posts exist, which should not be published
   if File.exists?(".preview-mode")
     puts "## Found posts in preview mode, regenerating files ..."
@@ -242,7 +249,7 @@ desc "deploy public directory to github pages"
 multitask :push do
   puts "## Deploying branch to Github Pages "
   puts "## Pulling any updates from Github Pages "
-  cd "#{deploy_dir}" do 
+  cd "#{deploy_dir}" do
     system "git pull"
   end
   (Dir["#{deploy_dir}/*"]).each { |f| rm_rf(f) }
