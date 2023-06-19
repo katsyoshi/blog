@@ -52,7 +52,7 @@ desc "Generate jekyll site"
 task :generate do
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   puts "## Generating Site with Jekyll"
-  system "jekyll build -d #{public_dir}"
+  system "JEKYLL_ENV='#{ENV["JEKYLL_ENV"]}' jekyll build -d #{public_dir}"
 end
 
 desc "Watch the site and regenerate when it changes"
