@@ -214,7 +214,7 @@ task :deploy do
   end
 
   # Check if preview posts exist, which should not be published
-  if File.exists?(".preview-mode")
+  if File.exist?(".preview-mode")
     puts "## Found posts in preview mode, regenerating files ..."
     File.delete(".preview-mode")
     Rake::Task[:generate].execute
@@ -238,7 +238,7 @@ end
 desc "Deploy website via rsync"
 task :rsync do
   exclude = ""
-  if File.exists?('./rsync-exclude')
+  if File.exist?('./rsync-exclude')
     exclude = "--exclude-from '#{File.expand_path('./rsync-exclude')}'"
   end
   puts "## Deploying website via Rsync"
@@ -385,7 +385,7 @@ def ask(message, valid_options)
 end
 
 def blog_url(user, project)
-  url = if File.exists?('source/CNAME')
+  url = if File.exist?('source/CNAME')
     "http://#{IO.read('source/CNAME').strip}"
   else
     "http://#{user}.github.io"
