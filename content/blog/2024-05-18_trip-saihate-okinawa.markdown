@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "最果ての沖縄に行ってきた"
 date: 2024-05-18 23:59:59 +0900
 comments: true
 categories: diary
----
++++
 
 [**RubyKaigi2024**](https://rubykaigi.org/2024) の翌日 2024-05-18 から五日間 2024-05-22 まで
 [沖縄県国頭郡国頭村](http://www.vill.kunigami.okinawa.jp/)辺戸に滞在したはなし。

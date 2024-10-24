@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "happy new year and new language"
 date: 2018-01-16 00:32:16 +0900
 comments: true
 categories: diary tech
----
++++
 
 いまさらですが、あけましておめでとうございます。
 

@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "新しいキーキャップ手にいれたよ!!!!"
 date: 2023-06-27 23:59:59 +0900
 comments: true
 categories: diary
----
++++
 
 最高だったイベント [**第一回keebkaigi**](https://keebkaigi.org/2023/) 行った影響で、キーボードをいじりたくなりました。
 今利用している [**corne cherry**](https://github.com/foostan/crkbd) でかなり満足しているため、
@@ -46,7 +46,7 @@ _キースイッチ_ を利用するようになっています。さらに最�
 自作キーボードはいいぞ。
 
 
----
++++
 [^keycap_profile]: 背が高いプロファイルや統一された高さなど様々なプロファイルがあります。キーキャップに関することのくわしくは [**自作キーボード温泉街の歩き方** の キーキャップの湯のお誘い ver2 ](https://salicylic-acid3.hatenablog.com/entry/keycap-introduction) を参考にしてください。
 [^keyswitch_type]: 音が鳴るようなタイプやクリック感があるようなタイプ様々なタイプがあります。くわしくは [**遊舎工房** のキースイッチの説明](https://shop.yushakobo.jp/pages/how-to-select-switch) を参考にしてください。
 [^soldout]: 2023/6/30 時点、 **Talp Keyboard** では販売終了。

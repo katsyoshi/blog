@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "docker-composeを利用してRailsアプリ開発を楽にしよう"
 date: 2018-12-09 21:11:56 +0900
 comments: true
 categories: rails tech docker
----
++++
 
 ていうのを[うなすけさん](https://twitter.com/yu_suke1994)に相談したら、[解決策を示してくれた](https://blog.unasuke.com/2018/run-rails-test-on-docker-compose/)のでそれを開発向けに変えてみた。
 Dockerとdocker-composeはみなさんごぞんじだと思うので割愛します。

@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "Ruby on RailsでTypeScriptを使ってみる"
 date: 2015-01-12 11:41:25 +0900
 comments: true
 categories: tech rails ruby js typescript
----
++++
 
 ふとRuby on RailsでTypeScriptを使いたくなったのでうごくようにしてみた。
 

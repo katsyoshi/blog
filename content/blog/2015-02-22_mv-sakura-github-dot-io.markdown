@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "blogの引越し"
 date: 2015-02-22 18:29:09 +0900
 comments: true
 categories: tech diary github
----
++++
 
 自分でblogを管理するのがちょっとだけ面倒になってきたので、
 このblogを[github.io](katsyoshi.github.io)に移行した。

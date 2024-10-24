@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "RubyKaigi2024 @沖縄"
 date: 2024-05-14 23:59:59 +0900
 comments: true
 categories: diary rubykaigi tech
----
++++
 
 沖縄だったのでいってきました。
 
@@ -150,6 +150,6 @@ categories: diary rubykaigi tech
 今年も楽しいセッションが盛り沢山で休む暇がなく、全部たのしかったのですが、英語力と体力が足りないのを痛感しております。
 セッション間の立ち話も興味深いのも多く、休みとはと思いながら過しておりました。
 
----
++++
 [^gvl]: Giant Virtualmachine Lock の略。これがあるから遅いと主張している人たちがいる。
 [^rubyist]: [プログラミング言語 **Ruby**](https://www.ruby-lang.org/) が好きな人たちのこと。

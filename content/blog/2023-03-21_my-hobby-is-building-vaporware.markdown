@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "趣味は vaporware 造りですv0.0.0"
 date: 2023-03-21 13:59:59 +0900
 comments: true
 categories: diary compiler
----
++++
 
 プログラマー三大勉強はしたけど、実装はしたことないものといえば
 CPU、OS、コンパイラーなのです[^kojinsa]が、先日 [ruby30th 誕生日会のキーノート](https://www.publickey1.jp/blog/23/ruby30static_compiler_for_ruby.html)で

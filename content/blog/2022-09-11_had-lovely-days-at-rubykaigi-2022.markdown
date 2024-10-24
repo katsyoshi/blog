@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "RubyKaigi 最高！"
 date: 2022-09-11 23:59:50 +0900
 comments: true
 categories: tech diary ruby rubykaigi
----
++++
 
 [RubyKaigi 2022](https://rubykaigi.org/2022) に行ってきました! ので感想を
 

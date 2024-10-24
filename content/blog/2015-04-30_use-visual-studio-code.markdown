@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "Visual Studio Codeを使ってみた"
 date: 2015-04-30 13:09:55 +0900
 comments: true
 categories: tech
----
++++
 
 [Visual Studio Code](https://code.visualstudio.com/)というものがでたので普段利用している
 Linuxで使ってみた。

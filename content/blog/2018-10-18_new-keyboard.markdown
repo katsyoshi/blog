@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "new keyboard"
 date: 2018-10-18 23:45:09 +0900
 comments: true
 categories: tech diary keyboard
----
++++
 
 タイトルのとおり家のキーボードを新調しました。
 

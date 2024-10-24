@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "endgame keyboard..."
 date: 2019-02-11 22:48:24 +0900
 comments: true
 categories: diary tech keyboard fortitude60
----
++++
 
 新しいキーボードを作りました!
 

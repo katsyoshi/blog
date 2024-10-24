@@ -1,9 +1,9 @@
----
++++
 layout: post
 title: "ウイスキーアドベントカレンダー2日目"
 comments: true
 categories: diary wiskey sake
----
++++
 
 [ウイスキー Advent Calendar 2017](https://adventar.org/calendars/2219) の2日目の記事です。
 

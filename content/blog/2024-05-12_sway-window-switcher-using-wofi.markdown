@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "Sway 用 Window 切り替えを作った"
 date: 2024-05-11 23:59:59 +0900
 comments: true
 categories: diary tech
----
++++
 
 あたらしく PC 買って、 **Linux** の GUI 環境を **X11** から **Wayland** に乗り変えることにしました。
 いままで利用していたデスクトップ環境を [**i3**](https://i3wm.org/) から [**sway**](https://swaywm.org/)
@@ -94,7 +94,7 @@ SwayWindowSwithcer.switch
 あたらしい PC を買い、デスクトップ環境を替えました。
 あたらしい環境で少し不便だったところを解消するプログラムを書いてみました。
 
----
++++
 
 [^ipc]: InerProcess Communication
 [^sanko]: 参考にした **Python** はウィンドウのオブジェクトから直接コマンドが送れます。

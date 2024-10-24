@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "good-bye elasticsearch and jenkins"
 date: 2014-08-10 23:22:55 +0900
 comments: true
 categories: tech ubuntu fluentd elasticsearch jenkins
----
++++
 
 この環境では慢性的にメモリが足りなかったのでメモリを大量に使ってる[Elasticsearch](http://www.elasticsearch.org/)を削除しました。
 Jenkinsについては利用していなかったので停止してます。ついでに12.04から14.04にupgradeしました。

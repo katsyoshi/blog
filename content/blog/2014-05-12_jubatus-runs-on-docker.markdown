@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: JubatusをDocker上で動かしてみた
 date: 2014-05-12 23:50:33 +0900
 comments: true
 categories: jubatus docker
----
++++
 
 最近話題の[Docker](https://www.docker.io/)使ってJubatusを動かしてみたのでメモ的なものを
 

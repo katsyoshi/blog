@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "みくったーでえもじ"
 date: 2016-12-17 00:00:00 +0900
 comments: true
 categories: mikutter tech advent_calendar
----
++++
 
 [mikutter advent calenedar 2016](http://www.adventar.org/calendars/1375) 17日目の記事です
 たぶんだれかが作ってた気がするけど、mikuterで[slack](https://slack.com)や、[github](https://github.com)のような絵文字を表示するプラグインを作成しました。

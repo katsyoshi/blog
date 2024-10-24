@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "Ruby を KOMPO してみた"
 date: 2024-05-29 23:59:59 +0900
 comments: true
 categories: diary tech
----
++++
 
 **RubyKaigi2024** の発表、[**It's about time to pack Ruby and Ruby scripts in one binary**](https://speakerdeck.com/ahogappa0613/its-about-time-to-pack-ruby-and-ruby-scripts-in-one-binary)
 で話されていた [**kompo**](https://rubygems.org/gems/kompo) を試してみた。

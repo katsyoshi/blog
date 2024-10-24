@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "Rock'n' Roll Star"
 date: 2016-12-01 00:0:00 +0900
 comments: true
 categories: diary advent-calendar oasis
----
++++
 
 [ロックバンド Advent Calendar](http://www.adventar.org/calendars/1537) 1日目です。
 Oasisについて適当に書きます。

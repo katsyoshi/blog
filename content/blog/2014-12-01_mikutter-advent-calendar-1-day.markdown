@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "mikutter advent calendar 1日目"
 date: 2014-12-01 23:59:59 +0900
 comments: true
 categories: mikutter
----
++++
 
 [一日目](http://www.adventar.org/calendar/401)らしいですね。
 

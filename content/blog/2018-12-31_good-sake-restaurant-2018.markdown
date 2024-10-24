@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "今年いった日本酒が飲める店 2018"
 date: 2018-12-31 23:59:59 +0900
 comments: true
 categories: diary sake delicious
----
++++
 
 去年は [ビール屋さん](http://blog.katsyoshi.org/blog/2017/12/30/favorite-beer-house/) でしたので今年は日本酒をまとめてみます。
 

@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "remove rails assets"
 date: 2018-11-06 00:40:32 +0900
 comments: true
 categories: tech rails
----
++++
 
 ひさびさに `Ruby on Rails` の話で、自作の rails application で `rails-assets` というところからいくつか gem を利用してたので
 それを `Yarn` で同様のパッケージをインストールするように変更した。

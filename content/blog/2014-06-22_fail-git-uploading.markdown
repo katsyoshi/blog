@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "野良Gitサーバにuploadできなかった話"
 date: 2014-06-22 22:38:20 +0900
 comments: true
 categories: git tech diary
----
++++
 
 今日もろくでもない理由で嵌った。
 

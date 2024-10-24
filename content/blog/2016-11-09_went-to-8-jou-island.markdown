@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "went to 8 jou island"
 date: 2016-11-09 11:13:45 +0000
 comments: true
 categories: diary fishing
----
++++
 
 11/3-11/5 で八丈島にいってきました。
 決めたのは10/28の朝でした。

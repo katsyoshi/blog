@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "Railsで空のテストファイルを削除"
 date: 2014-11-21 16:07:38 +0900
 comments: true
 categories: git tech rails rspec tips memo
----
++++
 
 Ruby on RailsのプロジェクトでGit管理されているTestで空のテストファイルを
 削除するには以下のコマンドを利用することで削除できます。

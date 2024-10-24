@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "秘境でハッカソンがあったので行ってきた"
 date: 2014-07-22 20:09:11 +0900
 comments: true
 categories: diary
----
++++
 
 7月19日〜7月21日まで秋山郷の[かたくりの宿](https://www.google.co.jp/maps/place/%E3%81%8B%E3%81%9F%E3%81%8F%E3%82%8A%E3%81%AE%E5%AE%BF/@36.9184265,138.6375958,18z/data=!4m2!3m1!1s0x0:0xec3b9141469e30fc)という場所でHackathonがあったので行ってきました。
 

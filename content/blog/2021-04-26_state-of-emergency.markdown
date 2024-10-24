@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: 緊急事態宣言
 date: 2021-04-26 19:00:00 +0900
 comments: true
 categories: diary
----
++++
 
 緊急事態宣言に再突入したので久しぶりに本を二冊ほど読んだので感想を
 

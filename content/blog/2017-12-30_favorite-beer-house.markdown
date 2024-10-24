@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "今年いったビール屋さん 2017"
 date: 2017-12-30 17:01:14 +0900
 comments: true
 categories: diary beer
----
++++
 
 今年行ってよかったビアバー、ビアパブをまとめてみようとおもいます。
 

@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "ItamaeつかってOSのインストールをやってみた"
 date: 2016-10-09 16:43:27 +0900
 comments: true
 categories: gentoo itamae gentoo-install-battle
----
++++
 
 9月はRubyKiagiにいってたりしました。
 そのときに[mikutterのコミッター](http://mikutter.blogspot.jp/2016/09/mikutter-3312-343.html)とかになったようです。

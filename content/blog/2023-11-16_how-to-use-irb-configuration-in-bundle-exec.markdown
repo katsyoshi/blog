@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "いいかんじに Bundler で管理されていない Gem を使いたい"
 date: 2023-11-16 23:59:59 +0900
 comments: true
 categories: diary
----
++++
 
 前回作成した `irb-theme-dracula` を **bundler** で **gem** が管理されているプロジェクトで利用したい。
 利用したいが、そのままでは利用できないです。

@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "Blogのテーマかえた"
 date: 2017-02-12 20:16:01 +0900
 comments: true
 categories: diary
----
++++
 
 表題のとおり、Blog(octopress) のテーマをdefaultの classics から [slash](https://github.com/tommy351/Octopress-Theme-Slash) に変更した。
 変更の方法は以下のようになります[^theme]。

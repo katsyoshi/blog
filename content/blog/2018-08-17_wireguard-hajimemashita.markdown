@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "wireguardをはじめました"
 date: 2018-08-17 00:38:12 +0900
 comments: true
 categories: tech vpn
----
++++
 
 title 通り、 [`wiregaurd`](https://www.wireguard.com/) で家と [さくらのVPS](https://vps.sakura.ad.jp/) にあるサーバーを繋いでみました
 

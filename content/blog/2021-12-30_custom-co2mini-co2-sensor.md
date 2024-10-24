@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "custom CO2-mini で CO2 を見えるようにしよう"
 date: 2021-12-30 16:59:59 +0900
 comments: true
 categories: diary tech
----
++++
 
 コロナになって結構前に [**custom CO2-mini**](https://www.kk-custom.co.jp/emp/CO2-mini.html)
 に [話題になった](https://www.itmedia.co.jp/pcuser/articles/2012/18/news069.html)
@@ -44,7 +44,7 @@ command = ["/path/to/build/bin/mackerel-plugin-co2mon"]
 面倒で先延しにしてたのですが、チョットやってみたらすぐにできたのでよかったです。
 今後としては **CO<sub>2</sub>** の値に応じて窓開けたりできるようにしたいなあと思っています[^window]。
 
----
++++
 
 [^buy-co2mon]: Amazon で確認したら買ったの 2020/03 だった……
 [^custom-co2mini]: mackerel のグラフ表示部分のタイトルが `custom.CO2MINI.co2.living` となり、メーカー名も入っていいじゃんとなった。

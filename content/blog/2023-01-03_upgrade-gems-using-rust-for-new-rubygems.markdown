@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "Update rubygems using Rust for Ruby 3.2"
 date: 2023-01-03 23:59:59 +0900
 comments: true
 categories: diary tech
----
++++
 
 [以前このブログ](/blog/2022/08/12/how-to-use-rust-in-ruby-gems/)で [**Rust**](https://www.rust-lang.org/) を利用して [**rubygems**](https://rubygems.org) を作成した
 [**rust_uuid**](https://github.com/katsyoshi/rust_uuid) が [**Ruby 3.2** がリリース](https://www.ruby-lang.org/ja/news/2022/12/25/ruby-3-2-0-released/) によりコンパイルできなくなったのでその修正顛末。

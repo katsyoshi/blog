@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "趣味はvaporware造りです v.0.0.1"
 date: 2023-05-25 23:59:59 +0900
 comments: true
 categories: diary
----
++++
 
 [**RubyKaigi2023**](htttps://rubykaigi.org/2023)に行ってきたのは[別エントリ](/blog/2023/05/15/ruby-kaigi-2023-at-matsumoto/)にしたのでこのエントリでは [_LT_](https://rubykaigi.org/2023/presentations/lt/) で話しした内容の説明などをしていこうかと思います。
 
@@ -111,7 +111,7 @@ _LT_ の応募サイト開くまでにネタが幸い見つけることができ
 
 次回作もご期待ください 完
 
----
++++
 [^cfp]: Call For Proposal。ずっと Call For Paper だとおもってたので知ったときえってなった。
 [^cfpdate]: [2023-01-31](https://cfp.rubykaigi.org/events/2023) 締切で完全にネタない状態だった。
 [^yoteigai]: もともとの発表予定ではここまでしかできなかったんですよーって濁す予定でしたが思っている以上に実装がすすんでしまった。

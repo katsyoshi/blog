@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "Start Rust by Example"
 date: 2015-01-27 07:10:29 +0900
 comments: true
 categories: diary tech linux
----
++++
 
 年ぁけたので、新しいプログラミング言語を覚えようと思い[Rust Lang](http://www.rust-lang.org)を始めました。
 

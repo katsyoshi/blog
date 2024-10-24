@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "mikutter合宿いってきた"
 date: 2017-12-01 00:58:40 +0900
 comments: true
 categories: mikutter nonomura
----
++++
 
 [mikutter Advent Calendar](https://adventar.org/calendars/2128) 1日目のエントリです
 先月の11/23-26に [@toshi_a](https://twitter.com/toshi_a) の垢凍結記念の [mikutter合宿](https://atnd.org/events/90619) に行ってきた

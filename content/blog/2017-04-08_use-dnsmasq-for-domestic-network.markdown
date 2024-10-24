@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "raspiでdnsを運用してみはじめた"
 date: 2017-04-09 00:00:00 +0900
 comments: true
 categories: tech dnsmasq diary
----
++++
 
 RasPi2 が3台あってつかっていないので DNS として動かすようにしてみた。
 RasPi とはいえ中身は Ubuntu Linux なのでのインストールは `apt install dnsmasq` するだけでおわります。

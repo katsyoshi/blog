@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "Gentoo Install Battle Part I"
 date: 2014-08-20 23:48:45 +0900
 comments: true
 categories: tech linux gentoo mikutter
----
++++
 
 ここにThinkPad X240があります。これの中身を Gentoo/Linux にします。
 

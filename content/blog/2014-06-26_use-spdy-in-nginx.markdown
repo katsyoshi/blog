@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: SPDYをさくっと動かしてみた
 date: 2014-06-26 13:59:19 +0900
 comments: true
 categories: nginx http2 tech
----
++++
 
 NGINXでSPDY3.1が[サポートされている](http://nginx.org/en/docs/http/ngx_http_spdy_module.html)ようなので動かしてみた。
 

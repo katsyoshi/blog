@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "RubyKaigi2018"
 date: 2018-06-03 23:44:28 +0900
 comments: true
 categories: tech rubykaigi ruby
----
++++
 
 RubyKaigi2018 に行ってきた
 

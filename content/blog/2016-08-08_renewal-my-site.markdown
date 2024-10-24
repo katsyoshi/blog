@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "RENEWAL MY SITE!!!"
 date: 2016-08-08 21:05:47 +0900
 comments: true
 categories: diary h2 h2o ssl
----
++++
 
 ってのは嘘ではないですが、嘘に近いです。
 実はおとといの土曜日に katsyoshi.org をのぞいたら、 *nginx* の初期ページが表示されたので

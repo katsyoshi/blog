@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "ssh permission"
 date: 2016-10-10 20:14:30 +0900
 comments: true
 categories: ssh memo 
----
++++
 
 またやらかしたので
 

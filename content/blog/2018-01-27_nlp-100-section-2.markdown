@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "NLP100ノック第2章"
 date: 2018-01-27 19:46:23 +0900
 comments: true
 categories: tech rust diary nlp100
----
++++
 
 第2章を一通り終えたので書きます。
 

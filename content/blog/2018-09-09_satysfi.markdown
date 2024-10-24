@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "SATySFi使って本書いてみてる"
 date: 2018-09-09 14:29:46 +0900
 comments: true
 categories: diary tech
----
++++
 
 技術書典5出しますので、それを書くために [OCaml](https://ocaml.org/) で作成された [SATySFi](https://github.com/gfngfn/SATySFi) を使いはじめました。
 

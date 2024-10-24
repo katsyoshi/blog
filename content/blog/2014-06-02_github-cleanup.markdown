@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "今日の夕飯"
 date: 2014-06-02 00:25:40 +0900
 comments: true
 categories: diary
----
++++
 
 今日は昨日ビールを飲んだので、日本酒を飲みに行ってきた。
 ![昨日のビール](/images/photo/yaesu-beer.jpg)

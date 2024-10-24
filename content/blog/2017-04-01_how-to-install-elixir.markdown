@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: Elixirのインストール方法
 date: 2017-04-01 00:00:00 +0000
 comments: true
 categories: tech elixir diary
----
++++
 
 [Elixir Conf Japan](http://www.elixirconf.jp/) に行きましたが、よく考えてみたら
 まだこの PC に [Elixir](http://elixir-lang.org/) をインストールしていないことに気がついたので

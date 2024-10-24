@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "不注意なこと"
 date: 2015-04-06 22:25:28 +0900
 comments: true
 categories: tech ubuntu sudo
----
++++
 
 Ubuntuで `lxc` を利用して、サーバを立ててたときに嵌ったこと
 

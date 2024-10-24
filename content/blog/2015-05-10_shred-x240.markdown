@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "バイバイX240"
 date: 2015-05-10 11:05:19 +0900
 comments: true
 categories: tech linux
----
++++
 
 新しく[X250](/blog/2015/04/15/looks-good-new-machine/)を買ったので、X240の中身を削除します。
 以下のコマンドでできるようです。

@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "Favorite Beer House 2019"
 date: 2019-12-31 23:59:59 +0900
 comments: true
 categories: beer
----
++++
 
 年末になったので今年行ったビール屋さんをまとめてみます。
 

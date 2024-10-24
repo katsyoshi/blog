@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "nlp 100 section 1 part 3"
 date: 2018-01-21 10:23:02 +0900
 comments: true
 categories: rust tech diary
----
++++
 
 前回、[言語処理100本ノック](http://www.cl.ecei.tohoku.ac.jp/nlp100) の04までやったので05からやります。
 

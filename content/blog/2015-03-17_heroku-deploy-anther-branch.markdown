@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "Herokuでmaster以外のブランチを利用してデプロイする方法"
 date: 2015-03-17 12:08:17 +0900
 comments: true
 categories: tech git heroku
----
++++
 
 ```
 $ git push heroku your-branch:master

@@ -1,10 +1,10 @@
----
++++
 layout: post
 title: "NLP100本ノック section 1 part 2"
 date: 2018-01-19 20:05:49 +0900
 comments: true
 categories: rust tech diary
----
++++
 
 前回、[言語処理100本ノック](http://www.cl.ecei.tohoku.ac.jp/nlp100) の01までやったので02からやっていきます。
 ## `extern crate nlp100;`
