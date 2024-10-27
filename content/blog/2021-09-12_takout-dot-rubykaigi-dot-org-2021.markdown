@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "2021.takeout.rubykaigi.org"
-date: 2021-09-12 00:00:00 +0900
-comments: true
-categories: diary rubykaigi
+
+title = "2021.takeout.rubykaigi.org"
+date = 2021-09-12
+comments = true
+categories = "diary rubykaigi"
 +++
 
 今年も **COVID-19** の影響で [RubyKaigi](https://rubykaigi.org) のオンラインイベント化された [RubyKaigi Takeout 2021](https://rubykaigi.org/2021-takeout) に行ってきた。

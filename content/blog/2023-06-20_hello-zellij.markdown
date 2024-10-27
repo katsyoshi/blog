@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Zellij はじめました"
-date: 2023-06-19 23:59:59 +0900
-comments: true
-categories: diary
+
+title = "Zellij はじめました"
+date = 2023-06-19
+comments = true
+categories = "diary"
 +++
 
 はい。タイトルの通り、 [**Zellij**](https://zellij.dev/) をはじめてみました。

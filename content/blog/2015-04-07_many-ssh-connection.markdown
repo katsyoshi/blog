@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "known_hostsに載っていないホストに接続確認しないようにする"
-date: 2015-04-07 19:40:03 +0900
-comments: true
-categories: tech ssh
+
+title = "known_hostsに載っていないホストに接続確認しないようにする"
+date = 2015-04-07
+comments = true
+categories = "tech ssh"
 +++
 
 昨日の[続き](/blog/2015/04/06/careless-miss/)で、 `lxc` で大量のサーバを立てて、

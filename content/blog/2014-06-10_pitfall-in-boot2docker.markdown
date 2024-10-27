@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "docker on OS Xで嵌ったおはなし"
-date: 2014-06-10 19:52:53 +0900
-comments: true
-categories: tech docker
+
+title = "docker on OS Xで嵌ったおはなし"
+date = 2014-06-10
+comments = true
+categories = "tech docker"
 +++
 
 MacOS XでDockerを動かしてたら嵌ったのでメモ

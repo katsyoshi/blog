@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "RubyKaigi2023 @MATZ本"
-date: 2023-05-15 23:59:59 +0900
-comments: true
-categories: diary
+
+title = "RubyKaigi2023 @MATZ本"
+date = 2023-05-15
+comments = true
+categories = "diary"
 +++
 
 行ってきたのでまとめます。LT やったのですが、 LT の話はまた今度。

@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "とりあえずibusやめてみた"
-date: 2015-02-12 07:10:29 +0900
-comments: true
-categories: tech gentoo linux ime
+
+title = "とりあえずibusやめてみた"
+date = 2015-02-12
+comments = true
+categories = "tech gentoo linux ime"
 +++
 
 [ibus-1.5](https://www.google.co.jp/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#newwindow=1&q=ibus1.5)からあまり評判がよろしくない(特に不満はない)ので、あたらしく[fcitx](https://code.google.com/p/fcitx/)を導入してみた。

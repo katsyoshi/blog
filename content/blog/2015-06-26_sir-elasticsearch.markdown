@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "elasticsearchどの〜"
-date: 2015-06-26 00:26:10 +0900
-comments: true
-categories: elasticsearch fluentd kibana
+
+title = "elasticsearchどの〜"
+date = 2015-06-26
+comments = true
+categories = "elasticsearch fluentd kibana"
 +++
 
 [kibana](https://www.elastic.co/products/kibana) で表示しようとしてたら嵌ったのでメモ

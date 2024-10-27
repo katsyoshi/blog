@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Gentoo LinuxむけのJubatusパッケージ書いたよ"
-date: 2014-09-12 12:29:20 +0900
-comments: true
-categories: linux portage jubatus gentoo tech
+
+title = "Gentoo LinuxむけのJubatusパッケージ書いたよ"
+date = 2014-09-12
+comments = true
+categories = "linux portage jubatus gentoo tech"
 +++
 
 [PC](/blog/2014/08/20/gentoo-install-battle-part-i/)を[買い替えた](/blog/2014/08/21/gentoo-install-battle-part-ii/)ので[環境構築](/blog/2014/08/31/gentoo-install-battle-part-iii/)してます。

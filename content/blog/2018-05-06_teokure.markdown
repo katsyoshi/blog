@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "API キーが凍結されてら"
-date: 2018-05-06 23:33:23 +0900
-comments: true
-categories: mikutter tech
+
+title = "API キーが凍結されてら"
+date = 2018-05-06
+comments = true
+categories = "mikutter tech"
 +++
 
 mikutter の [Twitter API キーが凍結された](http://mikutter.hatenablog.com/entry/2018/05/05/164014) ようです。

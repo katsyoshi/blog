@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Ruby gem で Rust をつかって爆速にしたい!!!!!!11"
-date: 2022-08-12 13:59:59 +0900
-comments: true
-categories: rust
+
+title = "Ruby gem で Rust をつかって爆速にしたい!!!!!!11"
+date = 2022-08-12
+comments = true
+categories = "rust"
 +++
 
 [Ruby Gems](https://rubygems.org) で [Rust](https://www.rust-lang.org) が [Native として利用可能になった](https://github.com/rubygems/rubygems/pull/5175) のでとりあえず [`UUIDv4`](https://www.rfc-editor.org/rfc/rfc4122.html) を生成してみた。

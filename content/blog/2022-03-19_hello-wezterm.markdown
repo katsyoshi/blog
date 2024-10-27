@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Hello, Wezterm"
-date: 2022-03-19 18:00:00 +0900
-comments: true
-categories: diary
+
+title = "Hello, Wezterm"
+date = 2022-03-19
+comments = true
+categories = "diary"
 +++
 
 [`tmux`](https://github.com/tmux/tmux) + [`Allacritty`](https://github.com/tmux/tmux) が疲れてきたので[はてぶで流れてきた](https://zenn.dev/yutakatay/articles/wezterm-intro) [`wezterm`](https://github.com/wez/wezterm) が [`sixel`](https://github.com/saitoha/libsixel) を利用できてよさそうだったので試してみることにした。

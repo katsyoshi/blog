@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "やんちゃクラブとRubyistと川"
-date: 2021-12-06 23:59:59 +0900
-comments: true
-categories: diary
+
+title = "やんちゃクラブとRubyistと川"
+date = 2021-12-06
+comments = true
+categories = "diary"
 +++
 
 おはようございます、 2021年、12月6日 のよるだったり、12月7日の朝だったりします。

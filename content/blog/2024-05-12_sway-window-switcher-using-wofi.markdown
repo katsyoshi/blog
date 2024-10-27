@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Sway 用 Window 切り替えを作った"
-date: 2024-05-11 23:59:59 +0900
-comments: true
-categories: diary tech
+
+title = "Sway 用 Window 切り替えを作った"
+date = 2024-05-11
+comments = true
+categories = "diary tech"
 +++
 
 あたらしく PC 買って、 **Linux** の GUI 環境を **X11** から **Wayland** に乗り変えることにしました。

@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "板前さんでGentooを管理"
-date: 2016-12-10 16:00:38 +0900
-comments: true
-categories: itamae gentoo advent_calendar tech
+
+title = "板前さんでGentooを管理"
+date = 2016-12-10
+comments = true
+categories = "itamae gentoo advent_calendar tech"
 +++
 
 [Gentoo Advent Calendar 2016](http://www.adventar.org/calendars/1493) の10日目の記事です

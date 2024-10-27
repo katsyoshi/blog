@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "NLP 100 Knock section 3"
-date: 2018-02-09 23:53:24 +0900
-comments: true
-categories: tech diary rust nlp100
+
+title = "NLP 100 Knock section 3"
+date = 2018-02-09
+comments = true
+categories = "tech diary rust nlp100"
 +++
 
 正規表現苦手なようでだいぶ時間がかかりました。

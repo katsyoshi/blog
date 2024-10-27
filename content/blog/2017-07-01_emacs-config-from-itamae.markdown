@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Emacsの構成管理をitamaeで管理"
-date: 2017-07-01 22:59:16 +0900
-comments: true
-categories: diary itamae
+
+title = "Emacsの構成管理をitamaeで管理"
+date = 2017-07-01
+comments = true
+categories = "diary itamae"
 +++
 
 仕事とプライベート環境でemacsのフォント等設定するのがいいかげんダるくなってきたので、Itamaeを流すだけでイイカンジにするようにした

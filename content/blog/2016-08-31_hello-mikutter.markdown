@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "hello mikutter"
-date: 2016-08-31 22:55:03 +0900
-comments: true
-categories: mikutter ruby gems
+
+title = "hello mikutter"
+date = 2016-08-31
+comments = true
+categories = "mikutter ruby gems"
 +++
 
 表題のとおりmikutterをgemでインストールできるようにしてみました。

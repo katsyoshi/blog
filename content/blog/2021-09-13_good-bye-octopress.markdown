@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Octopress 脱出"
-date: 2021-09-13 00:00:00 +0900
-comments: true
-categories: diary
+
+title = "Octopress 脱出"
+date = 2021-09-13
+comments = true
+categories = "diary"
 +++
 
 長年利用してた [Octopress](https://github.com/octopress/octopress) がずいぶん前にサポート外になってたので [Jekyll](https://github.com/jekyll/jekyll) へ変更することにした。

@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "XDGの設定"
-date: 2015-02-16 18:03:16 +0900
-comments: true
-categories: tech linux xorg
+
+title = "XDGの設定"
+date = 2015-02-16
+comments = true
+categories = "tech linux xorg"
 +++
 
 急に `xdg-open` でブラウザが開かなくなったのでメモ

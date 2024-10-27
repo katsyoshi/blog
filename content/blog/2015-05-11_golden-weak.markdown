@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "ゴールデンウィークのお買いもの"
-date: 2015-05-11 21:38:35 +0900
-comments: true
-categories: diary
+
+title = "ゴールデンウィークのお買いもの"
+date = 2015-05-11
+comments = true
+categories = "diary"
 +++
 
 GWに勢い余って買いものしたのでそれを。

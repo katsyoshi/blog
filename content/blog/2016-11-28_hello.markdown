@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "あったらしーPCかったよー"
-date: 2016-11-28 01:14:21 +0900
-comments: true
-categories: diary
+
+title = "あったらしーPCかったよー"
+date = 2016-11-28
+comments = true
+categories = "diary"
 +++
 
 ## あたらしいPC買いました

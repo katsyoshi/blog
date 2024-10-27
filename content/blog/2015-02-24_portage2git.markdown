@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "emerge --syncをgitにかえたはなし"
-date: 2015-02-24 00:13:18 +0900
-comments: true
-categories: linux gentoo tech
+
+title = "emerge --syncをgitにかえたはなし"
+date = 2015-02-24
+comments = true
+categories = "linux gentoo tech"
 +++
 
 portageはデフォルトだと `rsync` を利用しての更新をしているので、

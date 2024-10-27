@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "softether"
-date: 2015-05-03 16:28:42 +0900
-comments: true
-categories: tech vpn network
+
+title = "softether"
+date = 2015-05-03
+comments = true
+categories = "tech vpn network"
 +++
 
 Ubuntuに[SoftEther](https://www.softether.jp/)を導入してみた。

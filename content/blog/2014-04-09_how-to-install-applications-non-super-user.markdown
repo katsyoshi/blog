@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "スーパーユーザ権限もたずに好きなソフトをインストール"
-date: 2014-04-09 20:46:35 +0900
-comments: true
-categories: tech linux
+path = "2014/04/09/how-to-install-applications-non-super-user
+title = "スーパーユーザ権限もたずに好きなソフトをインストール"
+date = 2014-04-09
+comments = true
+categories = "tech linux"
 +++
 
 Linux使っててこのソフトが入ってないしsudoも使えないってときありませんか？

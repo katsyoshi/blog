@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "新しいキーキャップ手にいれたよ!!!!"
-date: 2023-06-27 23:59:59 +0900
-comments: true
-categories: diary
+
+title = "新しいキーキャップ手にいれたよ!!!!"
+date = 2023-06-27
+comments = true
+categories = "diary"
 +++
 
 最高だったイベント [**第一回keebkaigi**](https://keebkaigi.org/2023/) 行った影響で、キーボードをいじりたくなりました。

@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Gentoo Install Battle Part III"
-date: 2014-08-31 10:47:14 +0900
-comments: true
-categories: tech linux mikutter gentoo
+
+title = "Gentoo Install Battle Part III"
+date = 2014-08-31
+comments = true
+categories = "tech linux mikutter gentoo"
 +++
 
 これ[まで](/blog/2014/08/20/gentoo-install-battle-part-i/)の[流れ](/blog/2014/08/21/gentoo-install-battle-part-ii/)で準備が整ったので、Installを始めます。

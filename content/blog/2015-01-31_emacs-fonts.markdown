@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Rictyやめるってよ"
-date: 2015-01-31 07:10:29 +0900
-comments: true
-categories: diary tech linux
+
+title = "Rictyやめるってよ"
+date = 2015-01-31
+comments = true
+categories = "diary tech linux"
 +++
 普段、emacs上でフォントを `Ricty` にして使ってたけど、微妙にずれるのを解消できなかったはなし
 

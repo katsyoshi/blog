@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "custom CO2-mini で CO2 を見えるようにしよう"
-date: 2021-12-30 16:59:59 +0900
-comments: true
-categories: diary tech
+
+title = "custom CO2-mini で CO2 を見えるようにしよう"
+date = 2021-12-30
+comments = true
+categories = "diary tech"
 +++
 
 コロナになって結構前に [**custom CO2-mini**](https://www.kk-custom.co.jp/emp/CO2-mini.html)

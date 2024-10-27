@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "すくりーんきゃすと"
-date: 2015-05-15 23:47:14 +0900
-comments: true
-categories: movie screencast diary
+
+title = "すくりーんきゃすと"
+date = 2015-05-15
+comments = true
+categories = "movie screencast diary"
 +++
 
 LinuxでScreenCast用の環境を整えてみた。

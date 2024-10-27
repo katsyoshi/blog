@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "hello language server"
-date: 2018-12-01 13:00:59 +0900
-comments: true
-categories: lsp emacs tech diary
+
+title = "hello language server"
+date = 2018-12-01
+comments = true
+categories = "lsp emacs tech diary"
 +++
 
 ここ1、2週間、 emacs で `lsp-emacs` を使いはじめたのでそのメモ

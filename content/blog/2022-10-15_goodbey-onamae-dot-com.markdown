@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "お名前ドットコムのメールがうざすぎたので DNS を Cloudflare に移行して快適生活"
-date: 2022-10-15 23:59:50 +0900
-comments: true
-categories: diary
+
+title = "お名前ドットコムのメールがうざすぎたので DNS を Cloudflare に移行して快適生活"
+date = 2022-10-15
+comments = true
+categories = "diary"
 +++
 
 **katsyoshi.org** の登録先を [**お名前ドットコム**](https://www.onamae.com) にしてたけど、広告のようなメールとか届くし

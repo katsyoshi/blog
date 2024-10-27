@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "start watching dazn"
-date: 2017-05-21 14:49:19 +0900
-comments: true
-categories: j-league diary streaming
+
+title = "start watching dazn"
+date = 2017-05-21
+comments = true
+categories = "j-league diary streaming"
 +++
 
 タイトルのとおり、DAZNを見はじめた。

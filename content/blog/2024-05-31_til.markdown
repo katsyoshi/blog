@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "今日、私が学んだこと"
-date: 2024-05-30 23:59:59 +0900
-comments: true
-categories: diary tech
+
+title = "今日、私が学んだこと"
+date = 2024-05-30
+comments = true
+categories = "diary tech"
 +++
 
 ここ1年ほど **Ruby** のパーサーがもりあがっているので、

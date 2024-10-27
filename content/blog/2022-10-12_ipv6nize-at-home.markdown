@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Communicate on IPv6 from home"
-date: 2022-10-12 23:59:50 +0900
-comments: true
-categories: tech diary
+
+title = "Communicate on IPv6 from home"
+date = 2022-10-12
+comments = true
+categories = "tech diary"
 +++
 
 家のネットワークからインターネットへ出るとき `IPoE` を使ってたけど、家庭内 LAN のネットワークは `IPv6` を off にしていた。

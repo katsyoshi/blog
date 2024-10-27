@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "YAPC::Asia 2015に参加しました(ボランティアスタッフとして)"
-date: 2015-08-25 02:42:48 +0900
-comments: true
-categories: conference yapc perl
+
+title = "YAPC::Asia 2015に参加しました(ボランティアスタッフとして)"
+date = 2015-08-25
+comments = true
+categories = "conference yapc perl"
 +++
 
 YAPC::Asia 2015にボランティアスタッフとして参加してきました(申請時に公表しないでってしなのでYAPCのスッタフ一覧にはのってないです)。去年も参加しましたが聴講者として参加しました。

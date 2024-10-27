@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "td-agent.pkg"
-date: 2014-05-21 08:53:46 +0900
-comments: true
-categories: fluentd tech mac
+
+title = "td-agent.pkg"
+date = 2014-05-21
+comments = true
+categories = "fluentd tech mac"
 +++
 
 td-agent2が[リリース](https://groups.google.com/forum/?fromgroups#!topic/fluentd/ZjxODonIJJo)され、Macへの公式パッケージがでたのでインストールメモ

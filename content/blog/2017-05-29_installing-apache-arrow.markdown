@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "installing apache arrow"
-date: 2017-05-29 21:45:29 +0900
-comments: true
-categories: tech diary
+
+title = "installing apache arrow"
+date = 2017-05-29
+comments = true
+categories = "tech diary"
 +++
 
 [最近](https://slide.rabbit-shocker.org/authors/kou/nagoya-rubykaigi-03/)[すとうさん](https://github.com/kou)が[一押し](https://slide.rabbit-shocker.org/authors/kou/data-science-rb/)している[apache arrow](https://arrow.apache.org/)をインストールしてみた

@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "RENEWAL MY SITE!!!"
-date: 2016-08-08 21:05:47 +0900
-comments: true
-categories: diary h2 h2o ssl
+
+title = "RENEWAL MY SITE!!!"
+date = 2016-08-08
+comments = true
+categories = "diary h2 h2o ssl"
 +++
 
 ってのは嘘ではないですが、嘘に近いです。

@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Dockerではまってます"
-date: 2014-10-01 21:11:04 +0900
-comments: true
-categories: tech linux gentoo docker
+
+title = "Dockerではまってます"
+date = 2014-10-01
+comments = true
+categories = "tech linux gentoo docker"
 +++
 
 タイトルのとおりです。

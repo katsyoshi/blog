@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "ItamaeつかってOSのインストールをやってみた"
-date: 2016-10-09 16:43:27 +0900
-comments: true
-categories: gentoo itamae gentoo-install-battle
+
+title = "ItamaeつかってOSのインストールをやってみた"
+date = 2016-10-09
+comments = true
+categories = "gentoo itamae gentoo-install-battle"
 +++
 
 9月はRubyKiagiにいってたりしました。

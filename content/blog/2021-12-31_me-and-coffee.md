@@ -1,9 +1,9 @@
 +++
-layout: post
-title: 今年飲んだコーヒー豆の種類 2021
-date: 2021-12-31 23:59:59 +0900
-comments: true
-categories: diary
+
+title = "今年飲んだコーヒー豆の種類 2021"
+date = 2021-12-31
+comments = true
+categories = "diary"
 +++
 
 今年もコロナでどこにも行くにしても行きにくかったし、

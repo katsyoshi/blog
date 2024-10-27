@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "RubyKaigi 2019"
-date: 2019-04-27 19:53:31 +0900
-comments: true
-categories: rubykaigi ruby tech diary
+
+title = "RubyKaigi 2019"
+date = 2019-04-27
+comments = true
+categories = "rubykaigi ruby tech diary"
 +++
 
 [RubyKaigi2019](https://rubykagi.org/2019) があったので行ってきました。

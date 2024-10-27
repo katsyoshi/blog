@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "use red-arrow.gem"
-date: 2017-05-31 23:27:57 +0900
-comments: true
-categories: tech arrow diary
+
+title = "use red-arrow.gem"
+date = 2017-05-31
+comments = true
+categories = "tech arrow diary"
 +++
 
 [こないだインストール](https://blog.katsyoshi.org/blog/2017/05/29/installing-apache-arrow/) した [Apache Arrow](https://arrow.apache.org/) がとりあえず [Ruby](https://github.com/red-data-tools/red-arrow) でうごくようになったのでメモ

@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "ファイル名間違えてテスト通らなかった話"
-date: 2015-04-09 15:38:49 +0900
-comments: true
-categories: rails twitter-bootstrap tech diary
+
+title = "ファイル名間違えてテスト通らなかった話"
+date = 2015-04-09
+comments = true
+categories = "rails twitter-bootstrap tech diary"
 +++
 
 [rails-assets.org](https://rails-assets.org) から `bootstrap-sass-official` をインストールし、動かしたら、 test環境でテストが落ちてたのでメモ。

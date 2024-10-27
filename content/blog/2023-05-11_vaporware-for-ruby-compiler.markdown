@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "趣味はvaporware造りです v.0.0.1"
-date: 2023-05-25 23:59:59 +0900
-comments: true
-categories: diary
+
+title = "趣味はvaporware造りです v.0.0.1"
+date = 2023-05-25
+comments = true
+categories = "diary"
 +++
 
 [**RubyKaigi2023**](htttps://rubykaigi.org/2023)に行ってきたのは[別エントリ](/blog/2023/05/15/ruby-kaigi-2023-at-matsumoto/)にしたのでこのエントリでは [_LT_](https://rubykaigi.org/2023/presentations/lt/) で話しした内容の説明などをしていこうかと思います。

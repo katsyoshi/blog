@@ -1,9 +1,9 @@
 +++
-layout: post
-title: 1日はやくはじめた
-date: 2018-04-30 01:02:57 +0900
-comments: true
-categories: dialy beer
+
+title = "1日はやくはじめた"
+date = 2018-04-30
+comments = true
+categories = "dialy beer"
 +++
 
 2018/4/27 に休み入れて一日はやくGWはじめています。

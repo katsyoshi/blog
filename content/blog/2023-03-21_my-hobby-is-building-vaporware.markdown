@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "趣味は vaporware 造りですv0.0.0"
-date: 2023-03-21 13:59:59 +0900
-comments: true
-categories: diary compiler
+
+title = "趣味は vaporware 造りですv0.0.0"
+date = 2023-03-21
+comments = true
+categories = "diary compiler"
 +++
 
 プログラマー三大勉強はしたけど、実装はしたことないものといえば

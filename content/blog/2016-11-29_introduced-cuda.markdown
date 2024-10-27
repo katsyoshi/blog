@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "YARAKASHI CUDA編"
-date: 2016-11-29 00:48:15 +0900
-comments: true
-categories: diary cuda gpgpu
+
+title = "YARAKASHI CUDA編"
+date = 2016-11-29
+comments = true
+categories = "diary cuda gpgpu"
 +++
 
 [昨日](/blog/2016/11/28/hello/)かいた奴でGTX 1050があるのでCUDAを導入してみた。

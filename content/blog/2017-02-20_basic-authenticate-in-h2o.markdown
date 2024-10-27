@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "basic authenticate in h2o"
-date: 2017-02-20 21:53:49 +0900
-comments: true
-categories: diary h2o basic-authenticate
+
+title = "basic authenticate in h2o"
+date = 2017-02-20
+comments = true
+categories = "diary h2o basic-authenticate"
 +++
 
 H2Oでベーシック認証したい場合は以下のようにします[^h2odoc]

@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "irb の補完の色がいじれるようになったのでかっこよくしてみた"
-date: 2023-11-08 23:59:59 +0900
-comments: true
-categories: diary
+
+title = "irb の補完の色がいじれるようになったのでかっこよくしてみた"
+date = 2023-11-08
+comments = true
+categories = "diary"
 +++
 
 [`Reline`](https://github.com/ruby/reline) が `0.4.0` になり、タイトルのとおり [`irb`](https://github.com/ruby/irb) で[補完画面の色を好きなように変更](https://github.com/ruby/reline/blob/master/doc/reline/face.md)できるようになりました。

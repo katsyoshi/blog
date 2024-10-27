@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "くーも"
-date: 2018-09-11 00:13:45 +0900
-comments: true
-categories: tech diary ruby cuda gpgpu
+
+title = "くーも"
+date = 2018-09-11
+comments = true
+categories = "tech diary ruby cuda gpgpu"
 +++
 
 Rubyで [`cuda`](https://developer.nvidia.com/cuda-downloads) を利用して GPGPU 使いたいの

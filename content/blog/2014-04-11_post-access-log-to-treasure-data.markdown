@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "アクセスログをTreasureData.comへ"
-date: 2014-04-11 00:50:27 +0900
-comments: true
-categories: linux tech log fluentd
+
+title = "アクセスログをTreasureData.comへ"
+date = 2014-04-11
+comments = true
+categories = "linux tech log fluentd"
 +++
 
 いいかげん[treasure data](http://www.treasuredata.com)を使おうかな。

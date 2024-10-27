@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "なごや、ながのに行ってきた"
-date: 2014-09-15 16:33:45 +0900
-comments: true
-categories: diary
+
+title = "なごや、ながのに行ってきた"
+date = 2014-09-15
+comments = true
+categories = "diary"
 +++
 
 友人が車で田舎に帰るということなので勢いで名古屋に連れてきてもらった。

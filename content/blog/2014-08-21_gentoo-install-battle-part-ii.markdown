@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Gentoo Install Battle Part II"
-date: 2014-08-21 20:01:51 +0900
-comments: true
-categories: tech linux gentoo mikutter
+
+title = "Gentoo Install Battle Part II"
+date = 2014-08-21
+comments = true
+categories = "tech linux gentoo mikutter"
 +++
 
 X240の準備は終ったので、[インストール](http://wiki.gentoo.org/wiki/Quick_install_guide)します。基本的にはこの流れです。

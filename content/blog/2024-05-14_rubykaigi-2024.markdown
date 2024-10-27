@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "RubyKaigi2024 @沖縄"
-date: 2024-05-14 23:59:59 +0900
-comments: true
-categories: diary rubykaigi tech
+
+title = "RubyKaigi2024 @沖縄"
+date = 2024-05-14
+comments = true
+categories = "diary rubykaigi tech"
 +++
 
 沖縄だったのでいってきました。

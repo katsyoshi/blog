@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "Hello, Itamae from docker!!"
-date: 2018-07-09 22:54:12 +0900
-comments: true
-categories: tech diary docker itamae
+
+title = "Hello, Itamae from docker!!"
+date = 2018-07-09
+comments = true
+categories = "tech diary docker itamae"
 +++
 
 [Itamae](https://itamae.kitchen/) の plugin 書いててそろそろ test 欲しいなあとおもって2年くらいたちましたが、

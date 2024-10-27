@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "jubatus handsonにいってきたのでfluent-plugin-jubatusについてちょっとだけ"
-date: 2014-04-21 23:45:43 +0900
-comments: true
-categories: tech jubatus fluentd fluent-plugin
+
+title = "jubatus handsonにいってきたのでfluent-plugin-jubatusについてちょっとだけ"
+date = 2014-04-21
+comments = true
+categories = "tech jubatus fluentd fluent-plugin"
 +++
 
 ## [Jubatus Handson](http://connpass.com/event/5641/)行ってきました

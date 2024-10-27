@@ -1,9 +1,9 @@
 +++
-layout: post
-title: "NLP100 Knock Section IV"
-date: 2018-02-26 23:45:52 +0900
-comments: true
-categories: diary tech rust nlp100
+
+title = "NLP100 Knock Section IV"
+date = 2018-02-26
+comments = true
+categories = "diary tech rust nlp100"
 +++
 
 NLP100本ノック第4節おわりましたのでまとめます
