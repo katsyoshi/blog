@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2016/12/01/im-rockn-roll-star"
+layout = "post"
 title = "Rock'n' Roll Star"
 date = 2016-12-01
 comments = true

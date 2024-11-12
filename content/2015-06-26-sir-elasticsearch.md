@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/06/26/sir-elasticsearch"
+layout = "post"
 title = "elasticsearchどの〜"
 date = 2015-06-26
 comments = true

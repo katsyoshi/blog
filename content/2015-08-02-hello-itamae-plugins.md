@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/08/02/hello-itamae-plugins"
+layout = "post"
 title = "こんにちは、いたまえさん"
 date = 2015-08-02
 comments = true

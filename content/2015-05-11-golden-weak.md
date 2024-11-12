@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/05/11/golden-weak"
+layout = "post"
 title = "ゴールデンウィークのお買いもの"
 date = 2015-05-11
 comments = true

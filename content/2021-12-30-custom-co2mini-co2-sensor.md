@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2021/12/30/custom-co2mini-co2-sensor"
+layout = "post"
 title = "custom CO2-mini で CO2 を見えるようにしよう"
 date = 2021-12-30
 comments = true
@@ -44,7 +45,7 @@ command = ["/path/to/build/bin/mackerel-plugin-co2mon"]
 面倒で先延しにしてたのですが、チョットやってみたらすぐにできたのでよかったです。
 今後としては **CO<sub>2</sub>** の値に応じて窓開けたりできるようにしたいなあと思っています[^window]。
 
-+++
+---
 
 [^buy-co2mon]: Amazon で確認したら買ったの 2020/03 だった……
 [^custom-co2mini]: mackerel のグラフ表示部分のタイトルが `custom.CO2MINI.co2.living` となり、メーカー名も入っていいじゃんとなった。

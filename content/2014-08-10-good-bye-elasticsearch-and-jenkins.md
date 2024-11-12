@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/08/10/good-bye-elasticsearch-and-jenkins"
+layout = "post"
 title = "good-bye elasticsearch and jenkins"
 date = 2014-08-10
 comments = true

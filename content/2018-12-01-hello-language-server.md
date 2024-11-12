@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2018/12/01/hello-language-server"
+layout = "post"
 title = "hello language server"
 date = 2018-12-01
 comments = true

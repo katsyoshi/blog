@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/04/11/post-access-log-to-treasure-data"
+layout = "post"
 title = "アクセスログをTreasureData.comへ"
 date = 2014-04-11
 comments = true

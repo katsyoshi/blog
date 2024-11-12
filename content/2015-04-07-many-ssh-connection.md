@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/04/07/many-ssh-connection"
+layout = "post"
 title = "known_hostsに載っていないホストに接続確認しないようにする"
 date = 2015-04-07
 comments = true

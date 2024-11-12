@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2017/02/12/octopress-themes"
+layout = "post"
 title = "Blogのテーマかえた"
 date = 2017-02-12
 comments = true

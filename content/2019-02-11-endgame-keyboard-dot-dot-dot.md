@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2019/02/11/endgame-keyboard-dot-dot-dot"
+layout = "post"
 title = "endgame keyboard..."
 date = 2019-02-11
 comments = true

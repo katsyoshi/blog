@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2017/12/02/wiskey-advent-calendar"
+layout = "post"
 title = "ウイスキーアドベントカレンダー2日目"
 comments = true
 categories = "diary wiskey sake"

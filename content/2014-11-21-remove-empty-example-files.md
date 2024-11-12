@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/11/21/remove-empty-example-files"
+layout = "post"
 title = "Railsで空のテストファイルを削除"
 date = 2014-11-21
 comments = true

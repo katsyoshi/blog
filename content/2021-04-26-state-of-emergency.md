@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2021/04/26/state-of-emergency"
+layout = "post"
 title = "緊急事態宣言"
 date = 2021-04-26
 comments = true

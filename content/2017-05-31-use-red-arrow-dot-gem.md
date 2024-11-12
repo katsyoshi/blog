@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2017/05/31/use-red-arrow-dot-gem"
+layout = "post"
 title = "use red-arrow.gem"
 date = 2017-05-31
 comments = true

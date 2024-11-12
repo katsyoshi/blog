@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2016/11/29/introduced-cuda"
+layout = "post"
 title = "YARAKASHI CUDA編"
 date = 2016-11-29
 comments = true

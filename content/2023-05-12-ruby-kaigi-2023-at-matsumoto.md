@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2023/05/12/ruby-kaigi-2023-at-matsumoto"
+layout = "post"
 title = "RubyKaigi2023 @MATZ本"
 date = 2023-05-15
 comments = true
@@ -132,6 +133,6 @@ drinkup 終了後は [onk](https://twitter.com/onk) とふたりで近所のワ�
 
 今回のRubyKaigi久しぶりのFull開催で大変楽しめたのですが、LTとは言えはじめての発表があり、心から楽しめたかというとあれですが、すごく楽しかったし、刺激になりました。来年の那覇は本編に出せるようになんとか精進します!!!
 
-+++
+---
 
 [^sonnnakotohanai]: 海外の人が登録して行ったほうがいいんじゃないかと一瞬思った

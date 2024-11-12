@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2023/03/21/my-hobby-is-building-vaporware"
+layout = "post"
 title = "趣味は vaporware 造りですv0.0.0"
 date = 2023-03-21
 comments = true

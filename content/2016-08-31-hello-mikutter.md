@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2016/08/31/hello-mikutter"
+layout = "post"
 title = "hello mikutter"
 date = 2016-08-31
 comments = true

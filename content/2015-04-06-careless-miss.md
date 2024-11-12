@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/04/06/careless-miss"
+layout = "post"
 title = "不注意なこと"
 date = 2015-04-06
 comments = true

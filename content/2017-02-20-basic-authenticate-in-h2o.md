@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2017/02/20/basic-authenticate-in-h2o"
+layout = "post"
 title = "basic authenticate in h2o"
 date = 2017-02-20
 comments = true

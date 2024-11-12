@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/09/15/went-to-nagoya-and-nagano"
+layout = "post"
 title = "なごや、ながのに行ってきた"
 date = 2014-09-15
 comments = true

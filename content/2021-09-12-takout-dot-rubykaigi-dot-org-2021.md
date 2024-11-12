@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2021/09/12/takout-dot-rubykaigi-dot-org-2021"
+layout = "post"
 title = "2021.takeout.rubykaigi.org"
 date = 2021-09-12
 comments = true

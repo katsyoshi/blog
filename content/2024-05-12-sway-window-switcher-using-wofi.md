@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2024/05/12/sway-window-switcher-using-wofi"
+layout = "post"
 title = "Sway 用 Window 切り替えを作った"
 date = 2024-05-11
 comments = true
@@ -94,7 +95,7 @@ SwayWindowSwithcer.switch
 あたらしい PC を買い、デスクトップ環境を替えました。
 あたらしい環境で少し不便だったところを解消するプログラムを書いてみました。
 
-+++
+---
 
 [^ipc]: InerProcess Communication
 [^sanko]: 参考にした **Python** はウィンドウのオブジェクトから直接コマンドが送れます。

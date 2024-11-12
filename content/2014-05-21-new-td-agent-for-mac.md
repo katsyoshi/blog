@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/05/21/new-td-agent-for-mac"
+layout = "post"
 title = "td-agent.pkg"
 date = 2014-05-21
 comments = true

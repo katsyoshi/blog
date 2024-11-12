@@ -1,5 +1,6 @@
 +++
-path = "2014/04/09/how-to-install-applications-non-super-user
+path = "/blog/2014/04/09/how-to-install-applications-non-super-user"
+layout = "post"
 title = "スーパーユーザ権限もたずに好きなソフトをインストール"
 date = 2014-04-09
 comments = true

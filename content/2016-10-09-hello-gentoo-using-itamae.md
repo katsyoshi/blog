@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2016/10/09/hello-gentoo-using-itamae"
+layout = "post"
 title = "ItamaeつかってOSのインストールをやってみた"
 date = 2016-10-09
 comments = true

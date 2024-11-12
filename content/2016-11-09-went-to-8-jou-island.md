@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2016/11/09/went-to-8-jou-island"
+layout = "post"
 title = "went to 8 jou island"
 date = 2016-11-09
 comments = true

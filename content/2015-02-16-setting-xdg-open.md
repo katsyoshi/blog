@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/02/16/setting-xdg-open"
+layout = "post"
 title = "XDGの設定"
 date = 2015-02-16
 comments = true

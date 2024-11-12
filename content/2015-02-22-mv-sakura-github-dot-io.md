@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/02/22/mv-sakura-github-dot-io"
+layout = "post"
 title = "blogの引越し"
 date = 2015-02-22
 comments = true

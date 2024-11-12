@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2017/12/30/favorite-beer-house"
+layout = "post"
 title = "今年いったビール屋さん 2017"
 date = 2017-12-30
 comments = true

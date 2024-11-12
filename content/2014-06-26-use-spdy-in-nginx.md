@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/06/26/use-spdy-in-nginx"
+layout = "post"
 title = "SPDYをさくっと動かしてみた"
 date = 2014-06-26
 comments = true

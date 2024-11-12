@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/04/21/jubatus-handson-and-fluent-plugin-jubatus"
+layout = "post"
 title = "jubatus handsonにいってきたのでfluent-plugin-jubatusについてちょっとだけ"
 date = 2014-04-21
 comments = true

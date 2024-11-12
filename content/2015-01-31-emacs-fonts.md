@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/01/31/emacs-fonts"
+layout = "post"
 title = "Rictyやめるってよ"
 date = 2015-01-31
 comments = true

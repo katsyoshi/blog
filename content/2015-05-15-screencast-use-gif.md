@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/05/15/screencast-use-gif"
+layout = "post"
 title = "すくりーんきゃすと"
 date = 2015-05-15
 comments = true

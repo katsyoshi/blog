@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/03/17/heroku-deploy-anther-branch"
+layout = "post"
 title = "Herokuでmaster以外のブランチを利用してデプロイする方法"
 date = 2015-03-17
 comments = true

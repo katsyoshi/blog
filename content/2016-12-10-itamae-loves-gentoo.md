@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2016/12/10/itamae-loves-gentoo"
+layout = "post"
 title = "板前さんでGentooを管理"
 date = 2016-12-10
 comments = true

@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2017/12/01/went-to-kinosaki-and-amano-hashidate"
+layout = "post"
 title = "mikutter合宿いってきた"
 date = 2017-12-01
 comments = true

@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/03/18/party-of-asakusa-dot-rb-300th"
+layout = "post"
 title = "Asakusa.rbの300回記念パーティに行ってきた"
 date = 2015-03-18
 comments = true

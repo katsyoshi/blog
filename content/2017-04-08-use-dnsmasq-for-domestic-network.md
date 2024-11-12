@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2017/04/08/use-dnsmasq-for-domestic-network"
+layout = "post"
 title = "raspiでdnsを運用してみはじめた"
 date = 2017-04-09
 comments = true

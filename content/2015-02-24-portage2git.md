@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/02/24/portage2git"
+layout = "post"
 title = "emerge --syncをgitにかえたはなし"
 date = 2015-02-24
 comments = true

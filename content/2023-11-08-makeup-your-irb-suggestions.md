@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2023/11/08/makeup-your-irb-suggestions"
+layout = "post"
 title = "irb の補完の色がいじれるようになったのでかっこよくしてみた"
 date = 2023-11-08
 comments = true

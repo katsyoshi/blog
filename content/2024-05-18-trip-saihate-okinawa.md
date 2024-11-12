@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2024/05/18/trip-saihate-okinawa"
+layout = "post"
 title = "最果ての沖縄に行ってきた"
 date = 2024-05-18
 comments = true

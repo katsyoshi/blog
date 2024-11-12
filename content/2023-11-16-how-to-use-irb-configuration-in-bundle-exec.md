@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2023/11/16/how-to-use-irb-configuration-in-bundle-exec"
+layout = "post"
 title = "いいかんじに Bundler で管理されていない Gem を使いたい"
 date = 2023-11-16
 comments = true

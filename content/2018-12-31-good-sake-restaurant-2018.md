@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2018/12/31/good-sake-restaurant-2018"
+layout = "post"
 title = "今年いった日本酒が飲める店 2018"
 date = 2018-12-31
 comments = true

@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2017/05/29/installing-apache-arrow"
+layout = "post"
 title = "installing apache arrow"
 date = 2017-05-29
 comments = true

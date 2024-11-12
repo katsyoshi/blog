@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/09/12/jubatus-in-gentoo"
+layout = "post"
 title = "Gentoo LinuxむけのJubatusパッケージ書いたよ"
 date = 2014-09-12
 comments = true

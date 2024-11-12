@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2016/12/17/emoji-in-mikutter"
+layout = "post"
 title = "みくったーでえもじ"
 date = 2016-12-17
 comments = true

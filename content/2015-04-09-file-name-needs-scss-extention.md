@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/04/09/file-name-needs-scss-extention"
+layout = "post"
 title = "ファイル名間違えてテスト通らなかった話"
 date = 2015-04-09
 comments = true

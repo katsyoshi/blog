@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2017/04/01/how-to-install-elixir"
+layout = "post"
 title = "Elixirのインストール方法"
 date = 2017-04-01
 comments = true

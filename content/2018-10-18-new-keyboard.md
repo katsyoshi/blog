@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2018/10/18/new-keyboard"
+layout = "post"
 title = "new keyboard"
 date = 2018-10-18
 comments = true

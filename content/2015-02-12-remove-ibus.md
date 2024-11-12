@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/02/12/remove-ibus"
+layout = "post"
 title = "とりあえずibusやめてみた"
 date = 2015-02-12
 comments = true

@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/12/01/mikutter-advent-calendar-1-day"
+layout = "post"
 title = "mikutter advent calendar 1日目"
 date = 2014-12-01
 comments = true

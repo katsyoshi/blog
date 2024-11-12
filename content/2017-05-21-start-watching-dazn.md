@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2017/05/21/start-watching-dazn"
+layout = "post"
 title = "start watching dazn"
 date = 2017-05-21
 comments = true

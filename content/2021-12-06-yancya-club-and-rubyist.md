@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2021/12/06/yancya-club-and-rubyist"
+layout = "post"
 title = "やんちゃクラブとRubyistと川"
 date = 2021-12-06
 comments = true

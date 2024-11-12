@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/01/12/typescript-in-rails"
+layout = "post"
 title = "Ruby on RailsでTypeScriptを使ってみる"
 date = 2015-01-12
 comments = true

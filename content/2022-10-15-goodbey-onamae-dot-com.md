@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2022/10/15/goodbey-onamae-dot-com"
+layout = "post"
 title = "お名前ドットコムのメールがうざすぎたので DNS を Cloudflare に移行して快適生活"
 date = 2022-10-15
 comments = true
@@ -44,7 +45,7 @@ WHOIS を一旦登録時のものに変更します[^org]。
 が更新警告と普通のメールの違いがあまりにもわからないので捨てることにしました。
 **Cloudflare** で不満があったらまた変更すると思いますが、快適な生活になりました(たぶん
 
-+++
+---
 
 [^org]: 前に移行しようとしたとき、**.org** のドメインは WHOIS 情報書き変えられなくて移行失敗。現在この制限はなくなったので移行。
 [^onamae]: こいつが見つけにくく、お名前ドットコムからは見つけられずに[移管レポートブログ](https://www.tsukimi.net/domain_onamae_xdomain.html)から発見。

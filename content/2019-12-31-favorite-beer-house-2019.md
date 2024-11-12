@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2019/12/31/favorite-beer-house-2019"
+layout = "post"
 title = "Favorite Beer House 2019"
 date = 2019-12-31
 comments = true

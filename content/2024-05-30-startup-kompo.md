@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2024/05/30/startup-kompo"
+layout = "post"
 title = "Ruby を KOMPO してみた"
 date = 2024-05-29
 comments = true

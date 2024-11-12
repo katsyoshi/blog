@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2022/10/12/ipv6nize-at-home"
+layout = "post"
 title = "Communicate on IPv6 from home"
 date = 2022-10-12
 comments = true

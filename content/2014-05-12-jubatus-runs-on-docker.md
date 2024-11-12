@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/05/12/jubatus-runs-on-docker"
+layout = "post"
 title = "JubatusをDocker上で動かしてみた"
 date = 2014-05-12
 comments = true

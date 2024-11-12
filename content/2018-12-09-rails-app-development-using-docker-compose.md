@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2018/12/09/rails-app-development-using-docker-compose"
+layout = "post"
 title = "docker-composeを利用してRailsアプリ開発を楽にしよう"
 date = 2018-12-09
 comments = true

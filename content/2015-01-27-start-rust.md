@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/01/27/start-rust"
+layout = "post"
 title = "Start Rust by Example"
 date = 2015-01-27
 comments = true

@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2021/09/13/good-bye-octopress"
+layout = "post"
 title = "Octopress 脱出"
 date = 2021-09-13
 comments = true

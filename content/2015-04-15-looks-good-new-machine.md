@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/04/15/looks-good-new-machine"
+layout = "post"
 title = "おにゅーな"
 date = 2015-04-15
 comments = true

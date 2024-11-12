@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2023/06/20/hello-zellij"
+layout = "post"
 title = "Zellij はじめました"
 date = 2023-06-19
 comments = true

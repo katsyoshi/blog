@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/06/02/github-cleanup"
+layout = "post"
 title = "今日の夕飯"
 date = 2014-06-02
 comments = true

@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2023/01/03/upgrade-gems-using-rust-for-new-rubygems"
+layout = "post"
 title = "Update rubygems using Rust for Ruby 3.2"
 date = 2023-01-03
 comments = true

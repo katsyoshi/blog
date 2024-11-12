@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2017/06/04/rustful-web"
+layout = "post"
 title = "rustful web"
 date = 2017-06-04
 comments = true

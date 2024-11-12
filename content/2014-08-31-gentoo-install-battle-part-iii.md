@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/08/31/gentoo-install-battle-part-iii"
+layout = "post"
 title = "Gentoo Install Battle Part III"
 date = 2014-08-31
 comments = true

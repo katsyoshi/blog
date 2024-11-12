@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/04/30/use-visual-studio-code"
+layout = "post"
 title = "Visual Studio Codeを使ってみた"
 date = 2015-04-30
 comments = true

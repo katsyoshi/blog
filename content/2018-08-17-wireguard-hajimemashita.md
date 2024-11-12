@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2018/08/17/wireguard-hajimemashita"
+layout = "post"
 title = "wireguardをはじめました"
 date = 2018-08-17
 comments = true

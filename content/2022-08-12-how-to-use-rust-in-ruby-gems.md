@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2022/08/12/how-to-use-rust-in-ruby-gems"
+layout = "post"
 title = "Ruby gem で Rust をつかって爆速にしたい!!!!!!11"
 date = 2022-08-12
 comments = true

@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2018/01/21/nlp-100-section-1-part-3"
+layout = "post"
 title = "nlp 100 section 1 part 3"
 date = 2018-01-21
 comments = true
@@ -97,7 +98,7 @@ fn main() {
 
 ### [07. テンプレートによる文生成](http://www.cl.ecei.tohoku.ac.jp/nlp100/#sec07)
 
-これは [`format!`]() を使えば終りです。(問題意図ほんとこれなんか？)
+これは `format!` を使えば終りです。(問題意図ほんとこれなんか？)
 
 ```rust
 fn string_template(x: i8, y: &str, z: f32) -> String {

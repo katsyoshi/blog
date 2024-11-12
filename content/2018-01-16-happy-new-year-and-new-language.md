@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2018/01/16/happy-new-year-and-new-language"
+layout = "post"
 title = "happy new year and new language"
 date = 2018-01-16
 comments = true

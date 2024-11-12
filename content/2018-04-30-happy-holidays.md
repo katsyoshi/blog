@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2018/04/30/happy-holidays"
+layout = "post"
 title = "1日はやくはじめた"
 date = 2018-04-30
 comments = true

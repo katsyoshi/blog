@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2017/07/01/emacs-config-from-itamae"
+layout = "post"
 title = "Emacsの構成管理をitamaeで管理"
 date = 2017-07-01
 comments = true

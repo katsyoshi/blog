@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/06/22/fail-git-uploading"
+layout = "post"
 title = "野良Gitサーバにuploadできなかった話"
 date = 2014-06-22
 comments = true

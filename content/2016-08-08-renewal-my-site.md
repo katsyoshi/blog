@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2016/08/08/renewal-my-site"
+layout = "post"
 title = "RENEWAL MY SITE!!!"
 date = 2016-08-08
 comments = true

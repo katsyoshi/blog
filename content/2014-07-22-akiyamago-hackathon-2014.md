@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/07/22/akiyamago-hackathon-2014"
+layout = "post"
 title = "秘境でハッカソンがあったので行ってきた"
 date = 2014-07-22
 comments = true

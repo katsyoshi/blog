@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2018/01/19/nlp-100-section-1-part-2"
+layout = "post"
 title = "NLP100本ノック section 1 part 2"
 date = 2018-01-19
 comments = true

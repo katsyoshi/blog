@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/05/03/softether"
+layout = "post"
 title = "softether"
 date = 2015-05-03
 comments = true

@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/10/01/pitfall-in-docker"
+layout = "post"
 title = "Dockerではまってます"
 date = 2014-10-01
 comments = true

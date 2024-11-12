@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2022/03/19/hello-wezterm"
+layout = "post"
 title = "Hello, Wezterm"
 date = 2022-03-19
 comments = true

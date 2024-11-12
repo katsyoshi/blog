@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2016/10/10/fxxking-ssh-permission"
+layout = "post"
 title = "ssh permission"
 date = 2016-10-10
 comments = true

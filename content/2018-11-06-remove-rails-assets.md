@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2018/11/06/remove-rails-assets"
+layout = "post"
 title = "remove rails assets"
 date = 2018-11-06
 comments = true

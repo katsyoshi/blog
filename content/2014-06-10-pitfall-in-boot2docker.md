@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2014/06/10/pitfall-in-boot2docker"
+layout = "post"
 title = "docker on OS Xで嵌ったおはなし"
 date = 2014-06-10
 comments = true

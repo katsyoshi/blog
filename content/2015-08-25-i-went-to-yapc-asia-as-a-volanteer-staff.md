@@ -1,5 +1,6 @@
 +++
-
+path = "/blog/2015/08/25/i-went-to-yapc-asia-as-a-volanteer-staff"
+layout = "post"
 title = "YAPC::Asia 2015に参加しました(ボランティアスタッフとして)"
 date = 2015-08-25
 comments = true
