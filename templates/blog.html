@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% include "pagination.html" %}
+{% for page in paginator.pages %}
+<h1><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h1>
+<div class="date">{{ page.date | safe }}</div>
+{{ page.content | safe }}
+<div class="end"></div>
+{% endfor %}
+{% include "pagination.html" %}
+{% endblock content %}
