@@ -20,7 +20,7 @@ require "arrow"
 これは `GObjectIntrospection` の[ロードに失敗](https://github.com/red-data-tools/red-arrow/blob/master/lib/arrow.rb#L25)しているようです。
 なので[ここ](http://www.clear-code.com/blog/2013/12/16.html)や[ここ](http://qiita.com/groonga/items/71b145b37d77bd160bf2)を参考に環境変数 `GI_TYPELIB_PATH` を設定すると読み込まれるようになり実行できます。
 
-```console
+```bash
 $ export GI_TYPELIB_PATH=/path/to/girepository-1.0
 $ irb -rarrow
 ```
@@ -29,7 +29,7 @@ $ irb -rarrow
 
 最後に[サンプル](https://github.com/red-data-tools/red-arrow/tree/master/example)を実行して確認しました!
 
-```console
+```bash
 % ruby write-file.rb
 % ruby read-file.rb
 ========================================

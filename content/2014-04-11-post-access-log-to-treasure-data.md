@@ -30,7 +30,7 @@ $ sudo adduser fluentd -s /bin/false
 
 以下のコマンドを入力しRubyのインストールを行ないます。
 
-```
+```bash
 $ sudo aptitude build-dep ruby1.9.3
 $ sudo aptitude install git
 $ sudo git clone git://github.com/sstephenson/rbenv.git /usr/local/rbenv
@@ -42,14 +42,14 @@ $ eval "$(rbenv init -)"
 
 ここまで入力したら`sudo visudo -f /etc/sudoers.d/00_base`と入力し、以下を[入力してください](http://office.tsukuba-bunko.org/ppoi/entry/systemwide-rbenv)。
 
-```
+```config
 Defaults !secure_path
 Defaults env_keep += "PATH RBENV_ROOT"
 ```
 
 入力したらRuby 2.1.1をインストールします。
 
-```
+```bash
 $ sudo rbenv install 2.1.1
 $ sudo rbenv rehash
 ```
@@ -58,13 +58,13 @@ $ sudo rbenv rehash
 ### fluentdとプラグインのインストール
 gemでfluentdとtdプラグインのfluent-plugin-tdをインストールします。
 
-```
+```bash
 $ sudo gem install fluentd fluent-plugin-td
 ```
 
 つぎに設定ファイル`fluentd.conf`を作成します。
 
-```xml fluentd.conf
+```xml
 <source>
   type forward
 </source>
@@ -103,7 +103,7 @@ $ sudo gem install fluentd fluent-plugin-td
 まず `/etc/init.d/skelton` を `/etc/init.d/fluentd` にコピーします。
 コピーしたら以下の様にします。
 
-```diff fluentd_diff_skelton
+```diff
 diff --git a/etc/init.d/skeleton b/fluentd
 old mode 100644
 new mode 100755
@@ -161,7 +161,7 @@ index dac9480..c59505e
 
 このままでは起動しないので `/etc/default/fluentd` を作成します。
 
-```sh fluentd.default
+```sh
 RBENV_ROOT=/usr/local/rbenv
 PATH=${RBENV_ROOT}/bin:${PATH}
 eval "$(rbenv init -)"

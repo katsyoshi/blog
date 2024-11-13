@@ -13,7 +13,7 @@ categories = "mikutter ruby gems"
 [rubygems](https://rubygems.org) からはまだインストールはできません。
 ので、以下の様にしてgem packageを作成します。
 
-```console
+```bash
 $ git clone github.com/katsyoshi/mikutter.git
 $ cd mikutter
 $ git checkout reokure-ru

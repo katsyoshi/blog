@@ -18,7 +18,7 @@ categories = "tech elixir diary"
 まず、Elixir を動かすために [Erlang](https://www.erlang.org) をインストールします。
 
 
-```console
+```bash
 sudo eix-sync
 sudo emerge erlang
 ```
@@ -29,7 +29,7 @@ sudo emerge erlang
 
 次にインストールなのですが、Elixir は Earlang VM 上で動くプログラミング言語のため、コンパイルされたバイナリを置くだけでインストールがおわります。
 
-```console
+```bash
 wget https://github.com/elixir-lang/elixir/releases/download/v1.4.2/Precompiled.zip
 unzip Precompiled.zip -d elixir
 mv elixir /path/to/elixir

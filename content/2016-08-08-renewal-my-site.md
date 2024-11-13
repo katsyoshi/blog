@@ -19,7 +19,7 @@ categories = "diary h2 h2o ssl"
 リリースされてだいぶたつのですが、[Let's Encrypt][letsencrypt]を利用してみました。
 Ubuntu Linux 16.04 では、簡単に導入できます。
 
-```console
+```bash
 $ sudo apt install letsencrypt
 $ sudo letsencrypt certonly
 ```
@@ -33,7 +33,7 @@ $ sudo letsencrypt certonly
 せっかくだし、[H2O][h2o/h2o]を使おうと思います。
 インストールはかんたんでいかのようにすればokです。
 
-```
+```bash
 $ git clone h2o/h2o
 $ cd h2o
 $ cmake -DCMAKE_INSTALL_PREFIX_PATH=/opt/local .

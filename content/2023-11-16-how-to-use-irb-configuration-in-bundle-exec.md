@@ -34,7 +34,7 @@ categories = "diary"
 
 #### 使い方
 
-```console
+```bash
 $ gem install setup # gem でイントールします。
 # インストールしたい gem のリポジトリをコピーなどして手元にもってきましょう。
 $ cd /path/to/install/gem

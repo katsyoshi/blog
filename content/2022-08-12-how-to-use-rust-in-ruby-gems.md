@@ -121,7 +121,7 @@ end
 
 Rust を利用することでだいたい 5 倍ほど速くなっています。
 
-```console
+```bash
 > ruby bentimark.rb
 Warming up --------------------------------------
             standard    36.437k i/100ms

@@ -19,7 +19,7 @@ paths:
 
 また、 `.htpasswd` で plain フォーマットはサポートされていません。
 
-```console
+```bash
 failed to validate password using file:/etc/h2o/.htpasswd:crypt-style password hash is not supported
 ```
 

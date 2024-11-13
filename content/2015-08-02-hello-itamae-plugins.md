@@ -22,7 +22,7 @@ gem 'itamae-plugin-recipe-pyenv', github: 'katsyoshi/itamae-plugin-recipe-pyenv'
 
 recipeとしては以下のようにしてください。
 
-```ruby recipe.rb
+```ruby
 include_recipe 'pyenv::system'
 include_recipe 'plenv::system'
 ```

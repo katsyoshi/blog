@@ -14,7 +14,7 @@ Rictyのときの症状と設定をのせておきます。
 
 -> ![Ricty](/images/screenshot/Ricty.png) <-
 
-```scheme
+```lisp
 (set-face-attribute 'default nil :family "Ricty" :height 135)
 (set-fontset-font (frame-parameter nil 'font) 'japanese-jisx0208 '("Ricty" . "iso10646-1"))
 (setq face-font-rescale-alist '(("Ricty" . 1.2)))
@@ -24,7 +24,7 @@ Rictyのときの症状と設定をのせておきます。
 
 -> ![DejaVu](/images/screenshot/DejaVu.png) <-
 
-```scheme
+```lisp
 (set-face-attribute 'default nil :family "DejaVu" :height 135)
 ```
 
