@@ -1,8 +1,9 @@
 base_url = "https://blog.katsyoshi.org"
 build_search_index = true
 compile_sass = true
-generate_feeds = true
 description = "It's a memos."
+feed_filenames = ["feed.xml"]
+generate_feeds = true
 
 title = "katsyoshi のめもみたいなの"
 
