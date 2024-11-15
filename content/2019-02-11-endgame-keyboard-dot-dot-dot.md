@@ -21,39 +21,39 @@ categories = "diary tech keyboard fortitude60"
 
 1. 基板にダイオードつけます。
 
-![](/images/photo/fortitude60-diode.jpg)
+![](/images/photo/fortitude60-diode.webp)
 
 2. 基板にLED 用に抵抗(470Ω)をスイッチ毎につけます。制御用の抵抗(1kΩ)と FET を各ボード毎につけます。
 
-![](/images/photo/fortitude60-fet-resister.jpg)
+![](/images/photo/fortitude60-fet-resister.webp)
 
 3. スイッチをプレートにはめます。
 
-![](/images/photo/fortitude60-switch-in-plate.jpg)
+![](/images/photo/fortitude60-switch-in-plate.webp)
 
 4. 基板とスイッチをはめたプレートを合体させます
 
-![](/images/photo/fortitude60-docking-switch.jpg)
+![](/images/photo/fortitude60-docking-switch.webp)
 
 5. LED をスイッチに刺します。
 
-![](/images/photo/fortitude60-led-in-switch.jpg)
+![](/images/photo/fortitude60-led-in-switch.webp)
 
 6. 半田付します。
 
-![](/images/photo/fortitude60-soldering-switch.jpg)
+![](/images/photo/fortitude60-soldering-switch.webp)
 
 7. MCU を基板に接続
 
-![](/images/photo/fortitude60-mcu-on-keyboard.jpg)
+![](/images/photo/fortitude60-mcu-on-keyboard.webp)
 
 8. 通電確認!
 
-![](/images/photo/fortitude60-lighting-keyboard.jpg)
+![](/images/photo/fortitude60-lighting-keyboard.webp)
 
 9. keycap まうんと!
 
-![](/images/photo/fortitude60-completing.jpg)
+![](/images/photo/fortitude60-completing.webp)
 
 ## おわり
 

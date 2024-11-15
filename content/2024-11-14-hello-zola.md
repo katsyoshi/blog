@@ -65,17 +65,27 @@ _URL_ の設定は、[参考サイト](https://zenn.dev/anz/scraps/ebf857a5cbcfb
 [_Cargo_](https://crates.io/) でインストールできればいいのに……
 ということでもっと面倒臭い自分のテーマを作ることでこの気になる点を解決。
 作成方法は [公式ドキュメント](https://www.getzola.org/documentation/getting-started/overview/#templates) を参考にすすめれば問題なく作成できます。
-テーマというか、普通にテンプレート化するだけですが。
+テーマというか、普通にテンプレート化するだけです。
 [テーマ化](https://www.getzola.org/documentation/themes/creating-a-theme/) も実際は簡単にでき、 `theme.toml` を書いておけば大丈夫なようです。
 個人的に利用しているだけなのでテーマ化はしないですが。
+
+### FEED.XML
+
+_[RSS Feed](https://www.rssboard.org/rss-specification)_ 自体はサポートされていますが、 _URL_ のパスが `/atom.xml` か `/rss.xml` になってしまうため
+旧来のパス `/feed.xml` は新規にテンプレートを作る必要があります。
+
+```xml
+```
 
 #### こまかい修正
 いくつか気になる部分があったのでこまかいので手で修正
 
 1. 脚注の順番が書いた順
+1. _Syntax Highlighting_ の言語
 1. 画像の変更
 
 脚注は脚注で引用した順番ではなく、脚注を書いた順になっているので修正してます。
+_Syntax Highlighting_ ではサポートされていない書きかた（**console**）をやめてサポートされている言語へ修正。
 画像の変更はとくに **zola** は関係なく、大きいファイルが多いので変更しています。
 
 <hr>
