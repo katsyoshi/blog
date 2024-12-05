@@ -15,8 +15,6 @@ Oasisについて適当に書きます。
 Firstはこの曲よりも [Live Forever](https://www.amazon.co.jp/dp/B00K2ZK5OE/ref=dm_ws_tlw_trk3) のほうがすきですが。
 ロックバンド Advent Calendar 2016 ということでこのタイトルにしました[^タイトル]。
 
-[^タイトル]: ほんとは[ノエルの発言](https://ja.wikipedia.org/wiki/ノエル・ギャラガー#.E7.99.BA.E8.A8.80)を付けたかったけどさすがにね…
-
 ## Oasisについて
 
 最も好きなロックバンドの一つだった(解散中)ので書いてみることにします。
@@ -29,13 +27,15 @@ Firstはこの曲よりも [Live Forever](https://www.amazon.co.jp/dp/B00K2ZK5OE
 
 そのあとも[The Longcut](https://www.amazon.co.jp/The-Longcut/e/B001LHT232/digital/ref=ntt_mp3_rdr?_encoding=UTF8&sn=d)、[The Music](https://www.amazon.co.jp/The-Music/e/B000APTYQQ/digital/ref=ntt_mp3_rdr?_encoding=UTF8&sn=d)[^trends]、[Bloc Party](https://www.amazon.co.jp/Bloc-Party/e/B000APY4UC/digital/ref=ntt_mp3_rdr?_encoding=UTF8&sn=d)、[The Strokes](https://www.amazon.co.jp/The-Strokes/e/B000APQBEY/digital/ref=ntt_mp3_rdr?_encoding=UTF8&sn=d)、[ASIAN KUNG-FU GENERATION](https://www.amazon.co.jp/ASIAN-KUNG-FU-GENERATION/e/B00197HZ7O/digital/ref=ntt_mp3_rdr?_encoding=UTF8&sn=d)、[Coldplay](https://www.amazon.co.jp/Coldplay/e/B000APPUFK/digital/ref=ntt_mp3_rdr?_encoding=UTF8&sn=d)とかに浮気しながらもきちんと御布施としてCDは買ってました。最近のリマスターはさすがに買ってないですが…
 
-[^MTV]: だったけなこのころVibeって名前だった気も
-[^trends]: そんなことより The Music の[google trends](https://www.google.com/trends/explore?geo=JP&q=%2Fm%2F0130zt,%2Fm%2F03d_2z,%2Fm%2F03zgq4,%2Fm%2F0kr_t,%2Fm%2F04zbp3)で熊本が肥ゆいけどなんで？
-
 ## 解散について
 
 [伝統芸的なこと](http://mhnews2504.blog109.fc2.com/blog-entry-1930.html) もあるのでハイハイとしか好きなひとは思ってなかったとおもいます。
 
 で2009年いつも通りまゆげ兄弟(ノエル・ギャラガーとリアム・ギャラガー)の兄弟喧嘩だとおもっていたら本気でまゆげ兄(ノエル)がブチギレて解散したのでそっかーてちょっとショック(ほんとにちょっと)だった[^解散]。
 
+<hr>
+
+[^タイトル]: ほんとは[ノエルの発言](https://ja.wikipedia.org/wiki/ノエル・ギャラガー#.E7.99.BA.E8.A8.80)を付けたかったけどさすがにね…
+[^MTV]: だったけなこのころVibeって名前だった気も
+[^trends]: そんなことより The Music の[google trends](https://www.google.com/trends/explore?geo=JP&q=%2Fm%2F0130zt,%2Fm%2F03d_2z,%2Fm%2F03zgq4,%2Fm%2F0kr_t,%2Fm%2F04zbp3)で熊本が肥ゆいけどなんで？
 [^解散]: このころtwitterでやりとりしてた人とかともオフで解散したねーとか言ってた
