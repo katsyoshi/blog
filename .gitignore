@@ -13,3 +13,5 @@ node_modules
 /_site
 /.jekyll-cache
 /dotfiles/*.png
+/public/base.css
+/public/search_index.en.js

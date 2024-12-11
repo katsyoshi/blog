@@ -6,6 +6,7 @@ feed_filenames = ["feed.xml"]
 generate_feeds = true
 
 title = "katsyoshi のめもみたいなの"
+author = "katsyoshi"
 
 [markdown]
 highlight_code = true
