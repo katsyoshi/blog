@@ -1,0 +1,14 @@
+<nav class="pagination">
+  {% if paginator.previous %}
+  <div class="before">
+    <a class="previous" href="{{ paginator.first }}">‹‹ FIRST</a>
+    <a class="previous" href="{{ paginator.previous }}">‹ Previous</a>
+  </div>
+  {% endif %}
+  {% if paginator.next %}
+  <div class="after">
+    <a class="next" href="{{ paginator.next }}">Next ›</a>
+    <a class="next" href="{{ paginator.last }}">LAST ››</a>
+  </div>
+  {% endif %}
+</nav>
