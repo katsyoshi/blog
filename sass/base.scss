@@ -72,17 +72,18 @@ img {
 .container {
   max-width: calc(800px - 30px * 2);
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
   h1,h2 {
     a,a:hover,a:visited {
       color: inherit;
       text-decoration: none;
     }
-    a,a:hover,a:visited {
-      color: $accent-color;
-      text-decoration: wavy underline;
-    }
-    margin-left: auto;
-    margin-right: auto;
+  }
+  a,a:hover,a:visited {
+    color: $accent-color;
+    text-decoration: wavy underline;
   }
 }
 .date {
