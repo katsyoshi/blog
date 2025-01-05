@@ -83,7 +83,7 @@ img {
   }
   a,a:hover,a:visited {
     color: $accent-color;
-    text-decoration: wavy underline;
+    text-decoration-line: underline;
   }
 }
 .date {
@@ -92,6 +92,13 @@ img {
 }
 .end {
   border: solid $sub-color 0.1px;
+}
+.before {
+  margin-top: 15px;
+  a,a:hover,a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 .pagination {
   display: flex;
