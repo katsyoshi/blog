@@ -19,7 +19,7 @@ categories = "diary h2 h2o ssl"
 リリースされてだいぶたつのですが、[Let's Encrypt][letsencrypt]を利用してみました。
 Ubuntu Linux 16.04 では、簡単に導入できます。
 
-```console
+```bash
 $ sudo apt install letsencrypt
 $ sudo letsencrypt certonly
 ```

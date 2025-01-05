@@ -27,7 +27,7 @@ gcc バージョン 5.4.0 (Gentoo 5.4.0-r3 p1.3, pie-0.6.5)
 
 今回まだGentooにパッケージがないのでgitからインストールします。ほしいのはrubygems.orgに公開されている[red-arrow](https://rubygems.org/gems/red-arrow)をコンパイルするためにglibとこれを利用するために必要な依存パッケージとしてcppをインストールします。インストールはかんたんで `cmake` を実行すればインストールデキルはずです。
 
-```console
+```bash
 $ git clone git@github.com:apache/arrow.git
 $ cd arrow/cpp
 $ mkdir release
@@ -40,7 +40,7 @@ $ cmake .. -DCMAKE_BUILD_TYPE=Release
 ログを見ると実際に取得できていないことも確認しました。で `cpp/cmake_modules/CompilerInfo.cmake` をみるとどうやら日本語のバージョン情報は考慮されていないような作りになっていました。
 なので `LANG=C` をつけて `cmake` 再びつけて実行します。
 
-``` console
+```bash
 $ LANG=C cmake .. -DCMAKE_BUILD_TYPE=Release
 $ make
 $ make install
@@ -48,7 +48,7 @@ $ make install
 
 これでC++のインストールは終了です。続いてglibをインストールします。
 
-```console
+```bash
 $ cd ../../c_glib
 $ ./autgen.sh
 $ ./configure

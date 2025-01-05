@@ -16,7 +16,7 @@ categories = "tech rails"
 
 そのあと、 `yarn add` で `package.json` を生成し `node_modules` にインストールします。
 
-```console
+```bash
 yarn add bootstrap@3 font-awesome jquery
 yarn install
 rails s

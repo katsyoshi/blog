@@ -27,7 +27,7 @@ categories = "gentoo itamae gentoo-install-battle"
 インストールディスクを起動するところはipmiとか搭載していない(しらべていない)し[Ironic](https://wiki.openstack.org/wiki/Ironic)はつかいたくないので手動で起動し、
 sshdの起動とrootのパスワードを設定します。起動したら以下の手順でパーティション作成からカーネルのインストールまでします。
 
-```console
+```bash
 git clone https://github.com/katsyoshi/itamae-recipes.git
 cd itamae-recipes
 bundle install
@@ -42,7 +42,7 @@ itamae ssh -h nu-machine cookbook/install/gentoo.rb -u root -j cookbook/install/
 ## パッケージのインストール
 ここまで終ったら、パッケージのインストールします。これも以下コマンドを実行することで終ります。
 
-```console
+```bash
 itamae ssh -h nu-machine cookbook/gentoo/emerge.rb -j cookbook/gentoo/package.json
 ```
 

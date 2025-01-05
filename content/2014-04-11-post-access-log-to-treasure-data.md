@@ -64,7 +64,7 @@ $ sudo gem install fluentd fluent-plugin-td
 
 つぎに設定ファイル`fluentd.conf`を作成します。
 
-```xml fluentd.conf
+```xml
 <source>
   type forward
 </source>
@@ -103,7 +103,7 @@ $ sudo gem install fluentd fluent-plugin-td
 まず `/etc/init.d/skelton` を `/etc/init.d/fluentd` にコピーします。
 コピーしたら以下の様にします。
 
-```diff fluentd_diff_skelton
+```diff
 diff --git a/etc/init.d/skeleton b/fluentd
 old mode 100644
 new mode 100755
@@ -161,7 +161,7 @@ index dac9480..c59505e
 
 このままでは起動しないので `/etc/default/fluentd` を作成します。
 
-```sh fluentd.default
+```bash
 RBENV_ROOT=/usr/local/rbenv
 PATH=${RBENV_ROOT}/bin:${PATH}
 eval "$(rbenv init -)"
