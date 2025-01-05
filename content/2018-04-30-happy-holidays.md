@@ -29,14 +29,14 @@ categories = "dialy beer"
 流石に平日の午後3時だったので店員さん以外は誰もおらず、一人だけでした。
 とりあえず [Danchi IPA](https://untappd.com/b/gahaha-beer-danchi-ipa/2502617) とレバーを頼んでみた。
 
--> ![](/images/photo/gahaha-danchi-ipa.jpg) <-
+-> ![](/images/photo/gahaha-danchi-ipa.webp) <-
 
 Danchi IPA は苦味がすくなく美味しいビールでした。
 
 つぎに [Marcy IPA](https://untappd.com/b/gahaha-beer-marcy-ipa-ipa/2517460) とライスなしカツカレーを注文。
 こちらは苦味が強くおいしいビールでした。
 
--> ![](/images/photo/gahaha-marcy-ipa.jpg) <-
+-> ![](/images/photo/gahaha-marcy-ipa.webp) <-
 
 そんなことより、謎のメニューが幾つかあり、店員さんに聞いてみたら、「だってお酒のむ人お米とか麺とかあんまりすきじゃないですよね」っていっておりました。
 あと、軟骨バッファローチキンは頼んでないけどとてもよさそうだったので今度いく時に注文しよう。

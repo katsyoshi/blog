@@ -40,12 +40,12 @@ categories = "diary fishing"
 
 釣りはじめて30分ぐらいで釣れたし、一人で刺身にして食べるには十分な大きさだしで、あとは昼ごろまで適当に釣ってました。
 
--> ![アイッパラ](/images/photo/hachijo-ipara.jpg) <-
+-> ![アイッパラ](/images/photo/hachijo-ipara.webp) <-
 
 ## 温泉
 釣りおわったあとは温泉でまったり2時間ほど時間をつぶしてあとは夕日を見にいきました。
 
--> ![サンセット](/images/photo/hachijo-sunset.jpg) <-
+-> ![サンセット](/images/photo/hachijo-sunset.webp) <-
 
 ## おわり
 たのしい一人旅でした。

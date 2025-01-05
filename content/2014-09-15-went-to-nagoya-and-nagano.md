@@ -11,7 +11,7 @@ categories = "diary"
 
 土曜日の夜７時東京出発で夜９時半ころに三島に着き、三島の友人とカレー食べた。
 
-![カレー](/images/photo/mishima-curry.jpg)
+![カレー](/images/photo/mishima-curry.webp)
 
 泊まるとこ決めてないので名古屋まで連れてきてもらって、
 ぷらぷらして泊まるところを探してた。
@@ -45,7 +45,7 @@ categories = "diary"
 温泉では、入湯以外に昼食もとれるということで、昼食も一緒にとることにしました。
 温泉自体は、眺めが非常によく、天気も大変よく、開放的な気分になりました。
 
-![崖の湯](/images/photo/gake-no-yu-akanejuku-nagame.jpg)
+![崖の湯](/images/photo/gake-no-yu-akanejuku-nagame.webp)
 
 温泉の温度がちょっと低かったのが残念かなという程度で、よかったです。
 温泉あがってから昼食で、天ざるそばを食べたのですが、そばは美味しかったです。
@@ -55,7 +55,7 @@ categories = "diary"
 見学1時間という案内がでてたので、外から眺めるだけにしました。
 観光はこれぐらいにして帰ることにしましたが、渋滞が多く結構時間がかかりました。
 
-![松本城](/images/photo/matsumoto-jo-casle-info.jpg)
+![松本城](/images/photo/matsumoto-jo-casle-info.webp)
 
 最後に八王子によって夕飯を食べ、ておくれたと思わせつつも無事帰りつくことができました~。
 塩尻17時前出発して、21時前に八王子に到着しました。
