@@ -4,6 +4,7 @@ compile_sass = true
 description = "It's a memos."
 feed_filenames = ["feed.xml"]
 generate_feeds = true
+author = "katsyoshi"
 
 title = "katsyoshi のめもみたいなの"
 

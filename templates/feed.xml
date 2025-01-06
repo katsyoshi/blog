@@ -6,7 +6,7 @@
   <id>{{config.base_url|safe}}/feed.xml</id>
   <title type="html">{{config.title}}</title>
   <subtitle>{{config.description}}</subtitle>
-  {% for page in pages %}
+  {%- for page in pages %}
   <entry>
     <title>{{page.title}}</title>
     <published>{{page.date | date(timezone="Asia/Tokyo",format="%+")}}</published>
@@ -15,8 +15,14 @@
     <link href="{{page.permalink|safe|trim_end_matches(pat="/")}}" rel="alternate" type="text/html" title="{{page.title}}"></link>
     <content type="text/html">{{page.content}}</content>
     <author>
-      <name>{{config.author}}</name>
+      <name>
+        {%- if page.authors %}
+        {{ page.authors | join }}
+        {%- else %}
+        {{ config.author }}
+        {%- endif %}
+      </name>
     </author>
   </entry>
-  {% endfor %}
+  {%- endfor %}
 </feed>
