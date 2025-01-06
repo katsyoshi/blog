@@ -1,0 +1,12 @@
+base_url = "https://blog.katsyoshi.org"
+build_search_index = true
+compile_sass = true
+description = "It's a memos."
+# feed_filenames = ["feed.xml"]
+generate_feeds = true
+
+title = "katsyoshi のめもみたいなの"
+
+[markdown]
+highlight_code = true
+highlight_theme = "base16-ocean-dark"
