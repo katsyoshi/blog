@@ -1,4 +1,5 @@
-<feed>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3c.org/2005/atom.xml">
   <generator uri="https://getzola.org">Zola</generator>
   <link href="{{config.base_url|safe}}/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="{{config.base_url|safe}}" rel="alternate" type="text/html"/>
