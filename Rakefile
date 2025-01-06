@@ -1,16 +1,6 @@
 require "open3"
-## -- Rsync Deploy config -- ##
-# Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "katsu@katsyoshi.org"
-ssh_port       = "2222"
-rsync_delete   = false
-rsync_args     = ""  # Any extra arguments to pass to rsync
-deploy_default = "push"
 
-# This will be configured for you when you run config_deploy
-deploy_branch  = "master"
-
-## -- Misc Configs -- ##
+deploy_dir = "public"
 
 posts_dir       = "content"    # directory for blog files
 new_post_ext    = "md"  # default new post file extension when using the new_post task
