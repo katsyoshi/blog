@@ -21,15 +21,15 @@ categories: diary
 
 `irb` を実行し、補完をしてみましょう。まず、`irbrc` ファイルになにもかかないデフォルトの場合は以下
 
-![](/images/screenshot/irb-default.png)
+![](/images/screenshot/irb-default.webp)
 
 次に **ダーク** の `require "irb/theme/dracula/dark"` を書いた場合は以下
 
-![](/images/screenshot/dracula-dark.png)
+![](/images/screenshot/dracula-dark.webp)
 
 最後に **ライト** `require "irb/theme/dracula/light"` の場合は以下
 
-![](/images/screenshot/dracula-light.png)
+![](/images/screenshot/dracula-light.webp)
 
 ### おわり
 

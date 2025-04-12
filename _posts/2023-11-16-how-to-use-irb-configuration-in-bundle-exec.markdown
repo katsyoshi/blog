@@ -75,7 +75,7 @@ end
 
 この設定を書いたら **Ruby** を `3.3.0-preview3` 以上にして `bundle exec irb` と実行してみましょう。
 
-![](/images/screenshot/force-load-bundler-external-gem.png)
+![](/images/screenshot/force-load-bundler-external-gem.webp)
 
 かった!
 

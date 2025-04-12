@@ -36,7 +36,7 @@ command = ["/path/to/build/bin/mackerel-plugin-co2mon"]
 ```
 
 グラフは以下のように表示されました!やったね!
-![](/images/screenshot/co2mini-metrics.png)
+![](/images/screenshot/co2mini-metrics.webp)
 
 ## おわり
 

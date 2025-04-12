@@ -37,7 +37,7 @@ $ sudo emerge zellij
 $ zellij
 ```
 
-![](/images/screenshot/zellij-default.png)
+![](/images/screenshot/zellij-default.webp)
 
 デフォルトでもナビがあり、簡単に利用できて便利です。が、キーバインドが気に食わないので変更しましょう。
 といってもカスタムするファイルを書いていませんでしたね。初期設定を標準出力に `zellij setup --dump-config` で出せるので _リダイレクト_ なり、 _コピペ_ なりでファイルを作りましょう。保存先はどこでもいいのですが、標準で読み込んでくれる `$HOME/.config/zellij/config.kdl` がいいでしょう。ファイル形式は [**KDL**](https://kdl.dev/) となっていますがなんんもわからん。
