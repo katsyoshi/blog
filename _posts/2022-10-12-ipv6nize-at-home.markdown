@@ -20,7 +20,7 @@ categories: tech diary
 - ゲートウェイ: NEC IP38X/1210 (YAMAHA RTX1200)
 - PC: 6.0.0-gentoo
 
-![](/images/home2internet.png)
+![](/images/home2internet.webp)
 
 ## IPoE 化と家庭内 LAN の IPv6 化
 
@@ -145,7 +145,7 @@ listening on enp8s0f0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
 
 送れてはいるようで対向側にも届いていたらしく戻りのパケットは送ってたようですが、手元では戻ってくるパケットは見えていないですね。
 
-![](/images/ping6-failure.png)
+![](/images/ping6-failure.webp)
 
 ということはやはりルーターの設定が悪そうということが推察されますね。
 設定のどこが悪いのかあやしいところを見ていきます。

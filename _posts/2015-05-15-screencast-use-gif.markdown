@@ -23,7 +23,7 @@ LinuxでScreenCast用の環境を整えてみた。
 $ ffmpeg -i ~/screencast.ovg img/screencast.gif
 ```
 
--> ![](/images/screenshot/gtk-recordMyDesktop.gif =512x) <-
+-> ![](/images/screenshot/gtk-recordMyDesktop.gif) <-
 
 ### 参考サイト
 1. http://d.hatena.ne.jp/over80/20080802/1217693705

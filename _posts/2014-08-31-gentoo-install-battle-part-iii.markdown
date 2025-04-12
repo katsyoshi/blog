@@ -52,5 +52,5 @@ $ bundle exec ruby mikutter.rb
 でインストール終了!!
 これで快適なmikutterライフがておくれますね。
 
-![mikutter](/images/photo/mikutter.png)
+![mikutter](/images/photo/mikutter.webp)
 

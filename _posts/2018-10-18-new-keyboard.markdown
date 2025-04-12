@@ -28,7 +28,7 @@ categories: tech diary keyboard
 
 はい。
 
--> ![](/images/photo/iris-keyboard.jpg) <-
+-> ![](/images/photo/iris-keyboard.webp) <-
 
 ## おわり
 

@@ -87,7 +87,7 @@ SwayWindowSwithcer.switch
 ふたつ目はシステムの **ruby** を利用する際には必要な **gem** がシステムにインストールされている必要があります。
 もしインストールされていないのであれば手動でいれる必要があります[^bundler]。
 
-![](/images/screenshot/wofi-window-switcher.png)
+![](/images/screenshot/wofi-window-switcher.webp)
 
 ## おわり
 

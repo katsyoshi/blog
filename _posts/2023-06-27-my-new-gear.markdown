@@ -38,7 +38,7 @@ _キースイッチ_ を利用するようになっています。さらに最�
 
 ついでに _TRRS ケーブル_ を変更しました。これは **アマゾン** でてきとうに
 
-![](/images/photo/kbdiy-maxkey-and-cyberpunk.jpg)
+![](/images/photo/kbdiy-maxkey-and-cyberpunk.webp)
 
 ## おわり
 

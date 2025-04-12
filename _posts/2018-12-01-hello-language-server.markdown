@@ -39,7 +39,7 @@ lsp-ruby
 
 でこんなかんじに表示してくれます。
 
--> ![](/images/screenshot/lsp-ruby.png) <-
+-> ![](/images/screenshot/lsp-ruby.webp) <-
 
 ## matome
 

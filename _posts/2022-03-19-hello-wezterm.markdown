@@ -57,7 +57,7 @@ return {
 ```
 
 とすると以下のようになります。
-<img src="/images/screenshot/open-nvtop-and-ytop-in-wezterm.png" width="100%">
+<img src="/images/screenshot/open-nvtop-and-ytop-in-wezterm.webp" width="100%">
 便利!
 
 こんな便利なものということで `systemd` でデーモン化しています。
@@ -84,7 +84,7 @@ WantedBy=default.target
 
 `wezterm` には `wezterm-mux-server` というマルチプレクサ(tmuxのように扱うため)のサーバーモードプログラムがあるのですが、こいつがどうも `wezterm` とは挙動が異なり、前述した監視用のキーバインドが微妙に異なった挙動となってしまっています。サーバーモードに接続した場合の挙動は以下のようになります。
 
-<img src="/images/screenshot/failed-nvtop-ytop.png" width="100%">
+<img src="/images/screenshot/failed-nvtop-ytop.webp" width="100%">
 
 1つ目はpaneの位置が期待したとおりになっていない。2つ目は `ytop` が起動していないというので2つ目の方は気にしなければいいのでまあいいかと思っている。1つ目の問題は許容できていないので一旦はこのキーバインドは封印となっています。
 

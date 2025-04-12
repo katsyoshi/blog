@@ -20,7 +20,7 @@ $ ./Code
 ## 感想
 VSC使ってみたけど、日本語表示がされない。
 
--> ![](/images/screenshot/vsc_japanese.png) <-
+-> ![](/images/screenshot/vsc_japanese.webp) <-
 
 _追記_
 
@@ -35,17 +35,17 @@ _追記_
 }
 ```
 
--> ![](/images/screenshot/vsc_settings.png) <-
+-> ![](/images/screenshot/vsc_settings.webp) <-
 
 _追記おわり_
 
 デバッガ動かすためにMONOが必要。
 
-![](/images/screenshot/vsc_debugger_needed_mono.png)
+![](/images/screenshot/vsc_debugger_needed_mono.webp)
 
 補完がよさそう。Rubyでの補完の出かたです。
 
--> ![](/images/screenshot/vsc_completion.png) <-
+-> ![](/images/screenshot/vsc_completion.webp) <-
 
 などあります。
 
