@@ -14,3 +14,4 @@ node_modules
 /_site
 /.jekyll-cache
 /dotfiles/*.png
+/_config.yml

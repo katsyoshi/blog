@@ -67,6 +67,7 @@ exclude:
   - vendor/ruby/
   - .pygments-cache/
   - Rakefile
+  - rule.md
 
 feed:
   page:
