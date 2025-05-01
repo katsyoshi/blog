@@ -12,7 +12,7 @@ categories: diary tech rubykaigi
 
 ## Day 1
 
-1. [Ruby Taught Me About Encoding Under the Hood]()
+1. [Ruby Taught Me About Encoding Under the Hood](https://speakerdeck.com/ima1zumi/ruby-taught-me-about-under-the-hood)
 1. [Bringing Linux pidfd to Ruby](https://mensfeld.github.io/bringing_linux_pidfd_to_ruby/)
 1. [The Evolution of the CRuby Build System](https://speakerdeck.com/kateinoigakukun/the-evolution-of-the-cruby-build-system)
 1. [Deoptimization: How YJIT Speeds Up Ruby by Slowing Down](https://speakerdeck.com/k0kubun/rubykaigi-2025)
@@ -41,7 +41,7 @@ _Namespace_ の話は [@tagomoris](https://github.com/tagomoris) さんがやっ
 1. Lightning Talks
 
 [_dd-trace-rb_](https://github.com/DataDog/dd-trace-rb) の作者 [@ivoanjo](https://github.com/ivoanjo) の _observability_ の話。
-もう同じ目的をもった [@osyoyu]() が[_スマートバンクブログ_](https://blog.smartbank.co.jp/entry/2025/04/25/110000)で解説しているのでそちらを参照。
+もう同じ目的をもった [@osyoyu](https://github.com/osyoyu) が[_スマートバンクブログ_](https://blog.smartbank.co.jp/entry/2025/04/25/110000)で解説しているのでそちらを参照。
 新米 [**Ruby Commiter**](https://github.com/orgs/ruby/people) の [@ydah](https://github.com/ydah) です。
 [_lrama_](https://github.com/ruby/lrama) で _Ruby_ の `parse.y` をどう読み込むのか、どう構造化するのかの話でした。
 **Shopify** _YJIT_ チームの親分、 [maximecb](https://github.com/maximecb) の発表。
