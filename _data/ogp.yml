@@ -1,0 +1,27 @@
+default:
+  image: /images/og/default.svg
+  description: It's a memos.
+
+tech:
+  image: /images/og/tech.svg
+  description: Tech related post on katsyoshi's blog.
+
+diary:
+  image: /images/og/diary.svg
+  description: Diary related post on katsyoshi's blog.
+
+travel:
+  image: /images/og/travel.svg
+  description: Travel related post on katsyoshi's blog.
+
+rubykaigi:
+  image: /images/og/rubykaigi.svg
+  description: RubyKaigi related post on katsyoshi's blog.
+
+regional-rubykaigi:
+  image: /images/og/regional-rubykaigi.svg
+  description: Regional RubyKaigi related post on katsyoshi's blog.
+
+yancya-house:
+  image: /images/photo/hedo-yanbaru-manabi-no-mori-yancya.webp
+  description: Yancya House related post on katsyoshi's blog.
