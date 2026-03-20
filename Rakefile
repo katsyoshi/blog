@@ -14,12 +14,14 @@ DEPLOY_DEFAULT = :push
 DEPLOY_BRANCH  = "master"
 
 PUBLIC_DIR   = "public"
+PREVIEW_DIR  = ".preview"
 SOURCE_DIR   = "source"
 DEPLOY_DIR   = "_deploy"
 POSTS_DIR    = "_posts"
 NEW_POST_EXT = "markdown"
 NEW_PAGE_EXT = "markdown"
 SERVER_PORT  = "4000"
+UNWANTED_OUTPUT_PATTERNS = %w[*.rb *.so *.o *.c *.cmo *.rs *.py].freeze
 
 READY_ERROR = "### Missing #{SOURCE_DIR}. This repository expects checked-in Jekyll sources under `#{SOURCE_DIR}`."
 
@@ -30,6 +32,18 @@ end
 
 def ensure_source_dir!
   raise READY_ERROR unless File.directory?(SOURCE_DIR)
+end
+
+def reset_destination!(destination)
+  rm_rf(destination)
+end
+
+def prune_generated_files!(destination)
+  UNWANTED_OUTPUT_PATTERNS.each do |pattern|
+    Dir.glob(File.join(destination, "**", pattern)).each do |path|
+      rm_f(path)
+    end
+  end
 end
 
 def slugify(value)
@@ -162,22 +176,25 @@ desc "Generate Jekyll site"
 task :generate do
   ensure_source_dir!
 
-  puts "## Generating site with Jekyll"
+  puts "## Generating site with Jekyll into #{PUBLIC_DIR}"
+  reset_destination!(PUBLIC_DIR)
   env = {}
   env["JEKYLL_ENV"] = ENV["JEKYLL_ENV"] if ENV["JEKYLL_ENV"]
   run_command!("jekyll", "build", "-d", PUBLIC_DIR, env: env)
+  prune_generated_files!(PUBLIC_DIR)
 end
 
 desc "Preview the site locally"
 task :preview do
   ensure_source_dir!
 
-  puts "## Starting Jekyll server on port #{SERVER_PORT}"
+  puts "## Starting Jekyll server on port #{SERVER_PORT} with output in #{PREVIEW_DIR}"
+  reset_destination!(PREVIEW_DIR)
   run_foreground_command!(
     "jekyll",
     "serve",
     "-d",
-    PUBLIC_DIR,
+    PREVIEW_DIR,
     "-P",
     SERVER_PORT,
     env: { "OCTOPRESS_ENV" => "preview" }
@@ -234,6 +251,7 @@ task :clean do
     ".pygments-cache/**",
     ".gist-cache/**",
     ".sass-cache/**",
+    PREVIEW_DIR,
     "source/stylesheets/screen.css"
   ])
 end
@@ -247,6 +265,7 @@ task :deploy do
     exit(0)
   end
 
+  prune_generated_files!(PUBLIC_DIR)
   copy_dot_files(SOURCE_DIR, PUBLIC_DIR)
   Rake::Task[DEPLOY_DEFAULT].invoke
 end
