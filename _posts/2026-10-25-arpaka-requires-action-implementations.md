@@ -72,8 +72,7 @@ Builder を含んだ Ruby ファイルを出力します。
 
 ## Parse Ruby
 
-まずは生成したフロントエンドを Ruby から読み込みます。生成時だけ Ruby Box を
-使い、生成後のファイルは通常の Ruby から読み込めるようにします。
+まずは生成したフロントエンドを Ruby から読み込みます。
 
 ```ruby
 require "arpaka"
