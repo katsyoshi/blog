@@ -1,20 +1,20 @@
 ---
 layout: post
-title: "Lrama の Ruby Parser を Ruby で組みたてたい v 0.0.1"
+title: "Lrama の Ruby Parser を Ruby で組みたてたい v 0.1.0"
 subtitle: "Lrama の Ruby Parser に Action が必要な理由"
 date: 2026-10-25 00:00:00 +0900
 comments: true
 categories: diary tech parser lrama
 ---
 
-[![katsyoshi/arpaka - GitHub](https://gh-card.dev/repos/katsyoshi/arpaka.svg)](https://github.com/katsyoshi/arpaka)
+[![katsyoshi/arpaka - GitHub](/images/arpaka.svg)](https://github.com/katsyoshi/arpaka)
 
 [前回](/blog/2026/10/18/arpaka-extension-for-lrama/)は _パーサージェネレーター_ を使って
 _parser_ を作るための準備し、構築する流れをみていきました。
 今回は実際に _parser_ を作っていきます。というか _parser_ を吐き出すようにします。
 **Lrama** の基本的な動作については、[かねこさん](https://github.com/yui-knk) の
 [Ruby Parser開発日誌 (5)](https://yui-knk.hatenablog.com/entry/2023/03/13/101951) などに詳しいので、
-ここではArpakaで問題になるActionの部分に絞ります。
+ここでは Ruby の Parser を組み立てるときに必要になる Action の話をします。
 
 ## Rubyででてこないわけ
 
@@ -40,26 +40,6 @@ parser.parse([[:NUMBER, 2], ["+", nil], [:NUMBER, 3], ["*", nil], [:NUMBER, 4]])
 この時点で、Lrama の解析表と Ruby の Parser は動いています。Parser に渡している
 のはすでに token になった値なので、ここではまだ Ruby のソースを読んでいません。
 
-## parse.y だけで parse できる
-
-最初に Ruby の Parser を生成する入口は、`--ruby-source` でした。Ruby のソース
-ツリーをそのまま渡し、その中の `parse.y` と token 定義を読み込んで Parser を
-生成します。まずは必要なものを見落とさないように、Ruby のソースツリーごと
-持ってくる形にしました。
-
-そこから、Parser の生成に必要なものを少しずつ切り分けます。文法だけなら
-`parse.y` を入力にすればよく、token の定義や Action、Lexer は別の部品として
-扱えます。`--ruby-source` は最初に動かすための入口で、最終的な構成をそのまま
-固定するためのものではありません。
-
-次に、Ruby の文法定義である `parse.y` を Lrama に渡して Parser を生成します。
-Ruby のソースツリー全体を先に組み込まなくても、`parse.y` を入力にして解析表を
-作れるようにします。
-
-ただし、`parse.y` だけで用意できるのは文法と Parser です。入力を token 列へ変換
-する Lexer、規則を適用したときに値を作る Action、そこから結果を組み立てる処理は
-別に必要です。そこで次に、Ruby の `parse.y` から何を持ってくるのかを見ていきます。
-
 ## Actionとはなにか
 
 文法の規則に付いている `{ ... }` が **Action** です。_Parser_ は規則に合う
@@ -83,17 +63,34 @@ Ruby の `parse.y` では、Action は結果を作るだけではありません
 (https://yui-knk.hatenablog.com/entry/2023/04/04/190413) に詳しく書かれています。
 
 つまり、Lrama が文法から解析表を作れたとしても、Ruby の `parse.y` に書かれた
-C の Action をそのまま Ruby の _Parser_ で動かすことはできません。Action の
-意味処理も Ruby の処理として用意する必要があります。
+C の Action をそのまま Ruby の _Parser_ で動かすことはできません。Ruby のビルド側に
+ある Action の展開と、その周辺の Parser/Lexer の処理まで含めて対応する必要が
+あります。これが、Ruby Parser を作るために Action の移植だけでは足りない理由です。
 
 ## Mottekuru Bubunn
 
+### Action を持ってくる
+
+Ruby Parser を Ruby で動かすために、まず Ruby の Parser 実装を持ってくることに
+しましょう。最初は素朴に、`parse.y` に書かれている Action を Ruby 側へ持って
+くるところから始めます。
+
 Lrama の汎用バックエンドが作ってくれるのは、文法から作った解析表と、それを
 動かす _Parser_ です。[最初の実装](https://github.com/katsyoshi/arpaka/commit/13c091c)
-では、`Lrama::Ruby.compile` に文法を渡し、
-呼び出し側が `[token, value]` の列を渡していました。これは電卓のような小さな
-文法を動かすには十分ですが、Ruby のソースを読むには Lexer と値を組み立てる処理が
-必要です。
+では、`Lrama::Ruby.compile` に文法を渡し、呼び出し側が `[token, value]` の列を
+渡していました。これは電卓のような小さな文法を動かすには十分ですが、Ruby の
+ソースを読むには Lexer と値を組み立てる処理が必要です。
+
+### Action だけでは parse できない
+
+でも、Action だけを移植しても Ruby のソースは parse できません。Ruby の
+ビルド時に Action から生成される C コードは、Parser や Lexer の状態、C のマクロ、
+補助関数などと結び付いています。Action は文法ファイルの中だけで完結していません。
+
+そこから中を掘っていくと、Ruby のビルド側が Action をどのように展開しているか、
+Lexer がどの token を返すか、reduce の結果をどのように組み立てるかまで確認する
+必要があることが分かります。`parse.y` だけで Parser を作れるようにする話は、
+これらの部品を切り分けた次回の記事で扱います。
 
 そこで Ruby の `parse.y` と Lexer の実装、
 さらに [Ruby ソースから standalone frontend を生成する処理](https://github.com/katsyoshi/arpaka/commit/d91c60b)
@@ -119,15 +116,16 @@ frontend = Arpaka.compile(
   class_name: "RubyParser"
 )
 
-tree = frontend.parse("a = 1\na + 2", filename: "example.rb")
-p tree
+result = frontend.parse("a = 1\na + 2", filename: "example.rb")
+p result
 ```
 
 この `parse` は、最初の `Lrama::Ruby` のように token 列を直接渡すものでは
 ありません。生成した Lexer が Ruby のソースを token 列へ変換し、Parser が
-文法を適用し、Action と Builder が解析結果を組み立てます。ここまで動けば、
-「Ruby の文法を Lrama に読ませる」だけでなく、「Ruby のソースを Ruby の
-プログラムから parse する」入口になります。
+文法を適用し、Action と Builder が解析結果を組み立てます。ここでは結果の
+データ構造ではなく、生成した `RubyParser` が Ruby のソースを受け取り、
+一連の処理を通して結果を返せることを確認します。「Ruby の文法を Lrama に読ませる」
+だけでなく、「Ruby のソースを Ruby のプログラムから parse する」入口になります。
 
 生成したソースを保存したい場合は `Arpaka.generate` を使います。
 
@@ -144,3 +142,14 @@ Action を Ruby へ移植し、Parser と Lexer を組み合わせて、Ruby の
 Ruby の処理へ渡す流れを通すところまでを目標にしています。
 
 ## まとめ
+
+ということで、Ruby の `parse.y` を Lrama に読み込ませ、Ruby の文法から Parser を
+生成できるようにしました。
+
+さらに、作った Parser で Ruby のソースを読めるようにするため、`parse.y` に
+書かれた Action を Ruby 側へ移植しました。ただ、Action の本文を単純に
+書き換えるだけでは足りません。Ruby のビルドシステムに依存した Action の生成
+コードや、Parser と Lexer 周辺の処理も移植する必要がありました。
+
+文法を読み込めることと、Ruby のソースを parse できることの間には、Action と
+その周辺の実装が必要でした。
