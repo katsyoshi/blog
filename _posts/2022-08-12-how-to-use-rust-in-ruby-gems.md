@@ -9,7 +9,7 @@ categories: rust
 [Ruby Gems](https://rubygems.org) で [Rust](https://www.rust-lang.org) が [Native として利用可能になった](https://github.com/rubygems/rubygems/pull/5175) のでとりあえず [`UUIDv4`](https://www.rfc-editor.org/rfc/rfc4122.html) を生成してみた。
 
 ### リポジトリ
-[![katsyoshi/rust_uuid - GitHub](https://gh-card.dev/repos/katsyoshi/rust_uuid.svg)](https://github.com/katsyoshi/rust_uuid)
+[![katsyoshi/rust_uuid - GitHub](/images/rust_uuid.svg)](https://github.com/katsyoshi/rust_uuid)
 
 ## 準備
 

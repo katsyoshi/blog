@@ -35,11 +35,11 @@ _frontmatter_ については移行を楽にするためで多少の書き替え
 
 以上の条件を踏まえいくつか検討してみましたが、 **zola** にしました。
 
-[![getzola/zola - GitHub](https://gh-card.dev/repos/getzola/zola.svg)](https://github.com/getzola/zola)
+[![getzola/zola - GitHub](/images/zola.svg)](https://github.com/getzola/zola)
 
 ## Jekyll to Zola
 
-[![katsyoshi/jekyll2zola - GitHub](https://gh-card.dev/repos/katsyoshi/jekyll2zola.svg)](https://github.com/katsyoshi/jekyll2zola)
+[![katsyoshi/jekyll2zola - GitHub](/images/jekyll2zola.svg)](https://github.com/katsyoshi/jekyll2zola)
 
 ### やったこと
 

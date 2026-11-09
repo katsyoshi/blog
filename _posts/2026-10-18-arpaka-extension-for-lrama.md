@@ -65,4 +65,4 @@ Ruby source -> Lexer -> token 列 -> Parser -> AST
 設計が決まり実装していく手順が見えてきました。
 次回は実際に実装していきましょう。
 
-[![katsyoshi/arpaka - GitHub](https://gh-card.dev/repos/katsyoshi/arpaka.svg)](https://github.com/katsyoshi/arpaka)
+[![katsyoshi/arpaka - GitHub](/images/arpaka.svg)](https://github.com/katsyoshi/arpaka)

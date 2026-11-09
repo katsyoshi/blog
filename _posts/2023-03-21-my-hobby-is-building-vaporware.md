@@ -11,7 +11,7 @@ CPU、OS、コンパイラーなのです[^kojinsa]が、先日 [ruby30th 誕生
 matz が "Static Compiler for Ruby" という今はまだない `vaporware` として
 挙げていたのでこの **static compiler** を作ろうとなりました。
 
-[![katsyoshi/vaporware - GitHub](https://gh-card.dev/repos/katsyoshi/vaporware.svg)](https://github.com/katsyoshi/vaporware)
+[![katsyoshi/vaporware - GitHub](/images/vaporware.svg)](https://github.com/katsyoshi/vaporware)
 
 ## Goal
 

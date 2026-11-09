@@ -14,7 +14,7 @@ categories: diary tech
 
 以下のリポジトリにコードはあります。
 
-[![katsyoshi/mackerel-plugin-co2mon - GitHub](https://gh-card.dev/repos/katsyoshi/mackerel-plugin-co2mon.svg)](https://github.com/katsyoshi/mackerel-plugin-co2mon)
+[![katsyoshi/mackerel-plugin-co2mon - GitHub](/images/mackerel-plugin-co2mon.svg)](https://github.com/katsyoshi/mackerel-plugin-co2mon)
 
 ## mackerel plugin として作る
 **mackerel** に投稿する前にこの **custom CO2-mini** が **Rust** で読めるのかを調査してみましたら、[**co2mon**](https://crates.io/crates/co2mon) がピンズドな感じでありました。

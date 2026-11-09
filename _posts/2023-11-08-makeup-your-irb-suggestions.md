@@ -11,7 +11,7 @@ categories: diary
 変更できるようになったので [**dracula**](https://draculatheme.com/) 風のテーマを [**gem**](https://rubygems.org) としてリリースしました!!!!
 リポジトリは以下です!!!
 
-[![katsyoshi/irb-theme-dracula - GitHub](https://gh-card.dev/repos/katsyoshi/irb-theme-dracula.svg)](https://github.com/katsyoshi/irb-theme-dracula)
+[![katsyoshi/irb-theme-dracula - GitHub](/images/irb-theme-dracula.svg)](https://github.com/katsyoshi/irb-theme-dracula)
 
 ### インストール
 
